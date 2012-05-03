@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AudioLib - Win32 Release_include_debugging_information--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kerygma\LOCALS~1\Temp\RSP284.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /Od /I "..\..\include" /I "..\..\include\AudioLib" /I "..\..\..\Utility" /I "..\..\..\XKernel" /I "..\..\..\XGamebase\Include" /I "..\..\..\XGamebase\Include\Template" /I "..\..\..\XGamebase\src\libs\jpeg" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "USE_VORBIS" /D "NOUSE_WMA" /D "_XDWDEBUG" /FAs /Fa"..\..\..\Compiled\ReleaseDebug\AudioLib/" /FR"..\..\..\Compiled\ReleaseDebug\AudioLib/" /Fp"..\..\..\Compiled\ReleaseDebug\AudioLib/AudioLib.pch" /YX /Fo"..\..\..\Compiled\ReleaseDebug\AudioLib/" /Fd"..\..\..\Compiled\ReleaseDebug\AudioLib/" /FD /c 
+"D:\Work\EmperorOfDragons\audio_sdk\src\AudioLib\Wave.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kerygma\LOCALS~1\Temp\RSP284.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Wave.cpp
+
+
+
+<h3>Results</h3>
+Wave.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

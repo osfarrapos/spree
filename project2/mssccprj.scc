@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[EmperorOfDragons.dsp]
+SCC_Aux_Path = "\\Local-dev-svr\SourceSafe\Client\NDSourceSafeServer"
+SCC_Project_Name = "$/EmperorOfDragons", BAAAAAAA
+
+[EmperorOfDragons.mak]
+SCC_Aux_Path = "\\client-patch\NDSourceSafeServer\"
+SCC_Project_Name = "$/EmperorOfDragons", BAAAAAAA
+
+[EmperorOfDragons.dsw]
+SCC_Aux_Path = "\\Client-patch\NDSourceSafeServer\"
+SCC_Project_Name = "$/EmperorOfDragons", BAAAAAAA

@@ -1,0 +1,152 @@
+#ifndef __X_LIST_H__
+#define __X_LIST_H__
+#ifdef  __cplusplus
+
+template <class T> class _XLList
+{
+public:
+	_XLList()
+	{
+		ZeroMembers();
+	}
+
+	_XLList(T p_Data)
+	{ 
+		ZeroMembers();
+		m_Data = p_Data;
+	}
+
+	~_XLList()
+	{
+		Unlink();
+	}
+
+	void ZeroMembers()
+	{
+		m_pPrev = NULL;
+		m_pNext = NULL;
+	}
+
+	void Release()
+	{
+		delete this;
+	}
+
+	void ReleaseWholeList()
+	{
+		_XLList<T> *ptr = GetRoot();
+		while(ptr)
+		{
+			_XLList<T> *temp = ptr->m_pNext;
+			delete ptr;
+			ptr = temp;
+		}
+	}
+
+	// casting operators
+	operator T  () { return m_Data; }
+	operator T& () { return m_Data; }
+	operator T* () { return &m_Data; }
+
+	// state infos
+	bool IsRoot()
+	{
+		if(!m_pPrev)
+			return true;
+		return false;
+	}
+
+	bool IsLast()
+	{
+		if(!m_pNext)
+			return true;
+		return false;
+	}
+
+	// Link this list to an existing list
+	void LinkTo(_XLList<T> *p_pList)
+	{
+		_XLList<T> *pLast = p_pList->GetLast();
+		pLast->m_pNext = this;
+		m_pPrev = pLast;
+	}
+
+	// Link a list to this list
+	void LinkChild(_XLList<T> *p_pAdd)
+	{
+		_XLList<T> *pLast = GetLast();
+		pLast->m_pNext = p_pAdd;
+		p_pAdd->m_pPrev = pLast;
+	}
+
+	inline void Add(_XLList<T> *p_pAdd) { LinkChild(p_pAdd); }
+	
+	// Unlink this node from the list
+	void Unlink()
+	{
+		if(m_pPrev)
+			m_pPrev->m_pNext = m_pNext;
+
+		if(m_pNext)
+			m_pNext->m_pPrev = m_pPrev;
+	}
+
+	inline void Remove() { Unlink(); }
+
+	// return the root node of the list
+	_XLList<T> *GetRoot()
+	{
+		_XLList<T> *ptr = this;
+		while(ptr->m_pPrev)
+			ptr = ptr->m_pPrev;
+		return ptr;
+	}
+
+	// return the last node of the list
+	_XLList<T> *GetLast()
+	{
+		_XLList<T> *ptr = this;
+		while(ptr->m_pNext)
+			ptr = ptr->m_pNext;
+		return ptr;
+	}
+
+	// return the node matching with given index
+	// ...to use the list as a classic array
+	_XLList<T> *GetFromIndex(unsigned long i)
+	{
+		unsigned long count = 0;
+		_XLList<T> *ptr = GetRoot();
+		while(ptr)
+		{
+			if(count == i)
+				break;
+			count++;
+			ptr = ptr->m_pNext;
+		}
+		return ptr;
+	}
+
+	_XLList<T> *operator [] (unsigned long i) { return GetFromIndex(i); }
+
+	// return the number of node in the list
+	unsigned long NumNode()
+	{
+		unsigned long counter = 0;
+		_XLList<T> *ptr = GetRoot();
+		while(ptr)
+		{
+			counter++;
+			ptr = ptr->m_pNext;			
+		}
+		return counter;
+	}
+
+public:
+	T m_Data;
+	_XLList<T> *m_pNext;
+	_XLList<T> *m_pPrev;
+};
+
+#endif // __cplusplus
+#endif // __X_LIST_H__

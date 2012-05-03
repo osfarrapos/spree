@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[XLauncher.dsp]
+SCC_Aux_Path = "\\Local-dev-svr\SourceSafe\Client\NDSourceSafeServer"
+SCC_Project_Name = "$/EmperorOfDragons/XLauncher_Unicode", SGAFAAAA
+
+[XLauncher.dsw]
+SCC_Aux_Path = "\\Local-dev-svr\SourceSafe\Client\NDSourceSafeServer"
+SCC_Project_Name = "$/EmperorOfDragons/XLauncher_Unicode", SGAFAAAA

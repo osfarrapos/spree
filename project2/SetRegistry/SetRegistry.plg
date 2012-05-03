@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SetRegistry - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/SetRegistry.res" /d "NDEBUG" /d "_AFXDLL" "D:\Work\EmperorOfDragons\SetRegistry\SetRegistry.rc"" 
+Creating temporary file "G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE64.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SetRegistry.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\SetRegistry\AddServerDlg.cpp"
+"D:\Work\EmperorOfDragons\SetRegistry\NANGReg.cpp"
+"D:\Work\EmperorOfDragons\SetRegistry\SetRegistry.cpp"
+"D:\Work\EmperorOfDragons\SetRegistry\SetRegistryDlg.cpp"
+"D:\Work\EmperorOfDragons\SetRegistry\Xitem.cpp"
+"D:\Work\EmperorOfDragons\SetRegistry\Xlist.cpp"
+]
+Creating command line "cl.exe @G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE64.tmp" 
+Creating temporary file "G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE65.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SetRegistry.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\SetRegistry\StdAfx.cpp"
+]
+Creating command line "cl.exe @G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE65.tmp" 
+Creating temporary file "G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE66.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/XSetServer.pdb" /machine:I386 /out:"../Game/XSetServer.exe" 
+.\Release\AddServerDlg.obj
+.\Release\NANGReg.obj
+.\Release\SetRegistry.obj
+.\Release\SetRegistryDlg.obj
+.\Release\StdAfx.obj
+.\Release\Xitem.obj
+.\Release\Xlist.obj
+.\Release\SetRegistry.res
+]
+Creating command line "link.exe @G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE66.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddServerDlg.cpp
+NANGReg.cpp
+SetRegistry.cpp
+SetRegistryDlg.cpp
+Xitem.cpp
+Xlist.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+XSetServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

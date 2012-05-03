@@ -1,0 +1,46 @@
+<font size=2>
+<FORM action="http://russ" method="get">
+    <SELECT NAME="flavor">
+    <OPTION VALUE=a>Vanilla</OPTION>
+    <OPTION VALUE=b>Strawberry</OPTION>
+    <OPTION VALUE=c>Rum and Raisin</OPTION>
+    <OPTION selected VALUE=d>Peach and Orange</OPTION>
+	<INPUT type="submit" value="Send"><INPUT type="reset">
+ </FORM>
+
+<FORM action="http://russ" method="get" >
+   <P>
+   <SELECT multiple size="4" name="component-select">
+      <OPTION selected value="Component_1_a">Component_1</OPTION>
+      <OPTION selected value="Component_1_b">Component_2</OPTION>
+      <OPTION>Component_3</OPTION>
+      <OPTION>Component_4</OPTION>
+      <OPTION>Component_5</OPTION>
+      <OPTION>Component_6</OPTION>
+      <OPTION>Component_7</OPTION>
+   </SELECT>
+   <INPUT type="submit" value="Send"><INPUT type="reset">
+   </P>
+</FORM>
+
+<FORM action="http://russ" method="post">
+ <P>
+ <SELECT name="ComOS">
+     <OPTION selected label="none" value="none">None</OPTION>
+     <OPTGROUP label="PortMaster 3">
+       <OPTION label="3.7.1" value="pm3_3.7.1">PortMaster 3 with ComOS 3.7.1</OPTION>
+       <OPTION label="3.7" value="pm3_3.7">PortMaster 3 with ComOS 3.7</OPTION>
+       <OPTION label="3.5" value="pm3_3.5">PortMaster 3 with ComOS 3.5</OPTION>
+     </OPTGROUP>
+     <OPTGROUP label="PortMaster 2">
+       <OPTION label="3.7" value="pm2_3.7">PortMaster 2 with ComOS 3.7</OPTION>
+       <OPTION label="3.5" value="pm2_3.5">PortMaster 2 with ComOS 3.5</OPTION>
+     </OPTGROUP>
+     <OPTGROUP label="IRX">
+       <OPTION label="3.7R" value="IRX_3.7R">IRX with ComOS 3.7R</OPTION>
+       <OPTION label="3.5R" value="IRX_3.5R">IRX with ComOS 3.5R</OPTION>
+     </OPTGROUP>
+ </SELECT>
+ <INPUT type="submit" value="Send"><INPUT type="reset">
+</FORM>
+</font>

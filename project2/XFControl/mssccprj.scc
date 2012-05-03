@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[FSControl.dsp]
+SCC_Aux_Path = "\\kerygma\NDSourceSafeServer\"
+SCC_Project_Name = "$/EmperorOfDragons/FSControl", JILDAAAA
+
+[FSControl.mak]
+SCC_Aux_Path = "\\kerygma\NDSourceSafeServer\"
+SCC_Project_Name = "$/EmperorOfDragons/FSControl", JILDAAAA
+
+[XFControl.dsp]
+SCC_Aux_Path = "\\Client-patch\NDSourceSafeServer\"
+SCC_Project_Name = "$/EmperorOfDragons/XFControl", PLLDAAAA

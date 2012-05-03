@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[AudioLib.dsp]
+SCC_Aux_Path = "\\kerygma\NDSourceSafeServer\"
+SCC_Project_Name = "$/EmperorOfDragons/audio_sdk/src/AudioLib", JKFBAAAA

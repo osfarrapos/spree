@@ -1,0 +1,615 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\XPacker.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Eudora 3 black.ico"
+IDI_SECTIONICON         ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_PACKAGEICON         ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 45
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "XPacker 정보"
+FONT 9, "굴림", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,5,20,20
+    LTEXT           "X Packer version 0.9f<2/0>",IDC_STATIC,40,6,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Programming by Park il jun [ kerygma@netian.com ]",
+                    IDC_STATIC,40,18,188,8
+    DEFPUSHBUTTON   "close",IDOK,90,31,50,11,WS_GROUP
+END
+
+IDD_XPACKER_DIALOG DIALOGEX 0, 0, 670, 428
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "X Packer ver 0.9g"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "[Command]",IDC_STATIC,94,400,574,27
+    PUSHBUTTON      "&New",IDC_RESETBUTTON,99,410,48,13
+    PUSHBUTTON      "&Load",IDC_LOADBUTTON,148,410,48,13
+    PUSHBUTTON      "&Save",IDC_SAVEBUTTON,197,410,48,13
+    CTEXT           "",IDC_FILENAMESTATIC,345,410,319,12,SS_CENTERIMAGE,
+                    WS_EX_DLGMODALFRAME
+    CTEXT           "File",IDC_STATIC,302,410,41,12,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "About",IDC_ABOUTBUTTON,1,403,88,23
+    PUSHBUTTON      "&Exit",ID_EXITBUTTON,247,410,48,13
+END
+
+IDD_PACKINGFORMVIEW DIALOGEX 0, 0, 668, 382
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Package tree",IDC_STATIC,2,8,137,10,0,WS_EX_STATICEDGE
+    CONTROL         "Tree1",IDC_PACKINGTREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | 
+                    TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | TVS_NOTOOLTIPS | 
+                    TVS_TRACKSELECT | TVS_FULLROWSELECT | WS_TABSTOP,2,21,
+                    137,357,WS_EX_STATICEDGE
+    GROUPBOX        "[ Package file list ]",IDC_STATIC,144,4,521,355
+    LTEXT           "Package",IDC_STATIC,150,16,33,8
+    EDITTEXT        IDC_PACKAGENAMEEDIT,186,16,151,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Section ",IDC_STATIC,351,17,29,8
+    EDITTEXT        IDC_SECTIONSTRINGEDIT,384,16,277,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,144,357,521,21
+    CONTROL         "List1",IDC_FILELIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | WS_DISABLED | 
+                    WS_BORDER | WS_TABSTOP,148,38,514,317
+    PUSHBUTTON      "&Add files",ID_INSERTFILESMENUITEM,148,363,32,14,
+                    WS_DISABLED
+    PUSHBUTTON      "&Delete",IDM_DELETEFILELISTITEM,181,363,32,14,
+                    WS_DISABLED
+    PUSHBUTTON      "&Delete all",IDM_DELETEALLFILELISTITEM,214,363,32,14,
+                    WS_DISABLED
+    PUSHBUTTON      "Sort",IDM_SORTFILELIST,247,363,32,14,WS_DISABLED
+    PUSHBUTTON      "&Pack",IDM_MAKEPACKAGE,281,363,25,14
+    PUSHBUTTON      "*",IDM_MAKEALLPACKAGE,307,363,11,14
+    CONTROL         "Zip",IDC_ZIPPINGCHECK,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,319,363,22,14
+    PUSHBUTTON      "&Wave",IDM_MAKEWAVEPACKAGE,342,363,28,14
+    PUSHBUTTON      "&Extract",IDM_EXTRACT,382,363,28,14,WS_DISABLED
+    PUSHBUTTON      "P&atch",ID_MAKEPATCHLIST,410,363,28,14
+    LTEXT           "Count",IDC_STATIC,441,367,20,8
+    CTEXT           "",IDC_TOTALCOUNTSTATIC,464,365,18,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Size",IDC_STATIC,485,367,15,8
+    RTEXT           "",IDC_TOTALSIZESTATIC,503,365,30,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "@",IDM_CONVERTTGATODDS,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,371,363,10,14
+END
+
+IDD_NEWPACKAGEFILEDIALOG DIALOGEX 0, 0, 207, 59
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "New package file"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PACKAGENAMEEDIT,67,18,133,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,55,38,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,107,38,50,14
+    LTEXT           "Package name ",IDC_STATIC,7,19,58,12,SS_CENTERIMAGE
+END
+
+IDD_NEWSECTIONDIALOG DIALOGEX 0, 0, 207, 62
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "New package section"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SECTIONEDIT,67,18,133,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,55,41,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,107,41,50,14
+    LTEXT           "Section name",-1,7,19,58,12,SS_CENTERIMAGE
+END
+
+IDD_PROGRESSDIALOG DIALOGEX 0, 0, 378, 44
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Now packing..."
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH,
+                    7,19,364,6
+    CTEXT           "Process",IDC_PROCESSINGSECTIONSTATIC,7,4,364,8
+    CTEXT           "%",IDC_PROGRESSSTATIC,7,31,364,8,SS_CENTERIMAGE
+END
+
+IDD_ROOTPATHDIALOG DIALOGEX 0, 0, 207, 59
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Root path"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PACKAGENAMEEDIT,54,18,146,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,55,38,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,107,38,50,14
+    LTEXT           "Root path",IDC_STATIC,7,19,42,12,SS_CENTERIMAGE
+END
+
+IDD_WAVEPACKERVIEW DIALOGEX 0, 0, 538, 308
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_FILELIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | 
+                    WS_BORDER | WS_TABSTOP,8,39,162,239
+    PUSHBUTTON      "&Load list",ID_LOADWAVLISTFILE,8,283,32,14
+    PUSHBUTTON      "&Save list",ID_SAVEWAVLISTFILE,40,283,32,14
+    PUSHBUTTON      "&Insert",IDM_INSERTSOUNDLISTITEM,74,283,25,14
+    PUSHBUTTON      "D&elete",IDM_DELETESOUNDLISTITEM,100,283,25,14
+    EDITTEXT        IDC_PACKAGEFILENAMEEDIT,227,58,134,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PATHEDIT,227,73,134,12,ES_AUTOHSCROLL
+    CONTROL         "List1",IDC_SOUNDSCENEFILELIST,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,177,90,185,188
+    PUSHBUTTON      "&Save scene",ID_SAVESCENEFILE,177,283,45,14
+    PUSHBUTTON      "Insert",IDM_INSERTSOUNDSCENEITEM,226,283,30,14
+    PUSHBUTTON      "Delete",IDM_DELETESOUNDSCENEITEM,256,283,30,14
+    PUSHBUTTON      "Load linked &pack",ID_LOADLINKEDWAVPACKFILE,289,283,62,
+                    14
+    CONTROL         "",IDC_AUTOLOADWAVEPACKCHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,354,284,8,10
+    CONTROL         "List1",IDC_PACKEDFILELIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | WS_BORDER | 
+                    WS_TABSTOP,369,39,163,239
+    PUSHBUTTON      "Loa&d",ID_LOADWAVPACKFILE,370,282,32,14
+    PUSHBUTTON      "&Unpack",ID_UNPACKWAVEFILE,404,282,32,14
+    PUSHBUTTON      "Unpack &all",ID_UNPACKALLWAVEFILE,437,282,40,14
+    EDITTEXT        IDC_COUNTEDIT,227,43,50,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    GROUPBOX        "[ Wave package ]",IDC_STATIC,2,4,536,297
+    LTEXT           "Package",IDC_STATIC,370,19,33,8
+    EDITTEXT        IDC_PACKAGENAMEEDIT,405,18,127,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,2,28,536,273
+    LTEXT           "Count",IDC_STATIC,481,280,20,8
+    RTEXT           "",IDC_TOTALCOUNTSTATIC,505,279,27,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Size",IDC_STATIC,481,289,15,8
+    RTEXT           "",IDC_TOTALSIZESTATIC,505,289,27,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Sound list",IDC_STATIC,8,19,36,8
+    EDITTEXT        IDC_PACKAGENAMEEDIT2,48,18,108,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Count",IDC_STATIC,126,287,20,8
+    RTEXT           "",IDC_SOUNDLISTCOUNTSTATIC,148,286,22,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "Sound scene",IDC_STATIC,173,18,51,12,SS_CENTERIMAGE
+    LTEXT           "Count",IDC_STATIC,179,46,34,9
+    LTEXT           "Package",IDC_STATIC,179,61,34,9
+    LTEXT           "Path",IDC_STATIC,179,75,34,8
+    EDITTEXT        IDC_SCENENAMEEDIT,226,18,135,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "/",ID_CHANGEWORKFOLDER,158,18,12,13
+END
+
+IDD_EDITSOUNDLISTDIALOG DIALOG DISCARDABLE  0, 0, 246, 85
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modify sound list"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_SOUNDNAMEEDIT,87,13,152,222,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_ENVIRONMENTEDIT,87,30,152,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ENVIRONMENTLINKEDIT,87,46,152,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,137,64,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,189,64,50,14
+    LTEXT           "Sound name",IDC_STATIC,13,16,61,11
+    LTEXT           "Environment",IDC_STATIC,13,32,61,11
+    LTEXT           "Environment link",IDC_STATIC,13,49,61,11
+END
+
+IDD_EDITSOUNDSCENEDIALOG DIALOG DISCARDABLE  0, 0, 303, 197
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modify sound scene item"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_LOADIDCOMBO,72,9,79,222,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,194,176,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,246,176,50,14
+    LTEXT           "Load ID",IDC_STATIC,13,11,50,11
+    LTEXT           "Sound class",IDC_STATIC,13,27,47,11
+    GROUPBOX        "[ Sound type ]",IDC_STATIC,13,42,276,35
+    CONTROL         "Normal",IDC_NORMALCHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,72,50,62,9
+    CONTROL         "3D",IDC_3DCHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    148,50,54,9
+    CONTROL         "Use cpu ram",IDC_USECPURAMCHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,211,50,58,9
+    CONTROL         "Streaming",IDC_STREAMINGCHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,72,63,67,9
+    CONTROL         "Load ram",IDC_LOADRAMCHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,148,63,54,9
+    COMBOBOX        IDC_SOUNDCLASSCOMBO,72,26,79,222,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "[ 3D Sound info... ]",IDC_STATIC,13,79,276,92
+    LTEXT           "Inside cone angle",IDC_STATIC,24,95,87,8
+    LTEXT           "Outside cone angle",IDC_STATIC,23,110,88,8
+    LTEXT           "Outside volume percent",IDC_STATIC,23,126,88,8
+    LTEXT           "Minimum distance",IDC_STATIC,23,141,88,8
+    LTEXT           "Maximum distance",IDC_STATIC,23,156,88,8
+    CONTROL         "",IDC_INSIDECONANGLECHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,230,95,8,9
+    CONTROL         "",IDC_OUTSIDECONANGLECHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,230,110,8,9
+    CONTROL         "",IDC_OUTSIDEVOLUMEPERCENTCHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,230,126,8,9
+    CONTROL         "",IDC_MINIMUMVOLUMEDISTANCECHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,230,142,8,9
+    CONTROL         "",IDC_MAXIMUMDISTANCECHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,230,156,8,9
+    EDITTEXT        IDC_INSIDECONEEDIT,116,94,91,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_OUTSIDECONEEDIT,116,108,91,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_OUTSIDEVOLUMEPERCENT,116,124,91,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_MINIMUMDISTANCEEDIT,116,139,91,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAXIMUMDISTANCEEDIT,116,154,91,13,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,9,6,0
+ PRODUCTVERSION 0,9,6,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "DNA Crew\0"
+            VALUE "FileDescription", "XPacker\0"
+            VALUE "FileVersion", "0, 9, 6, 0\0"
+            VALUE "InternalName", "XPacker\0"
+            VALUE "LegalCopyright", "Copyleft (C) 2001 DNA Crew\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "XPacker.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "XPacker\0"
+            VALUE "ProductVersion", "0, 9, 6, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 232
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 42
+    END
+
+    IDD_XPACKER_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 668
+    END
+
+    IDD_NEWPACKAGEFILEDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_NEWSECTIONDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_PROGRESSDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 371
+        BOTTOMMARGIN, 37
+    END
+
+    IDD_ROOTPATHDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_WAVEPACKERVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        VERTGUIDE, 170
+        VERTGUIDE, 370
+        VERTGUIDE, 532
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 301
+        HORZGUIDE, 39
+        HORZGUIDE, 278
+    END
+
+    IDD_EDITSOUNDLISTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        VERTGUIDE, 13
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_EDITSOUNDSCENEDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        VERTGUIDE, 13
+        VERTGUIDE, 72
+        VERTGUIDE, 111
+        VERTGUIDE, 116
+        VERTGUIDE, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_LEVEL2CONTEXTMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Level 2"
+    BEGIN
+        MENUITEM "&New section\tInsert",        ID_INSERTSECTIONMENUITEM
+        MENUITEM "&Delete section\tDel",        ID_DELETESECTIONMENUITEM
+    END
+END
+
+IDR_LEVEL1CONTEXTMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Level 1"
+    BEGIN
+        MENUITEM "&New file\tInsert",           ID_INSERTMENUITEM
+        MENUITEM "&Delete \tDel",               ID_DELETEMENUITEM
+        MENUITEM "&Reset",                      IDM_RESETPACKINGLIST
+        MENUITEM SEPARATOR
+        MENUITEM "&Load package",               IDM_PACKLISTLOAD
+        MENUITEM "&Save package",               IDM_PACKLISTSAVE
+        MENUITEM "&Make package",               IDM_MAKEPACKAGE
+        MENUITEM "Make &wave package",          IDM_MAKEWAVEPACKAGE
+    END
+END
+
+IDR_FILELISTCONTROLCONTEXTMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "File list context"
+    BEGIN
+        MENUITEM "&Add files\tInsert",          ID_INSERTFILESMENUITEM
+        MENUITEM "&Delete\tDel",                IDM_DELETEFILELISTITEM
+        MENUITEM "Delete all",                  IDM_DELETEALLFILELISTITEM
+        MENUITEM SEPARATOR
+        MENUITEM "&Make package",               IDM_MAKEPACKAGE
+        MENUITEM "Make &wave package",          IDM_MAKEWAVEPACKAGE
+        MENUITEM "&Extract selected file",      IDM_EXTRACT
+        MENUITEM "Make &patch list",            IDM_MAKEPATCHLIST
+    END
+END
+
+IDR_SOUNDLISTMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "&Insert sound list item",     IDM_INSERTSOUNDLISTITEM
+        MENUITEM "&Delete sound list item",     IDM_DELETESOUNDLISTITEM
+        MENUITEM "Open sound scene file",       IDM_OPENSOUNDSCENEFILE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_EDITSOUNDLISTDIALOG DLGINIT
+BEGIN
+    IDC_SOUNDNAMEEDIT, 0x403, 5, 0
+0x656d, 0x756e, "\000" 
+    IDC_SOUNDNAMEEDIT, 0x403, 7, 0
+0x656d, 0x756e, 0x6433, "\000" 
+    IDC_SOUNDNAMEEDIT, 0x403, 8, 0
+0x6e6f, 0x6966, 0x6c65, 0x0064, 
+    IDC_SOUNDNAMEEDIT, 0x403, 6, 0
+0x7263, 0x776f, 0x0064, 
+    IDC_SOUNDNAMEEDIT, 0x403, 7, 0
+0x6d61, 0x6162, 0x7269, "\000" 
+    IDC_SOUNDNAMEEDIT, 0x403, 9, 0
+0x6d61, 0x6262, 0x6f72, 0x786e, "\000" 
+    IDC_SOUNDNAMEEDIT, 0x403, 8, 0
+0x6d61, 0x7062, 0x7261, 0x006b, 
+    IDC_SOUNDNAMEEDIT, 0x403, 8, 0
+0x6d61, 0x7062, 0x726f, 0x0074, 
+    IDC_SOUNDNAMEEDIT, 0x403, 7, 0
+0x6d61, 0x7362, 0x7274, "\000" 
+    IDC_SOUNDNAMEEDIT, 0x403, 8, 0
+0x6f63, 0x6d6d, 0x6e65, 0x0074, 
+    IDC_SOUNDNAMEEDIT, 0x403, 8, 0
+0x6373, 0x706e, 0x726f, 0x0074, 
+    IDC_SOUNDNAMEEDIT, 0x403, 5, 0
+0x6d63, 0x6432, "\000" 
+    IDC_SOUNDNAMEEDIT, 0x403, 9, 0
+0x6373, 0x626e, 0x6f72, 0x786e, "\000" 
+    0
+END
+
+IDD_EDITSOUNDSCENEDIALOG DLGINIT
+BEGIN
+    IDC_SOUNDCLASSCOMBO, 0x403, 4, 0
+0x6653, 0x0078, 
+    IDC_SOUNDCLASSCOMBO, 0x403, 8, 0
+0x6f43, 0x6d6d, 0x6e65, 0x0074, 
+    IDC_SOUNDCLASSCOMBO, 0x403, 6, 0
+0x7243, 0x776f, 0x0064, 
+    IDC_SOUNDCLASSCOMBO, 0x403, 11, 0
+0x6142, 0x6b63, 0x7267, 0x756f, 0x646e, "\000" 
+    IDC_SOUNDCLASSCOMBO, 0x403, 5, 0
+0x654d, 0x756e, "\000" 
+    IDC_SOUNDCLASSCOMBO, 0x403, 7, 0
+0x614d, 0x7473, 0x7265, "\000" 
+    IDC_SOUNDCLASSCOMBO, 0x403, 4, 0
+0x6443, 0x0061, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 초기화에 실패하였습니다. OLE 라이브러리의 버전이 올바른지 확인하십시오."
+    IDS_ABOUTBOX            "XPacker 정보(&A)..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "XP\n\nXP\nXP File (*.XPS)\n.XPS\nXP.XPS\nXPackage file"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\XPacker.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

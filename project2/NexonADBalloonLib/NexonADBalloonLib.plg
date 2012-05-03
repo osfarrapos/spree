@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NexonADBalloonLib - Win32 KR_Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\indy21\LOCALS~1\Temp\RSPA0.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"../Compiled/KR/release/NexonADBalloonLib/NexonADBalloonLib.pch" /YX /Fo"../Compiled/KR/release/NexonADBalloonLib/" /Fd"../Compiled/KR/release/NexonADBalloonLib/" /FD /c 
+"D:\Work\EmperorOfDragons\NexonADBalloonLib\ADBalloon.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\indy21\LOCALS~1\Temp\RSPA0.tmp" 
+Creating command line "link.exe -lib /nologo /out:"../Library/KR/NexonADBalloonLib.lib"  \Work\EmperorOfDragons\Compiled\KR\release\NexonADBalloonLib\ADBalloon.obj "
+<h3>Output Window</h3>
+Compiling...
+ADBalloon.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+NexonADBalloonLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

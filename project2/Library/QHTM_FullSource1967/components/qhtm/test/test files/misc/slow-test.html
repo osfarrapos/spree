@@ -1,0 +1,21 @@
+<!--
+
+  This was slow because of the way QHTM parsed &nbsp;
+
+  It was looking for the semi-colon and of cource it couldn't find it.
+
+-->
+<blockquote >
+  &nbsp&nbsp Function Main<br>
+  &nbsp&nbsp Local oMainWnd, oFont<br>
+  &nbsp&nbsp Local aCombo := {"First","Second" }<br>
+  <blockquote>
+   &nbsp&nbsp MENU OF oMainWnd<br>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp MENUITEM "About" ACTION MsgInfo("First HwGUI Application")<br>
+   &nbsp&nbsp ENDMENU<br><br>
+   &nbsp&nbsp ACTIVATE WINDOW oMainWnd
+  </blockquote>
+</blockquote>
+ 
+</body>
+</html>

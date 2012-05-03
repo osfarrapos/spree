@@ -1,0 +1,76 @@
+#ifndef __STACK_TLH__
+#define __STACK_TLH__
+#ifdef  __cplusplus
+
+#include "list.tlh"
+
+template <class T> class _XLStack
+{
+public:
+	////////////////////////////////////////////
+	// Create the top object of the stact with the given default value
+	_XLStack()
+	{
+		// Create the first matrix of the stack
+		T defVal;
+		memset(&defVal, 0, sizeof(T));
+		m_pStack = new _XLList<T>(defVal);
+		
+		// Set the top matrix
+		m_pTop = m_pStack;
+		m_pTopObj = &m_pTop->m_Data;
+	}
+
+	////////////////////////////////////////////
+	// Release the stack
+	~_XLStack()
+	{
+		// Release the whole list - free the stack
+		m_pStack->ReleaseWholeList();
+	}
+
+	////////////////////////////////////////////
+	// Return the object which is on the top of the stack
+	T*	GetTop(void)
+	{
+		return m_pTopObj;
+	}
+
+	////////////////////////////////////////////
+	// Pop the last pushed object
+	void Pop(void)
+	{
+		if(m_pTop->IsRoot())	// We want to keep always at least one object
+								// on the top of the stack.
+			return;
+		
+		_XLList<T> *tmp = m_pTop->m_pPrev;
+		m_pTop->Release();	// Release the current matrix
+		m_pTop = tmp;		// Set the new top matrix
+		m_pTopObj = &m_pTop->m_Data;
+	}
+
+	////////////////////////////////////////////
+	// Push a new a object on the stack, initialise it to
+	// the value of the current object
+	void Push(void)
+	{
+		// Allocate the new object
+		_XLList<T> *newobj = new _XLList<T>(*m_pTopObj);
+		
+		// Add it on the top of the stack
+		m_pStack->Add(newobj);
+		
+		// Set it as the top matrix
+		m_pTop = newobj;
+		m_pTopObj = &m_pTop->m_Data;
+	}
+
+private:
+	_XLList<T>	*m_pStack;		// The stack
+	_XLList<T>	*m_pTop;		// The list object on the top of the stack
+	T			*m_pTopObj;		// The object on the top of the stack
+};
+
+#endif // __cplusplus
+#endif // __STACK_TLH__

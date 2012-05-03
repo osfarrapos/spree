@@ -1,0 +1,260 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\XPatch.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_OPENBITMAP          BITMAP  DISCARDABLE     "res\\Open.bmp"
+IDB_UPGRADEBITMAP       BITMAP  DISCARDABLE     "res\\Upgrade.bmp"
+IDB_MBBACKBITMAP        BITMAP  DISCARDABLE     "res\\M0Q1ILL5.BMP"
+IDB_BACKGROUNDBITMAP    BITMAP  DISCARDABLE     "res\\us_Border.bmp"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\XPactchMainIcon.ico"
+IDI_CLOSEICON           ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_MINIMIZEICON        ICON    DISCARDABLE     "res\\minimize.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "About XPatch"
+FONT 9, "±º∏≤"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "XPatch 0.9a build 012.203",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002-2006 INDY21 co.,LTD",IDC_STATIC,40,
+                    25,188,8
+    DEFPUSHBUTTON   "»Æ¿Œ",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "Programming by Park il jun <kerygma@indy21.com >",
+                    IDC_STATIC,40,40,188,8
+END
+
+IDD_XPATCH_DIALOG DIALOGEX 0, 0, 331, 89
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "XPatch ver 0.9a"
+FONT 8, "Arial"
+BEGIN
+    CTEXT           "",IDC_SELECTEDFILENAMESTATIC,46,35,242,8,SS_CENTERIMAGE
+    PUSHBUTTON      "",IDC_SELECTPACKAGEBUTTON,174,61,70,25,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_UPDATEBUTTON,245,61,73,24
+    PUSHBUTTON      "",IDC_MINIMIZEBUTTON,304,5,9,11
+    PUSHBUTTON      "",IDC_CLOSEBUTTON,316,5,9,11
+    CTEXT           "",IDC_PROGRESSSTATIC,46,48,242,8,SS_CENTERIMAGE
+END
+
+IDD_SERVERMESSAGEBOX DIALOGEX 0, 0, 291, 60
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Message..."
+FONT 9, "±º∏≤", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "&Upgrade",IDOK,189,48,50,12
+    PUSHBUTTON      "&Cancel",IDCANCEL,241,48,50,12
+    EDITTEXT        IDC_MESSAGEEDIT,0,0,290,47,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | WS_VSCROLL,
+                    WS_EX_STATICEDGE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,9,12,205
+ PRODUCTVERSION 0,9,12,205
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004b0"
+        BEGIN
+            VALUE "Comments", "Programming by Park il jun <kerygma@netian.com >\0"
+            VALUE "CompanyName", "INDY21 co.,LTD\0"
+            VALUE "FileDescription", "ND Upgrade tool\0"
+            VALUE "FileVersion", "0, 9, 12, 205\0"
+            VALUE "InternalName", "ND Upgrade tool\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002-2006 INDY21 co.,LTD\0"
+            VALUE "LegalTrademarks", "Copyright (C) 2002-2006 INDY21 co.,LTD\0"
+            VALUE "OriginalFilename", "NDUpgrade.EXE\0"
+            VALUE "PrivateBuild", "Programming by Park il jun <kerygma@netian.com >\0"
+            VALUE "ProductName", "ND Upgrade tool\0"
+            VALUE "ProductVersion", "0, 9, 12, 205\0"
+            VALUE "SpecialBuild", "001\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Text
+//
+
+IDR_KOREANINTERFACETEXT Text    DISCARDABLE     "res\\kr_interface.txt"
+IDR_VIETNAMESEINTERFACETEXT2 Text    DISCARDABLE     "res\\vn_interface.txt"
+IDR_TAIWANESEINTERFACETEXT Text    DISCARDABLE     "res\\tw_interface.txt"
+IDR_ENGLISHINTERFACETEXT Text    DISCARDABLE     "res\\us_interface.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "XPatch ¡§∫∏(&A)..."
+    IDS_NOTINSTALLEDSTRING  "Invalid installed"
+    IDS_PATCHINFORMATIONFILENOTEXIST 
+                            "Could not open to upgrade information file"
+    IDS_UPDATENOW           "[ Upgrade number : %d ] Upgrade now ?"
+    IDS_VERSIONCHECKSTRING  "Upgrade?"
+END
+
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\XPatch.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

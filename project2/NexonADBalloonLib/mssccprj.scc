@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[NexonADBalloonLib.dsw]
+SCC_Aux_Path = "\\client-patch\NDSourceSafeServer\"
+SCC_Project_Name = "$/EmperorOfDragons/NexonADBalloonLib", GCAFAAAA
+
+[NexonADBalloonLib.dsp]
+SCC_Aux_Path = "\\Local-dev-svr\SourceSafe\Client\NDSourceSafeServer"
+SCC_Project_Name = "$/EmperorOfDragons/NexonADBalloonLib", GCAFAAAA

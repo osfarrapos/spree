@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AudioScript - Win32 Release_include_debugging_information--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kerygma\LOCALS~1\Temp\RSP31F.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /I "..\..\include" /I "..\..\..\Utility" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "USE_VORBIS" /D "NOUSE_WMA" /D "_XDWDEBUG" /FAs /Fa"..\..\..\Compiled\ReleaseDebug\AudioScript/" /FR"..\..\..\Compiled\ReleaseDebug\AudioScript/" /Fp"..\..\..\Compiled\ReleaseDebug\AudioScript/AudioScript.pch" /YX /Fo"..\..\..\Compiled\ReleaseDebug\AudioScript/" /Fd"..\..\..\Compiled\ReleaseDebug\AudioScript/" /FD /c 
+"D:\Work\EmperorOfDragonsDX9\audio_sdk\src\AudioScript\AudioScriptFactory.cpp"
+"D:\Work\EmperorOfDragonsDX9\audio_sdk\src\AudioScript\Lexer.cpp"
+"D:\Work\EmperorOfDragonsDX9\audio_sdk\src\AudioScript\MusicMgr.cpp"
+"D:\Work\EmperorOfDragonsDX9\audio_sdk\src\AudioScript\Script.cpp"
+"D:\Work\EmperorOfDragonsDX9\audio_sdk\src\AudioScript\SoundMgr.cpp"
+"D:\Work\EmperorOfDragonsDX9\audio_sdk\src\AudioScript\SoundScape.cpp"
+"D:\Work\EmperorOfDragonsDX9\audio_sdk\src\AudioScript\Theme.cpp"
+"D:\Work\EmperorOfDragonsDX9\audio_sdk\src\AudioScript\Token.cpp"
+"D:\Work\EmperorOfDragonsDX9\audio_sdk\src\AudioScript\TokenFile.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kerygma\LOCALS~1\Temp\RSP31F.tmp" 
+Creating temporary file "C:\DOCUME~1\kerygma\LOCALS~1\Temp\RSP320.tmp" with contents
+[
+/nologo /out:"..\..\..\library\AudioScript_RD.lib" 
+\Work\EmperorOfDragonsDX9\Compiled\ReleaseDebug\AudioScript\AudioScriptFactory.obj
+\Work\EmperorOfDragonsDX9\Compiled\ReleaseDebug\AudioScript\Lexer.obj
+\Work\EmperorOfDragonsDX9\Compiled\ReleaseDebug\AudioScript\MusicMgr.obj
+\Work\EmperorOfDragonsDX9\Compiled\ReleaseDebug\AudioScript\Script.obj
+\Work\EmperorOfDragonsDX9\Compiled\ReleaseDebug\AudioScript\SoundMgr.obj
+\Work\EmperorOfDragonsDX9\Compiled\ReleaseDebug\AudioScript\SoundScape.obj
+\Work\EmperorOfDragonsDX9\Compiled\ReleaseDebug\AudioScript\Theme.obj
+\Work\EmperorOfDragonsDX9\Compiled\ReleaseDebug\AudioScript\Token.obj
+\Work\EmperorOfDragonsDX9\Compiled\ReleaseDebug\AudioScript\TokenFile.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\kerygma\LOCALS~1\Temp\RSP320.tmp"
+<h3>Output Window</h3>
+Compiling...
+AudioScriptFactory.cpp
+Lexer.cpp
+MusicMgr.cpp
+Script.cpp
+SoundMgr.cpp
+SoundScape.cpp
+Theme.cpp
+Token.cpp
+TokenFile.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+AudioScript_RD.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,81 @@
+H1 { text-align: center; }
+
+CAPTION { font-weight: bold; }
+
+A.qindex { font-family: ±¼¸²; font-size: 9pt; }
+A.qindexRef { font-family: ±¼¸²; font-size: 9pt; }
+A.el { text-decoration: none; font-weight: bold; font-family: ±¼¸²; font-size: 9pt; }
+A.elRef { font-weight: bold; font-family: ±¼¸²; font-size: 9pt; }
+A.code { text-decoration: none; font-weight: normal; color: #4444ee; font-family: Courier New; font-size: 9pt;}
+A.codeRef { font-weight: normal; color: #4444ee; font-family: Courier New; font-size: 9pt; }
+
+A:link { color:#5555aa; padding:2 2 0;}
+A:visited { color:#5555aa; padding:2 2 0;}
+A:active { color:#5555aa; padding:2 2 0;}
+A:hover { text-decoration:none; color:#000000; background:#ffffff; padding:2 2 0;}
+
+DL.el { margin-left: -1cm; font-family: ±¼¸²; font-size: 9pt; }
+
+TD.md { background-color: #f2f2ff; font-weight: bold; font-family: ±¼¸²; font-size: 9pt; }
+TD.mdname1 { background-color: #f2f2ff; font-weight: bold; color: #602020; font-family: ±¼¸²; font-size: 9pt; }
+TD.mdname { background-color: #f2f2ff; font-weight: bold; color: #602020; width: 600px; font-family: ±¼¸²; font-size: 9pt; }
+
+DIV.fragment { width: 100%; border: none; background-color: #eeeeee; font-family: ±¼¸²; font-size: 9pt; }
+DIV.ah { background-color: black; font-weight: bold; color: #ffffff; margin-bottom: 3px; margin-top: 3px; font-family: ±¼¸²; font-size: 9pt; }
+DIV.groupHeader { margin-left: 16px; margin-top: 12px; margin-bottom: 6px; font-weight: bold; font-family: ±¼¸²; font-size: 9pt; }
+DIV.groupText { margin-left: 16px; font-size: smaller; font-family: ±¼¸²; font-size: 9pt; }
+
+BODY { background: white; color: black; font-family: ±¼¸²; font-size: 9pt;
+scrollbar-face-color:#FFFFFF;
+scrollbar-highlight-color:gray;
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-shadow-color:gray;
+scrollbar-darkshadow-color:#FFFFFF;
+scrollbar-track-color:#FFFFFF;
+scrollbar-arrow-color:gray;
+}
+
+TD.indexkey
+{
+   background-color: #eeeeff;
+   font-weight: bold;
+   padding-right  : 10px;
+   padding-top    : 2px;
+   padding-left   : 10px;
+   padding-bottom : 2px;
+   margin-left    : 0px;
+   margin-right   : 0px;
+   margin-top     : 2px;
+   margin-bottom  : 2px
+}
+
+TD.indexvalue
+{
+   background-color: #eeeeff;
+   padding-right  : 10px;
+   padding-top    : 2px;
+   padding-left   : 10px;
+   padding-bottom : 2px;
+   margin-left    : 0px;
+   margin-right   : 0px;
+   margin-top     : 2px;
+   margin-bottom  : 2px
+}
+
+h1, h2, h3 { color: #000000; background: white }
+h1 { font: bold 16pt ±¼¸² }
+h2 { font: bold 14pt ±¼¸² }
+h3 { font: bold 12pt ±¼¸² }
+h4 { font: bold 10pt ±¼¸² }
+h5 { font: 10pt ±¼¸² }
+h6 { font: 8pt ±¼¸² }
+
+span.keyword       { color: #008000 }
+span.keywordtype   { color: #604020 }
+span.keywordflow   { color: #e08000 }
+span.comment       { color: #800000 }
+span.preprocessor  { color: #806020 }
+span.stringliteral { color: #0080aa }
+span.charliteral   { color: #0000ff }
+
+table { font-family: ±¼¸²; font-size: 9pt; }

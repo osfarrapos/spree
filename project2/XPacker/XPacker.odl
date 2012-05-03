@@ -1,0 +1,42 @@
+// XPacker.odl : type library source for XPacker.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (XPacker.tlb).
+
+[ uuid(50B2B8F6-6BAA-11D5-A852-00022A009AE8), version(1.0) ]
+library XPacker
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CXPackerDoc
+	
+	[ uuid(50B2B8F7-6BAA-11D5-A852-00022A009AE8) ]
+	dispinterface IXPacker
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CXPackerDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CXPackerDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CXPackerDoc
+	
+	[ uuid(50B2B8F5-6BAA-11D5-A852-00022A009AE8) ]
+	coclass XPacker
+	{
+		[default] dispinterface IXPacker;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

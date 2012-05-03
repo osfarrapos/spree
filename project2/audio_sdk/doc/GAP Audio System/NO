@@ -1,0 +1,1745 @@
+<tagfile>
+  <compound kind="file">
+    <name>IAudio.h</name>
+    <path>C:/dev/Game_Audio/audio_sdk/include/AudioLib/</path>
+    <filename>IAudio_8h.html</filename>
+    <class kind="struct">AudioMgrInit</class>
+    <class kind="struct">AudioMgrStats</class>
+    <class kind="struct">AudioScriptInit</class>
+    <class kind="struct">DLSInit</class>
+    <class kind="class">IAudioBase</class>
+    <class kind="class">IAudioManager</class>
+    <class kind="class">IAudioScript</class>
+    <class kind="class">IDLS</class>
+    <class kind="class">IListener</class>
+    <class kind="class">IMusicCallback</class>
+    <class kind="class">IPlayable</class>
+    <class kind="class">ISegment</class>
+    <class kind="class">ISound</class>
+    <class kind="class">ISound3D</class>
+    <class kind="struct">ListenerInit</class>
+    <class kind="struct">ListenerProp</class>
+    <class kind="struct">SegmentInit</class>
+    <class kind="struct">Sound3DInit</class>
+    <class kind="struct">Sound3DProp</class>
+    <class kind="struct">SoundInit</class>
+    <class kind="struct">SoundProp</class>
+    <member kind="function">
+      <name>AudioMgr</name>
+      <anchor>a9</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>IAudioExt.h</name>
+    <path>C:/dev/Game_Audio/audio_sdk/include/AudioLib/</path>
+    <filename>IAudioExt_8h.html</filename>
+    <class kind="struct">EAXBufferProps</class>
+    <class kind="struct">EAXListenerProps</class>
+    <class kind="class">IEAXBuffer</class>
+    <class kind="class">IEAXListener</class>
+    <class kind="class">IZoomFX</class>
+    <class kind="struct">ZoomFXBox</class>
+    <class kind="struct">ZoomFXOrientation</class>
+    <class kind="struct">ZoomFXProps</class>
+  </compound>
+  <compound kind="file">
+    <name>IAudioStream.h</name>
+    <path>C:/dev/Game_Audio/audio_sdk/include/AudioLib/</path>
+    <filename>IAudioStream_8h.html</filename>
+    <class kind="class">IAudioStream</class>
+    <class kind="class">IAudioStreamFactory</class>
+  </compound>
+  <compound kind="file">
+    <name>IMusic.h</name>
+    <path>C:/dev/Game_Audio/audio_sdk/include/AudioScript/</path>
+    <filename>IMusic_8h.html</filename>
+    <class kind="class">IMusicManager</class>
+  </compound>
+  <compound kind="file">
+    <name>ISound.h</name>
+    <path>C:/dev/Game_Audio/audio_sdk/include/AudioScript/</path>
+    <filename>ISound_8h.html</filename>
+    <class kind="struct">BackgroundInit</class>
+    <class kind="class">ISoundManager</class>
+    <class kind="class">ISoundScape</class>
+    <class kind="struct">PeriodicInit</class>
+  </compound>
+  <compound kind="struct">
+    <name>AudioMgrInit</name>
+    <filename>structAudioMgrInit.html</filename>
+    <member kind="function">
+      <name>AudioMgrInit</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_hWnd</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bLoadAsyncronously</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bForceSoftware</name>
+      <anchor>m2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bUseMusicReverb</name>
+      <anchor>m3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bUseEAX</name>
+      <anchor>m4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bUseZoomFX</name>
+      <anchor>m5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bAutoStream</name>
+      <anchor>m6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bCacheBuffers</name>
+      <anchor>m7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_n2DHardwareBufferMin</name>
+      <anchor>m8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_n3DHardwareBufferMin</name>
+      <anchor>m9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_n2DHardwareBufferMax</name>
+      <anchor>m10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_n3DHardwareBufferMax</name>
+      <anchor>m11</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_n2DSoftwareBufferMax</name>
+      <anchor>m12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_n3DSoftwareBufferMax</name>
+      <anchor>m13</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nSegmentMax</name>
+      <anchor>m14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nOptimalSampleBits</name>
+      <anchor>m15</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nOptimalSampleRate</name>
+      <anchor>m16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_sWorkingPath</name>
+      <anchor>m17</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_pAudioStreamFactory</name>
+      <anchor>m18</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_pMusicCallback</name>
+      <anchor>m19</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>AudioMgrStats</name>
+    <filename>structAudioMgrStats.html</filename>
+    <member kind="function">
+      <name>AudioMgrStats</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bForce2DSoftware</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bForce3DSoftware</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_n2DSoundsLoaded</name>
+      <anchor>m2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_n3DSoundsLoaded</name>
+      <anchor>m3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nSegmentsLoaded</name>
+      <anchor>m4</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>AudioScriptInit</name>
+    <filename>structAudioScriptInit.html</filename>
+    <member kind="function">
+      <name>AudioScriptInit</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_sFileName</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bMusic</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>BackgroundInit</name>
+    <filename>structBackgroundInit.html</filename>
+    <member kind="function">
+      <name>BackgroundInit</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_pSound</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMinVolume</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMaxVolume</name>
+      <anchor>m2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMinVolumeTime</name>
+      <anchor>m3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMaxVolumeTime</name>
+      <anchor>m4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMinPitch</name>
+      <anchor>m5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMaxPitch</name>
+      <anchor>m6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMinPitchTime</name>
+      <anchor>m7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMaxPitchTime</name>
+      <anchor>m8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>DLSInit</name>
+    <filename>structDLSInit.html</filename>
+    <member kind="function">
+      <name>DLSInit</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_sFileName</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>EAXBufferProps</name>
+    <filename>structEAXBufferProps.html</filename>
+    <member kind="function">
+      <name>EAXBufferProps</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>EAXListenerProps</name>
+    <filename>structEAXListenerProps.html</filename>
+    <member kind="function">
+      <name>EAXListenerProps</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IAudioBase</name>
+    <filename>classIAudioBase.html</filename>
+    <member kind="function" virtualness="pure">
+      <name>Destroy</name>
+      <anchor>a0</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsInitialized</name>
+      <anchor>a1</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Load</name>
+      <anchor>a2</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Unload</name>
+      <anchor>a3</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsLoaded</name>
+      <anchor>a4</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IAudioManager</name>
+    <filename>classIAudioManager.html</filename>
+    <member kind="function" virtualness="pure">
+      <name>Init</name>
+      <anchor>a0</anchor>
+      <arglist>(const AudioMgrInit &amp;init)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Term</name>
+      <anchor>a1</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsInitialized</name>
+      <anchor>a2</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetStats</name>
+      <anchor>a3</anchor>
+      <arglist>(AudioMgrStats &amp;stats) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>CreateSound</name>
+      <anchor>a4</anchor>
+      <arglist>(ISound *&amp;pSound)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>CreateSound3D</name>
+      <anchor>a5</anchor>
+      <arglist>(ISound3D *&amp;pSound3D)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>CreateSegment</name>
+      <anchor>a6</anchor>
+      <arglist>(ISegment *&amp;pSegment)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>CreateDLS</name>
+      <anchor>a7</anchor>
+      <arglist>(IDLS *&amp;pDLS)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>CreateAudioScript</name>
+      <anchor>a8</anchor>
+      <arglist>(IAudioScript *&amp;pScript)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetListener</name>
+      <anchor>a9</anchor>
+      <arglist>(IListener *&amp;pListener)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetSoundVolume</name>
+      <anchor>a10</anchor>
+      <arglist>(float fVolume)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetSoundVolume</name>
+      <anchor>a11</anchor>
+      <arglist>(float &amp;fVolume) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetMusicVolume</name>
+      <anchor>a12</anchor>
+      <arglist>(float fVolume)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetMusicVolume</name>
+      <anchor>a13</anchor>
+      <arglist>(float &amp;fVolume) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>StopAll</name>
+      <anchor>a14</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>PauseAll</name>
+      <anchor>a15</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>ResumeAll</name>
+      <anchor>a16</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetCurrentSegment</name>
+      <anchor>a17</anchor>
+      <arglist>(ISegment *&amp;pSegment) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetNextSegment</name>
+      <anchor>a18</anchor>
+      <arglist>(ISegment *&amp;pSegment) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>CreateAudioStream</name>
+      <anchor>a19</anchor>
+      <arglist>(IAudioStream *&amp;pStream)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IAudioScript</name>
+    <filename>classIAudioScript.html</filename>
+    <base>IAudioBase</base>
+    <member kind="function" virtualness="pure">
+      <name>Init</name>
+      <anchor>a0</anchor>
+      <arglist>(const AudioScriptInit &amp;init)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetVariable</name>
+      <anchor>a1</anchor>
+      <arglist>(std::string sVarName, int32 iVal)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetVariable</name>
+      <anchor>a2</anchor>
+      <arglist>(std::string sVarName, int32 &amp;iVal)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>CallRoutine</name>
+      <anchor>a3</anchor>
+      <arglist>(std::string sRoutineName)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IAudioStream</name>
+    <filename>classIAudioStream.html</filename>
+    <member kind="function" virtualness="pure">
+      <name>Open</name>
+      <anchor>a0</anchor>
+      <arglist>(std::string sFileName)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IAudioStreamFactory</name>
+    <filename>classIAudioStreamFactory.html</filename>
+    <member kind="function" virtualness="pure">
+      <name>CreateAudioStream</name>
+      <anchor>a0</anchor>
+      <arglist>(IAudioStream *&amp;pStream)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IDLS</name>
+    <filename>classIDLS.html</filename>
+    <base>IAudioBase</base>
+    <member kind="function" virtualness="pure">
+      <name>Init</name>
+      <anchor>a0</anchor>
+      <arglist>(const DLSInit &amp;init)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Lock</name>
+      <anchor>a1</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Unlock</name>
+      <anchor>a2</anchor>
+      <arglist>()=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IEAXBuffer</name>
+    <filename>classIEAXBuffer.html</filename>
+    <member kind="function" virtualness="pure">
+      <name>SetDirect</name>
+      <anchor>a0</anchor>
+      <arglist>(int32 iDirect)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetDirectHF</name>
+      <anchor>a1</anchor>
+      <arglist>(int32 iDirectHF)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetRoom</name>
+      <anchor>a2</anchor>
+      <arglist>(int32 iRoom)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetRoomHF</name>
+      <anchor>a3</anchor>
+      <arglist>(int32 iRoomHF)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetRoomRolloffFactor</name>
+      <anchor>a4</anchor>
+      <arglist>(float fRoomRolloffFactor)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetObstruction</name>
+      <anchor>a5</anchor>
+      <arglist>(int32 iObstruction)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetObstructionLFRatio</name>
+      <anchor>a6</anchor>
+      <arglist>(float fObstructionLFRatio)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetOcclusion</name>
+      <anchor>a7</anchor>
+      <arglist>(int32 iOcclusion)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetOcclusionLFRatio</name>
+      <anchor>a8</anchor>
+      <arglist>(float fOcclusionLFRatio)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetOcclusionRoomRatio</name>
+      <anchor>a9</anchor>
+      <arglist>(float fOcclusionRoomRatio)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetOutsideVolumeHF</name>
+      <anchor>a10</anchor>
+      <arglist>(int32 iOutsideVolumeHF)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetAirAbsorptionFactor</name>
+      <anchor>a11</anchor>
+      <arglist>(float fAirAbsorptionFactor)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetFlags</name>
+      <anchor>a12</anchor>
+      <arglist>(uint32 nFlags)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetProperties</name>
+      <anchor>a13</anchor>
+      <arglist>(const EAXBufferProps &amp;props)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetProperties</name>
+      <anchor>a14</anchor>
+      <arglist>(EAXBufferProps &amp;props)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IEAXListener</name>
+    <filename>classIEAXListener.html</filename>
+    <member kind="function" virtualness="pure">
+      <name>SetRoom</name>
+      <anchor>a0</anchor>
+      <arglist>(int32 iRoom)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetRoomHF</name>
+      <anchor>a1</anchor>
+      <arglist>(int32 iRoomHF)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetRoomRolloffFactor</name>
+      <anchor>a2</anchor>
+      <arglist>(float fRoomRolloffFactor)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetDecayTime</name>
+      <anchor>a3</anchor>
+      <arglist>(float fDecayTime)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetDecayHFRatio</name>
+      <anchor>a4</anchor>
+      <arglist>(float fDecayHFRatio)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetReflections</name>
+      <anchor>a5</anchor>
+      <arglist>(int32 iReflections)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetReflectionsDelay</name>
+      <anchor>a6</anchor>
+      <arglist>(float fReflectionsDelay)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetReverb</name>
+      <anchor>a7</anchor>
+      <arglist>(int32 iReverb)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetReverbDelay</name>
+      <anchor>a8</anchor>
+      <arglist>(float fReverbDelay)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetEnvironment</name>
+      <anchor>a9</anchor>
+      <arglist>(uint32 nEnvironment)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetEnvironmentSize</name>
+      <anchor>a10</anchor>
+      <arglist>(float fEnvironmentSize)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetEnvironmentDiffusion</name>
+      <anchor>a11</anchor>
+      <arglist>(float fEnvironmentDiffusion)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetAirAbsorptionHF</name>
+      <anchor>a12</anchor>
+      <arglist>(float fAirAbsorption)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetFlags</name>
+      <anchor>a13</anchor>
+      <arglist>(uint32 nFlags)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetProperties</name>
+      <anchor>a14</anchor>
+      <arglist>(const EAXListenerProps &amp;props)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetProperties</name>
+      <anchor>a15</anchor>
+      <arglist>(EAXListenerProps &amp;props)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IListener</name>
+    <filename>classIListener.html</filename>
+    <member kind="function" virtualness="pure">
+      <name>Init</name>
+      <anchor>a0</anchor>
+      <arglist>(const ListenerInit &amp;init)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Term</name>
+      <anchor>a1</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetProperties</name>
+      <anchor>a2</anchor>
+      <arglist>(const ListenerProp &amp;prop)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetProperties</name>
+      <anchor>a3</anchor>
+      <arglist>(ListenerProp &amp;prop) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetPosition</name>
+      <anchor>a4</anchor>
+      <arglist>(const AUDIOVECTOR &amp;vPos)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetPosition</name>
+      <anchor>a5</anchor>
+      <arglist>(AUDIOVECTOR &amp;vPos) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetVelocity</name>
+      <anchor>a6</anchor>
+      <arglist>(const AUDIOVECTOR &amp;vVel)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetVelocity</name>
+      <anchor>a7</anchor>
+      <arglist>(AUDIOVECTOR &amp;vVel) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetOrientation</name>
+      <anchor>a8</anchor>
+      <arglist>(const AUDIOVECTOR &amp;vFront, const AUDIOVECTOR &amp;vTop)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetOrientation</name>
+      <anchor>a9</anchor>
+      <arglist>(AUDIOVECTOR &amp;vFront, AUDIOVECTOR &amp;vTop) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetDistanceFactor</name>
+      <anchor>a10</anchor>
+      <arglist>(float fDistanceFactor)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetDistanceFactor</name>
+      <anchor>a11</anchor>
+      <arglist>(float &amp;fDistanceFactor) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetDopplerFactor</name>
+      <anchor>a12</anchor>
+      <arglist>(float fDopplerFactor)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetDopplerFactor</name>
+      <anchor>a13</anchor>
+      <arglist>(float &amp;fDopplerFactor) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetRolloffFactor</name>
+      <anchor>a14</anchor>
+      <arglist>(float fRolloffFactor)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetRolloffFactor</name>
+      <anchor>a15</anchor>
+      <arglist>(float &amp;fRolloffFactor) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>QuerySupport</name>
+      <anchor>a16</anchor>
+      <arglist>(const GUID &amp;guid, uint32 nID, uint32 *pTypeSupport)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Get</name>
+      <anchor>a17</anchor>
+      <arglist>(const GUID &amp;guidProperty, uint32 nID, void *pInstanceData, uint32 nInstanceLength, void *pPropData, uint32 nPropLength, uint32 *pBytesReturned)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Set</name>
+      <anchor>a18</anchor>
+      <arglist>(const GUID &amp;guidProperty, uint32 nID, void *pInstanceData, uint32 nInstanceLength, void *pPropData, uint32 nPropLength, bool bStoreProperty)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>EAX</name>
+      <anchor>a19</anchor>
+      <arglist>()=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IMusicCallback</name>
+    <filename>classIMusicCallback.html</filename>
+    <member kind="function" virtualness="virtual">
+      <name>OnSegmentStart</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IMusicManager</name>
+    <filename>classIMusicManager.html</filename>
+    <base>IMusicCallback</base>
+    <member kind="function" virtualness="pure">
+      <name>Init</name>
+      <anchor>a0</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Term</name>
+      <anchor>a1</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsInitialized</name>
+      <anchor>a2</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>LoadScript</name>
+      <anchor>a3</anchor>
+      <arglist>(std::string sFileName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>PlayTheme</name>
+      <anchor>a4</anchor>
+      <arglist>(std::string sThemeName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>ResetThemeItr</name>
+      <anchor>a5</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetNextTheme</name>
+      <anchor>a6</anchor>
+      <arglist>(std::string &amp;sThemeName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>RemoveTheme</name>
+      <anchor>a7</anchor>
+      <arglist>(std::string &amp;sThemeName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>RemoveAll</name>
+      <anchor>a8</anchor>
+      <arglist>()=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IPlayable</name>
+    <filename>classIPlayable.html</filename>
+    <base>IAudioBase</base>
+    <member kind="function" virtualness="pure">
+      <name>Play</name>
+      <anchor>a0</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Pause</name>
+      <anchor>a1</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Stop</name>
+      <anchor>a2</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsPlaying</name>
+      <anchor>a3</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsPaused</name>
+      <anchor>a4</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsLooping</name>
+      <anchor>a5</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ISegment</name>
+    <filename>classISegment.html</filename>
+    <base>IPlayable</base>
+    <member kind="function" virtualness="pure">
+      <name>Init</name>
+      <anchor>a0</anchor>
+      <arglist>(const SegmentInit &amp;init)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ISound</name>
+    <filename>classISound.html</filename>
+    <base>IPlayable</base>
+    <member kind="function" virtualness="pure">
+      <name>Init</name>
+      <anchor>a0</anchor>
+      <arglist>(const SoundInit &amp;init)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetProperties</name>
+      <anchor>a1</anchor>
+      <arglist>(const SoundProp &amp;prop)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetProperties</name>
+      <anchor>a2</anchor>
+      <arglist>(SoundProp &amp;prop) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetVolume</name>
+      <anchor>a3</anchor>
+      <arglist>(float fVolume)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetVolume</name>
+      <anchor>a4</anchor>
+      <arglist>(float &amp;fVolume) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetPan</name>
+      <anchor>a5</anchor>
+      <arglist>(float fPan)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetPan</name>
+      <anchor>a6</anchor>
+      <arglist>(float &amp;fPan) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetPitch</name>
+      <anchor>a7</anchor>
+      <arglist>(float fPitch)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetPitch</name>
+      <anchor>a8</anchor>
+      <arglist>(float &amp;fPitch) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetReadCursor</name>
+      <anchor>a9</anchor>
+      <arglist>(uint32 nBytes)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetReadCursor</name>
+      <anchor>a10</anchor>
+      <arglist>(uint32 &amp;nBytes) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetSourceSize</name>
+      <anchor>a11</anchor>
+      <arglist>(uint32 &amp;nBytes) const=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ISound3D</name>
+    <filename>classISound3D.html</filename>
+    <base>IPlayable</base>
+    <member kind="function" virtualness="pure">
+      <name>Init</name>
+      <anchor>a0</anchor>
+      <arglist>(const Sound3DInit &amp;init)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetProperties</name>
+      <anchor>a1</anchor>
+      <arglist>(const Sound3DProp &amp;prop)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetProperties</name>
+      <anchor>a2</anchor>
+      <arglist>(Sound3DProp &amp;prop) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetPosition</name>
+      <anchor>a3</anchor>
+      <arglist>(const AUDIOVECTOR &amp;vPosition)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetPosition</name>
+      <anchor>a4</anchor>
+      <arglist>(AUDIOVECTOR &amp;vPosition) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetVelocity</name>
+      <anchor>a5</anchor>
+      <arglist>(const AUDIOVECTOR &amp;vVelocity)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetVelocity</name>
+      <anchor>a6</anchor>
+      <arglist>(AUDIOVECTOR &amp;vVelocity) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetMaxDistance</name>
+      <anchor>a7</anchor>
+      <arglist>(float fMaxDist)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetMaxDistance</name>
+      <anchor>a8</anchor>
+      <arglist>(float &amp;fMaxDist) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetMinDistance</name>
+      <anchor>a9</anchor>
+      <arglist>(float fMinDist)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetMinDistance</name>
+      <anchor>a10</anchor>
+      <arglist>(float &amp;fMinDist) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetConeAngles</name>
+      <anchor>a11</anchor>
+      <arglist>(uint32 nInside, uint32 nOutside)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetConeAngles</name>
+      <anchor>a12</anchor>
+      <arglist>(uint32 &amp;nInside, uint32 &amp;nOutside) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetConeOrientation</name>
+      <anchor>a13</anchor>
+      <arglist>(const AUDIOVECTOR &amp;vOrientation)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetConeOrientation</name>
+      <anchor>a14</anchor>
+      <arglist>(AUDIOVECTOR &amp;vOrientation) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetConeOutsideVolume</name>
+      <anchor>a15</anchor>
+      <arglist>(float fVolume)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetConeOutsideVolume</name>
+      <anchor>a16</anchor>
+      <arglist>(float &amp;fVolume) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetMode</name>
+      <anchor>a17</anchor>
+      <arglist>(uint32 nMode)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetMode</name>
+      <anchor>a18</anchor>
+      <arglist>(uint32 &amp;nMode) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetVolume</name>
+      <anchor>a19</anchor>
+      <arglist>(float fVolume)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetVolume</name>
+      <anchor>a20</anchor>
+      <arglist>(float &amp;fVolume) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetPitch</name>
+      <anchor>a21</anchor>
+      <arglist>(float fPitch)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetPitch</name>
+      <anchor>a22</anchor>
+      <arglist>(float &amp;fPitch) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetReadCursor</name>
+      <anchor>a23</anchor>
+      <arglist>(uint32 nBytes)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetReadCursor</name>
+      <anchor>a24</anchor>
+      <arglist>(uint32 &amp;nBytes) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetSourceSize</name>
+      <anchor>a25</anchor>
+      <arglist>(uint32 &amp;nBytes) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>EAX</name>
+      <anchor>a26</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>ZoomFX</name>
+      <anchor>a27</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>QuerySupport</name>
+      <anchor>a28</anchor>
+      <arglist>(const GUID &amp;guid, uint32 nID, uint32 *pTypeSupport)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Get</name>
+      <anchor>a29</anchor>
+      <arglist>(const GUID &amp;guidProperty, uint32 nID, void *pInstanceData, uint32 nInstanceLength, void *pPropData, uint32 nPropLength, uint32 *pBytesReturned)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Set</name>
+      <anchor>a30</anchor>
+      <arglist>(const GUID &amp;guidProperty, uint32 nID, void *pInstanceData, uint32 nInstanceLength, void *pPropData, uint32 nPropLength, bool bStoreProperty)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ISoundManager</name>
+    <filename>classISoundManager.html</filename>
+    <member kind="function" virtualness="pure">
+      <name>Init</name>
+      <anchor>a0</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>Term</name>
+      <anchor>a1</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsInitialized</name>
+      <anchor>a2</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>LoadScript</name>
+      <anchor>a3</anchor>
+      <arglist>(std::string sFileName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>RemoveAll</name>
+      <anchor>a4</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetSound</name>
+      <anchor>a5</anchor>
+      <arglist>(std::string sSoundName, ISound *&amp;pSound)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetSoundInit</name>
+      <anchor>a6</anchor>
+      <arglist>(std::string sSoundName, SoundInit &amp;init)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>ReleaseSound</name>
+      <anchor>a7</anchor>
+      <arglist>(std::string sSoundName, ISound *pSound)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsSoundRegistered</name>
+      <anchor>a8</anchor>
+      <arglist>(std::string sSoundName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>ResetSoundItr</name>
+      <anchor>a9</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetNextSound</name>
+      <anchor>a10</anchor>
+      <arglist>(std::string &amp;sSoundName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>RemoveSound</name>
+      <anchor>a11</anchor>
+      <arglist>(std::string sSoundName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>RemoveAllSounds</name>
+      <anchor>a12</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetSound3D</name>
+      <anchor>a13</anchor>
+      <arglist>(std::string sSound3DName, ISound3D *&amp;pSound3D)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetSound3DInit</name>
+      <anchor>a14</anchor>
+      <arglist>(std::string sSound3DName, Sound3DInit &amp;init)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>ReleaseSound3D</name>
+      <anchor>a15</anchor>
+      <arglist>(std::string sSound3DName, ISound3D *pSound3D)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsSound3DRegistered</name>
+      <anchor>a16</anchor>
+      <arglist>(std::string sSound3DName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>ResetSound3DItr</name>
+      <anchor>a17</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetNextSound3D</name>
+      <anchor>a18</anchor>
+      <arglist>(std::string &amp;sSound3DName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>RemoveSound3D</name>
+      <anchor>a19</anchor>
+      <arglist>(std::string sSound3DName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>RemoveAllSounds3D</name>
+      <anchor>a20</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>CreateSoundScape</name>
+      <anchor>a21</anchor>
+      <arglist>(ISoundScape *&amp;pSoundScape)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>InitSoundScape</name>
+      <anchor>a22</anchor>
+      <arglist>(std::string sSoundScapeName, ISoundScape *&amp;pSoundScape)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>IsSoundScapeRegistered</name>
+      <anchor>a23</anchor>
+      <arglist>(std::string sSoundScapeName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>ResetSoundScapeItr</name>
+      <anchor>a24</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetNextSoundScape</name>
+      <anchor>a25</anchor>
+      <arglist>(std::string &amp;sSoundScapeName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>RemoveSoundScape</name>
+      <anchor>a26</anchor>
+      <arglist>(std::string sSoundScapeName)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>RemoveAllSoundScapes</name>
+      <anchor>a27</anchor>
+      <arglist>()=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ISoundScape</name>
+    <filename>classISoundScape.html</filename>
+    <base>IPlayable</base>
+    <member kind="function" virtualness="pure">
+      <name>Init</name>
+      <anchor>a0</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>AddElement</name>
+      <anchor>a1</anchor>
+      <arglist>(const BackgroundInit &amp;init)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>AddElement</name>
+      <anchor>a2</anchor>
+      <arglist>(const PeriodicInit &amp;init)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetVolume</name>
+      <anchor>a3</anchor>
+      <arglist>(float fVolume)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetVolume</name>
+      <anchor>a4</anchor>
+      <arglist>(float &amp;fVolume) const=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IZoomFX</name>
+    <filename>classIZoomFX.html</filename>
+    <member kind="function" virtualness="pure">
+      <name>SetBox</name>
+      <anchor>a0</anchor>
+      <arglist>(const ZoomFXBox &amp;box)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetOrientation</name>
+      <anchor>a1</anchor>
+      <arglist>(const ZoomFXOrientation &amp;orientation)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetMacroFX</name>
+      <anchor>a2</anchor>
+      <arglist>(uint32 nMacroFX)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>SetProperties</name>
+      <anchor>a3</anchor>
+      <arglist>(const ZoomFXProps &amp;props)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <name>GetProperties</name>
+      <anchor>a4</anchor>
+      <arglist>(ZoomFXProps &amp;props)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>ListenerInit</name>
+    <filename>structListenerInit.html</filename>
+    <member kind="function">
+      <name>ListenerInit</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_Prop</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>ListenerProp</name>
+    <filename>structListenerProp.html</filename>
+    <member kind="function">
+      <name>ListenerProp</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_vPosition</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_vVelocity</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_vOrientFront</name>
+      <anchor>m2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_vOrientTop</name>
+      <anchor>m3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fDistanceFactor</name>
+      <anchor>m4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fRolloffFactor</name>
+      <anchor>m5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fDopplerFactor</name>
+      <anchor>m6</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>PeriodicInit</name>
+    <filename>structPeriodicInit.html</filename>
+    <member kind="function">
+      <name>PeriodicInit</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_pSound3D</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMinPitch</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMaxPitch</name>
+      <anchor>m2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMinDelay</name>
+      <anchor>m3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMaxDelay</name>
+      <anchor>m4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fXRange</name>
+      <anchor>m5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fYRange</name>
+      <anchor>m6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fZRange</name>
+      <anchor>m7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMinDistance</name>
+      <anchor>m8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>SegmentInit</name>
+    <filename>structSegmentInit.html</filename>
+    <member kind="function">
+      <name>SegmentInit</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_sFileName</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bLooping</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bMusic</name>
+      <anchor>m2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_pDLS</name>
+      <anchor>m3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>Sound3DInit</name>
+    <filename>structSound3DInit.html</filename>
+    <member kind="function">
+      <name>Sound3DInit</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_sFileName</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bStreaming</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bLooping</name>
+      <anchor>m2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bMusic</name>
+      <anchor>m3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nPriority</name>
+      <anchor>m4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_Prop</name>
+      <anchor>m5</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>Sound3DProp</name>
+    <filename>structSound3DProp.html</filename>
+    <member kind="function">
+      <name>Sound3DProp</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_vPosition</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_vVelocity</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_vConeOrientation</name>
+      <anchor>m2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nInsideConeAngle</name>
+      <anchor>m3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nOutsideConeAngle</name>
+      <anchor>m4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fConeOutsideVolume</name>
+      <anchor>m5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMinDistance</name>
+      <anchor>m6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fMaxDistance</name>
+      <anchor>m7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nMode</name>
+      <anchor>m8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fVolume</name>
+      <anchor>m9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fPitch</name>
+      <anchor>m10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nReadCursor</name>
+      <anchor>m11</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>SoundInit</name>
+    <filename>structSoundInit.html</filename>
+    <member kind="function">
+      <name>SoundInit</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_sFileName</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bStreaming</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bLooping</name>
+      <anchor>m2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_bMusic</name>
+      <anchor>m3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nPriority</name>
+      <anchor>m4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_Prop</name>
+      <anchor>m5</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>SoundProp</name>
+    <filename>structSoundProp.html</filename>
+    <member kind="function">
+      <name>SoundProp</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fVolume</name>
+      <anchor>m0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fPan</name>
+      <anchor>m1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_fPitch</name>
+      <anchor>m2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <name>m_nReadCursor</name>
+      <anchor>m3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>ZoomFXBox</name>
+    <filename>structZoomFXBox.html</filename>
+    <member kind="function">
+      <name>ZoomFXBox</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>ZoomFXOrientation</name>
+    <filename>structZoomFXOrientation.html</filename>
+    <member kind="function">
+      <name>ZoomFXOrientation</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>ZoomFXProps</name>
+    <filename>structZoomFXProps.html</filename>
+    <member kind="function">
+      <name>ZoomFXProps</name>
+      <anchor>a0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <name>Clear</name>
+      <anchor>a1</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+</tagfile>

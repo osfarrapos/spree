@@ -1,0 +1,217 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "DataSource"="..\DataSource\DataSource.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/components/DataSource", QIDAAAAA
+    ..\datasource
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "DebugHlp"="..\DebugHlp\DebugHlp.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Components/DebugHlp", FNFAAAAA
+    ..\debughlp
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ImgLib"="..\ImgLib\ImgLib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Components/ImgLib", EPKAAAAA
+    ..\imglib
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name jpeglib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name lpng103
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ZLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "QHTM"=".\QHTM.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Components/QHTM", FIHAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ImgLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name jpeglib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name lpng103
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ZLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DataSource
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DebugHlp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name guitools
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "QHTM Static Link"=".\QHTM Static Link\QHTM Static Link.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/components/QHTM/QHTM Static Link", KJDAAAAA
+    .\qhtm static link
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Test"=".\Test\Test.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/components/QHTM/Test", NVHAAAAA
+    .\test
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name QHTM
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ZLib"="..\zlib\ZLib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Components/ZLib", XPHAAAAA
+    ..\zlib
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "guitools"="..\guitools\guitools.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/components/guitools", NDHAAAAA
+    ..\guitools
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "jpeglib"="..\jpeg-6b\jpeglib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Components/jpeg-6b", BTKAAAAA
+    ..\jpeg-6b
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "libpng"="..\libpng\libpng.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/components/libpng", ELFAAAAA
+    ..\libpng
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/components/GSTaskPanel", YOHAAAAA
+    ..\gstaskpanel
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

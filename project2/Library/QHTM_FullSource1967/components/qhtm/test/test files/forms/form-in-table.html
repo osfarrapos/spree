@@ -1,0 +1,29 @@
+<body background="RES:background.bmp">
+<font face="tahoma">
+	<h2>Forms support</h2>
+	QHTM supports GET and POST forms.
+
+	<p>	POST sends you the data via a special callback mechanism whereas GET sends it as a URL to execute in the normal way.
+
+	<p>We can use edit controls, buttons, checkboxes, combo boxes, list boxes, radio buttons etc.
+	<FORM action="http://NoName" method="post">
+		First name:<BR><INPUT id=1 size=50 type="text" name="firstname"><BR>
+		Last name:<BR><INPUT id=2 type="text" name="lastname"><BR>
+		email:<BR><INPUT id=3 type="text" name="email" value="just a test folks"><BR>
+		<INPUT id=4 type="radio" name="sex" value="Male" checked> Male<BR>
+		<INPUT id=5 type="radio" name="sex" value="Female"> Female<BR>
+		<INPUT id=6 type="checkbox" name="WantCeral" value="1" checked> Want ceral for breakfast<BR>
+		<INPUT id=7 type="checkbox" name="WantFullEnglish" value="1" checked> Want bacon and eggs for breakfast<BR>
+		<SELECT name="DevTool">
+			 <OPTION selected value="VB">Visual Basic</OPTION>
+			 <OPTION value="C">C/C++</OPTION>
+			 <OPTION value="J">Java</OPTION>
+			 <OPTION value="D">Delphi</OPTION>
+		</SELECT>
+
+		<INPUT id=8 type="submit" value="Send" >
+		</P>
+	 </FORM>
+	
+</font>
+</body>

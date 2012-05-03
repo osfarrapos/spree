@@ -1,0 +1,1306 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AddElement"><param name="Name" value="AddElement"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundScape.html#a2"><param name="Name" value="ISoundScape"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AudioMgr"><param name="Name" value="AudioMgr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="IAudio_8h.html#a9"><param name="Name" value="IAudio.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html"><param name="Name" value="AudioMgrInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#a0"><param name="Name" value="AudioMgrInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m6"><param name="Name" value="m_bAutoStream"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m7"><param name="Name" value="m_bCacheBuffers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m2"><param name="Name" value="m_bForceSoftware"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m1"><param name="Name" value="m_bLoadAsyncronously"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m4"><param name="Name" value="m_bUseEAX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m3"><param name="Name" value="m_bUseMusicReverb"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m5"><param name="Name" value="m_bUseZoomFX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m0"><param name="Name" value="m_hWnd"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m10"><param name="Name" value="m_n2DHardwareBufferMax"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m8"><param name="Name" value="m_n2DHardwareBufferMin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m12"><param name="Name" value="m_n2DSoftwareBufferMax"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m11"><param name="Name" value="m_n3DHardwareBufferMax"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m9"><param name="Name" value="m_n3DHardwareBufferMin"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m13"><param name="Name" value="m_n3DSoftwareBufferMax"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m15"><param name="Name" value="m_nOptimalSampleBits"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m16"><param name="Name" value="m_nOptimalSampleRate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m14"><param name="Name" value="m_nSegmentMax"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m18"><param name="Name" value="m_pAudioStreamFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m19"><param name="Name" value="m_pMusicCallback"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m17"><param name="Name" value="m_sWorkingPath"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html"><param name="Name" value="AudioMgrStats"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#a0"><param name="Name" value="AudioMgrStats"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#m0"><param name="Name" value="m_bForce2DSoftware"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#m1"><param name="Name" value="m_bForce3DSoftware"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#m2"><param name="Name" value="m_n2DSoundsLoaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#m3"><param name="Name" value="m_n3DSoundsLoaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#m4"><param name="Name" value="m_nSegmentsLoaded"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioScriptInit.html"><param name="Name" value="AudioScriptInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioScriptInit.html#a0"><param name="Name" value="AudioScriptInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioScriptInit.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioScriptInit.html#m1"><param name="Name" value="m_bMusic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioScriptInit.html#m0"><param name="Name" value="m_sFileName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html"><param name="Name" value="BackgroundInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#a0"><param name="Name" value="BackgroundInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m6"><param name="Name" value="m_fMaxPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m8"><param name="Name" value="m_fMaxPitchTime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m2"><param name="Name" value="m_fMaxVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m4"><param name="Name" value="m_fMaxVolumeTime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m5"><param name="Name" value="m_fMinPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m7"><param name="Name" value="m_fMinPitchTime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m1"><param name="Name" value="m_fMinVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m3"><param name="Name" value="m_fMinVolumeTime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m0"><param name="Name" value="m_pSound"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CallRoutine"><param name="Name" value="CallRoutine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioScript.html#a3"><param name="Name" value="IAudioScript"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Clear"><param name="Name" value="Clear"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#a1"><param name="Name" value="AudioMgrInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#a1"><param name="Name" value="AudioMgrStats"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioScriptInit.html#a1"><param name="Name" value="AudioScriptInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#a1"><param name="Name" value="BackgroundInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structDLSInit.html#a1"><param name="Name" value="DLSInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEAXBufferProps.html#a1"><param name="Name" value="EAXBufferProps"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEAXListenerProps.html#a1"><param name="Name" value="EAXListenerProps"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerInit.html#a1"><param name="Name" value="ListenerInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#a1"><param name="Name" value="ListenerProp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#a1"><param name="Name" value="PeriodicInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#a1"><param name="Name" value="SegmentInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#a1"><param name="Name" value="Sound3DInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#a1"><param name="Name" value="Sound3DProp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#a1"><param name="Name" value="SoundInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#a1"><param name="Name" value="SoundProp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXBox.html#a1"><param name="Name" value="ZoomFXBox"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXOrientation.html#a1"><param name="Name" value="ZoomFXOrientation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXProps.html#a1"><param name="Name" value="ZoomFXProps"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CreateAudioScript"><param name="Name" value="CreateAudioScript"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a8"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CreateAudioStream"><param name="Name" value="CreateAudioStream"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a19"><param name="Name" value="IAudioManager"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioStreamFactory.html#a0"><param name="Name" value="IAudioStreamFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CreateDLS"><param name="Name" value="CreateDLS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a7"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CreateSegment"><param name="Name" value="CreateSegment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a6"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CreateSound3D"><param name="Name" value="CreateSound3D"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a5"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CreateSound"><param name="Name" value="CreateSound"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a4"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CreateSoundScape"><param name="Name" value="CreateSoundScape"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a21"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Destroy"><param name="Name" value="Destroy"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html#a0"><param name="Name" value="IAudioBase"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structDLSInit.html"><param name="Name" value="DLSInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structDLSInit.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structDLSInit.html#a0"><param name="Name" value="DLSInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structDLSInit.html#m0"><param name="Name" value="m_sFileName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EAX"><param name="Name" value="EAX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a19"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a26"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structEAXBufferProps.html"><param name="Name" value="EAXBufferProps"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEAXBufferProps.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEAXBufferProps.html#a0"><param name="Name" value="EAXBufferProps"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structEAXListenerProps.html"><param name="Name" value="EAXListenerProps"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEAXListenerProps.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEAXListenerProps.html#a0"><param name="Name" value="EAXListenerProps"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Get"><param name="Name" value="Get"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a17"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a29"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetConeAngles"><param name="Name" value="GetConeAngles"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a12"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetConeOrientation"><param name="Name" value="GetConeOrientation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a14"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetConeOutsideVolume"><param name="Name" value="GetConeOutsideVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a16"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetCurrentSegment"><param name="Name" value="GetCurrentSegment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a17"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetDistanceFactor"><param name="Name" value="GetDistanceFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a11"><param name="Name" value="IListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetDopplerFactor"><param name="Name" value="GetDopplerFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a13"><param name="Name" value="IListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetListener"><param name="Name" value="GetListener"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a9"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetMaxDistance"><param name="Name" value="GetMaxDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a8"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetMinDistance"><param name="Name" value="GetMinDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a10"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetMode"><param name="Name" value="GetMode"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a18"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetMusicVolume"><param name="Name" value="GetMusicVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a13"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetNextSegment"><param name="Name" value="GetNextSegment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a18"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetNextSound3D"><param name="Name" value="GetNextSound3D"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a18"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetNextSound"><param name="Name" value="GetNextSound"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a10"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetNextSoundScape"><param name="Name" value="GetNextSoundScape"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a25"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetNextTheme"><param name="Name" value="GetNextTheme"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a6"><param name="Name" value="IMusicManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetOrientation"><param name="Name" value="GetOrientation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a9"><param name="Name" value="IListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetPan"><param name="Name" value="GetPan"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a6"><param name="Name" value="ISound"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetPitch"><param name="Name" value="GetPitch"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a8"><param name="Name" value="ISound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a22"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetPosition"><param name="Name" value="GetPosition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a5"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a4"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetProperties"><param name="Name" value="GetProperties"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a14"><param name="Name" value="IEAXBuffer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a15"><param name="Name" value="IEAXListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a3"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a2"><param name="Name" value="ISound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a2"><param name="Name" value="ISound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html#a4"><param name="Name" value="IZoomFX"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetReadCursor"><param name="Name" value="GetReadCursor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a10"><param name="Name" value="ISound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a24"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetRolloffFactor"><param name="Name" value="GetRolloffFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a15"><param name="Name" value="IListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetSound3D"><param name="Name" value="GetSound3D"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a13"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetSound3DInit"><param name="Name" value="GetSound3DInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a14"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetSound"><param name="Name" value="GetSound"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a5"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetSoundInit"><param name="Name" value="GetSoundInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a6"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetSoundVolume"><param name="Name" value="GetSoundVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a11"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetSourceSize"><param name="Name" value="GetSourceSize"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a11"><param name="Name" value="ISound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a25"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetStats"><param name="Name" value="GetStats"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a3"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetVariable"><param name="Name" value="GetVariable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioScript.html#a2"><param name="Name" value="IAudioScript"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetVelocity"><param name="Name" value="GetVelocity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a7"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a6"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GetVolume"><param name="Name" value="GetVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a4"><param name="Name" value="ISound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a20"><param name="Name" value="ISound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundScape.html#a4"><param name="Name" value="ISoundScape"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="IAudio_8h.html"><param name="Name" value="IAudio.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="IAudio_8h.html#a9"><param name="Name" value="AudioMgr"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html"><param name="Name" value="IAudioBase"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html#a0"><param name="Name" value="Destroy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html#a1"><param name="Name" value="IsInitialized"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html#a4"><param name="Name" value="IsLoaded"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html#a2"><param name="Name" value="Load"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html#a3"><param name="Name" value="Unload"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html"><param name="Name" value="IAudioManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a8"><param name="Name" value="CreateAudioScript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a19"><param name="Name" value="CreateAudioStream"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a7"><param name="Name" value="CreateDLS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a6"><param name="Name" value="CreateSegment"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a4"><param name="Name" value="CreateSound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a5"><param name="Name" value="CreateSound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a17"><param name="Name" value="GetCurrentSegment"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a9"><param name="Name" value="GetListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a13"><param name="Name" value="GetMusicVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a18"><param name="Name" value="GetNextSegment"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a11"><param name="Name" value="GetSoundVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a3"><param name="Name" value="GetStats"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a0"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a2"><param name="Name" value="IsInitialized"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a15"><param name="Name" value="PauseAll"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a16"><param name="Name" value="ResumeAll"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a12"><param name="Name" value="SetMusicVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a10"><param name="Name" value="SetSoundVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a14"><param name="Name" value="StopAll"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a1"><param name="Name" value="Term"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioScript.html"><param name="Name" value="IAudioScript"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioScript.html#a3"><param name="Name" value="CallRoutine"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioScript.html#a2"><param name="Name" value="GetVariable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioScript.html#a0"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioScript.html#a1"><param name="Name" value="SetVariable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioStream.html"><param name="Name" value="IAudioStream"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioStream.html#a0"><param name="Name" value="Open"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioStreamFactory.html"><param name="Name" value="IAudioStreamFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioStreamFactory.html#a0"><param name="Name" value="CreateAudioStream"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIDLS.html"><param name="Name" value="IDLS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIDLS.html#a0"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIDLS.html#a1"><param name="Name" value="Lock"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIDLS.html#a2"><param name="Name" value="Unlock"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html"><param name="Name" value="IEAXBuffer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a14"><param name="Name" value="GetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a11"><param name="Name" value="SetAirAbsorptionFactor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a0"><param name="Name" value="SetDirect"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a1"><param name="Name" value="SetDirectHF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a12"><param name="Name" value="SetFlags"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a5"><param name="Name" value="SetObstruction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a6"><param name="Name" value="SetObstructionLFRatio"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a7"><param name="Name" value="SetOcclusion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a8"><param name="Name" value="SetOcclusionLFRatio"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a9"><param name="Name" value="SetOcclusionRoomRatio"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a10"><param name="Name" value="SetOutsideVolumeHF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a13"><param name="Name" value="SetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a2"><param name="Name" value="SetRoom"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a3"><param name="Name" value="SetRoomHF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a4"><param name="Name" value="SetRoomRolloffFactor"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html"><param name="Name" value="IEAXListener"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a15"><param name="Name" value="GetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a12"><param name="Name" value="SetAirAbsorptionHF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a4"><param name="Name" value="SetDecayHFRatio"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a3"><param name="Name" value="SetDecayTime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a9"><param name="Name" value="SetEnvironment"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a11"><param name="Name" value="SetEnvironmentDiffusion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a10"><param name="Name" value="SetEnvironmentSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a13"><param name="Name" value="SetFlags"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a14"><param name="Name" value="SetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a5"><param name="Name" value="SetReflections"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a6"><param name="Name" value="SetReflectionsDelay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a7"><param name="Name" value="SetReverb"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a8"><param name="Name" value="SetReverbDelay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a0"><param name="Name" value="SetRoom"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a1"><param name="Name" value="SetRoomHF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a2"><param name="Name" value="SetRoomRolloffFactor"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html"><param name="Name" value="IListener"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a19"><param name="Name" value="EAX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a17"><param name="Name" value="Get"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a11"><param name="Name" value="GetDistanceFactor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a13"><param name="Name" value="GetDopplerFactor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a9"><param name="Name" value="GetOrientation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a5"><param name="Name" value="GetPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a3"><param name="Name" value="GetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a15"><param name="Name" value="GetRolloffFactor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a7"><param name="Name" value="GetVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a0"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a16"><param name="Name" value="QuerySupport"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a18"><param name="Name" value="Set"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a10"><param name="Name" value="SetDistanceFactor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a12"><param name="Name" value="SetDopplerFactor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a8"><param name="Name" value="SetOrientation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a4"><param name="Name" value="SetPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a2"><param name="Name" value="SetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a14"><param name="Name" value="SetRolloffFactor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a6"><param name="Name" value="SetVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a1"><param name="Name" value="Term"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicCallback.html"><param name="Name" value="IMusicCallback"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicCallback.html#a0"><param name="Name" value="OnSegmentStart"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html"><param name="Name" value="IMusicManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a6"><param name="Name" value="GetNextTheme"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a0"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a2"><param name="Name" value="IsInitialized"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a3"><param name="Name" value="LoadScript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a4"><param name="Name" value="PlayTheme"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a8"><param name="Name" value="RemoveAll"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a7"><param name="Name" value="RemoveTheme"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a5"><param name="Name" value="ResetThemeItr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a1"><param name="Name" value="Term"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Init"><param name="Name" value="Init"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a0"><param name="Name" value="IAudioManager"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioScript.html#a0"><param name="Name" value="IAudioScript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIDLS.html#a0"><param name="Name" value="IDLS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a0"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a0"><param name="Name" value="IMusicManager"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISegment.html#a0"><param name="Name" value="ISegment"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a0"><param name="Name" value="ISound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a0"><param name="Name" value="ISound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a0"><param name="Name" value="ISoundManager"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundScape.html#a0"><param name="Name" value="ISoundScape"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="InitSoundScape"><param name="Name" value="InitSoundScape"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a22"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html"><param name="Name" value="IPlayable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a5"><param name="Name" value="IsLooping"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a4"><param name="Name" value="IsPaused"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a3"><param name="Name" value="IsPlaying"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a1"><param name="Name" value="Pause"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a0"><param name="Name" value="Play"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a2"><param name="Name" value="Stop"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classISegment.html"><param name="Name" value="ISegment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISegment.html#a0"><param name="Name" value="Init"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsInitialized"><param name="Name" value="IsInitialized"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html#a1"><param name="Name" value="IAudioBase"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a2"><param name="Name" value="IAudioManager"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a2"><param name="Name" value="IMusicManager"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a2"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsLoaded"><param name="Name" value="IsLoaded"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html#a4"><param name="Name" value="IAudioBase"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsLooping"><param name="Name" value="IsLooping"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a5"><param name="Name" value="IPlayable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html"><param name="Name" value="ISound3D"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a26"><param name="Name" value="EAX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a29"><param name="Name" value="Get"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a12"><param name="Name" value="GetConeAngles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a14"><param name="Name" value="GetConeOrientation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a16"><param name="Name" value="GetConeOutsideVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a8"><param name="Name" value="GetMaxDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a10"><param name="Name" value="GetMinDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a18"><param name="Name" value="GetMode"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a22"><param name="Name" value="GetPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a4"><param name="Name" value="GetPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a2"><param name="Name" value="GetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a24"><param name="Name" value="GetReadCursor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a25"><param name="Name" value="GetSourceSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a6"><param name="Name" value="GetVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a20"><param name="Name" value="GetVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a0"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a28"><param name="Name" value="QuerySupport"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a30"><param name="Name" value="Set"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a11"><param name="Name" value="SetConeAngles"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a13"><param name="Name" value="SetConeOrientation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a15"><param name="Name" value="SetConeOutsideVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a7"><param name="Name" value="SetMaxDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a9"><param name="Name" value="SetMinDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a17"><param name="Name" value="SetMode"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a21"><param name="Name" value="SetPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a3"><param name="Name" value="SetPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a1"><param name="Name" value="SetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a23"><param name="Name" value="SetReadCursor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a5"><param name="Name" value="SetVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a19"><param name="Name" value="SetVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a27"><param name="Name" value="ZoomFX"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html"><param name="Name" value="ISound"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a6"><param name="Name" value="GetPan"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a8"><param name="Name" value="GetPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a2"><param name="Name" value="GetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a10"><param name="Name" value="GetReadCursor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a11"><param name="Name" value="GetSourceSize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a4"><param name="Name" value="GetVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a0"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a5"><param name="Name" value="SetPan"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a7"><param name="Name" value="SetPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a1"><param name="Name" value="SetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a9"><param name="Name" value="SetReadCursor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a3"><param name="Name" value="SetVolume"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html"><param name="Name" value="ISoundManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a21"><param name="Name" value="CreateSoundScape"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a10"><param name="Name" value="GetNextSound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a18"><param name="Name" value="GetNextSound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a25"><param name="Name" value="GetNextSoundScape"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a5"><param name="Name" value="GetSound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a13"><param name="Name" value="GetSound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a14"><param name="Name" value="GetSound3DInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a6"><param name="Name" value="GetSoundInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a0"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a22"><param name="Name" value="InitSoundScape"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a2"><param name="Name" value="IsInitialized"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a16"><param name="Name" value="IsSound3DRegistered"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a8"><param name="Name" value="IsSoundRegistered"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a23"><param name="Name" value="IsSoundScapeRegistered"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a3"><param name="Name" value="LoadScript"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a7"><param name="Name" value="ReleaseSound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a15"><param name="Name" value="ReleaseSound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a4"><param name="Name" value="RemoveAll"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a12"><param name="Name" value="RemoveAllSounds"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a20"><param name="Name" value="RemoveAllSounds3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a27"><param name="Name" value="RemoveAllSoundScapes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a11"><param name="Name" value="RemoveSound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a19"><param name="Name" value="RemoveSound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a26"><param name="Name" value="RemoveSoundScape"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a17"><param name="Name" value="ResetSound3DItr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a9"><param name="Name" value="ResetSoundItr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a24"><param name="Name" value="ResetSoundScapeItr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a1"><param name="Name" value="Term"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundScape.html"><param name="Name" value="ISoundScape"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundScape.html#a2"><param name="Name" value="AddElement"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundScape.html#a4"><param name="Name" value="GetVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundScape.html#a0"><param name="Name" value="Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundScape.html#a3"><param name="Name" value="SetVolume"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsPaused"><param name="Name" value="IsPaused"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a4"><param name="Name" value="IPlayable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsPlaying"><param name="Name" value="IsPlaying"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a3"><param name="Name" value="IPlayable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsSound3DRegistered"><param name="Name" value="IsSound3DRegistered"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a16"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsSoundRegistered"><param name="Name" value="IsSoundRegistered"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a8"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IsSoundScapeRegistered"><param name="Name" value="IsSoundScapeRegistered"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a23"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html"><param name="Name" value="IZoomFX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html#a4"><param name="Name" value="GetProperties"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html#a0"><param name="Name" value="SetBox"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html#a2"><param name="Name" value="SetMacroFX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html#a1"><param name="Name" value="SetOrientation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html#a3"><param name="Name" value="SetProperties"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerInit.html"><param name="Name" value="ListenerInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerInit.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerInit.html#a0"><param name="Name" value="ListenerInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerInit.html#m0"><param name="Name" value="m_Prop"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html"><param name="Name" value="ListenerProp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#a0"><param name="Name" value="ListenerProp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m4"><param name="Name" value="m_fDistanceFactor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m6"><param name="Name" value="m_fDopplerFactor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m5"><param name="Name" value="m_fRolloffFactor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m2"><param name="Name" value="m_vOrientFront"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m3"><param name="Name" value="m_vOrientTop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m0"><param name="Name" value="m_vPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m1"><param name="Name" value="m_vVelocity"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Load"><param name="Name" value="Load"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html#a2"><param name="Name" value="IAudioBase"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="LoadScript"><param name="Name" value="LoadScript"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a3"><param name="Name" value="IMusicManager"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a3"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Lock"><param name="Name" value="Lock"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIDLS.html#a1"><param name="Name" value="IDLS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bAutoStream"><param name="Name" value="m_bAutoStream"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m6"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bCacheBuffers"><param name="Name" value="m_bCacheBuffers"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m7"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bForce2DSoftware"><param name="Name" value="m_bForce2DSoftware"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#m0"><param name="Name" value="AudioMgrStats"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bForce3DSoftware"><param name="Name" value="m_bForce3DSoftware"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#m1"><param name="Name" value="AudioMgrStats"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bForceSoftware"><param name="Name" value="m_bForceSoftware"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m2"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bLoadAsyncronously"><param name="Name" value="m_bLoadAsyncronously"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m1"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bLooping"><param name="Name" value="m_bLooping"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#m1"><param name="Name" value="SegmentInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m2"><param name="Name" value="Sound3DInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m2"><param name="Name" value="SoundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bMusic"><param name="Name" value="m_bMusic"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioScriptInit.html#m1"><param name="Name" value="AudioScriptInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#m2"><param name="Name" value="SegmentInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m3"><param name="Name" value="Sound3DInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m3"><param name="Name" value="SoundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bStreaming"><param name="Name" value="m_bStreaming"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m1"><param name="Name" value="Sound3DInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m1"><param name="Name" value="SoundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bUseEAX"><param name="Name" value="m_bUseEAX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m4"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bUseMusicReverb"><param name="Name" value="m_bUseMusicReverb"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m3"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_bUseZoomFX"><param name="Name" value="m_bUseZoomFX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m5"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fConeOutsideVolume"><param name="Name" value="m_fConeOutsideVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m5"><param name="Name" value="Sound3DProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fDistanceFactor"><param name="Name" value="m_fDistanceFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m4"><param name="Name" value="ListenerProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fDopplerFactor"><param name="Name" value="m_fDopplerFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m6"><param name="Name" value="ListenerProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMaxDelay"><param name="Name" value="m_fMaxDelay"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m4"><param name="Name" value="PeriodicInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMaxDistance"><param name="Name" value="m_fMaxDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m7"><param name="Name" value="Sound3DProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMaxPitch"><param name="Name" value="m_fMaxPitch"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m6"><param name="Name" value="BackgroundInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m2"><param name="Name" value="PeriodicInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMaxPitchTime"><param name="Name" value="m_fMaxPitchTime"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m8"><param name="Name" value="BackgroundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMaxVolume"><param name="Name" value="m_fMaxVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m2"><param name="Name" value="BackgroundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMaxVolumeTime"><param name="Name" value="m_fMaxVolumeTime"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m4"><param name="Name" value="BackgroundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMinDelay"><param name="Name" value="m_fMinDelay"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m3"><param name="Name" value="PeriodicInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMinDistance"><param name="Name" value="m_fMinDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m8"><param name="Name" value="PeriodicInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m6"><param name="Name" value="Sound3DProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMinPitch"><param name="Name" value="m_fMinPitch"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m5"><param name="Name" value="BackgroundInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m1"><param name="Name" value="PeriodicInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMinPitchTime"><param name="Name" value="m_fMinPitchTime"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m7"><param name="Name" value="BackgroundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMinVolume"><param name="Name" value="m_fMinVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m1"><param name="Name" value="BackgroundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fMinVolumeTime"><param name="Name" value="m_fMinVolumeTime"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m3"><param name="Name" value="BackgroundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fPan"><param name="Name" value="m_fPan"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#m1"><param name="Name" value="SoundProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fPitch"><param name="Name" value="m_fPitch"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m10"><param name="Name" value="Sound3DProp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#m2"><param name="Name" value="SoundProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fRolloffFactor"><param name="Name" value="m_fRolloffFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m5"><param name="Name" value="ListenerProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fVolume"><param name="Name" value="m_fVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m9"><param name="Name" value="Sound3DProp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#m0"><param name="Name" value="SoundProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fXRange"><param name="Name" value="m_fXRange"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m5"><param name="Name" value="PeriodicInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fYRange"><param name="Name" value="m_fYRange"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m6"><param name="Name" value="PeriodicInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_fZRange"><param name="Name" value="m_fZRange"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m7"><param name="Name" value="PeriodicInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_hWnd"><param name="Name" value="m_hWnd"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m0"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_n2DHardwareBufferMax"><param name="Name" value="m_n2DHardwareBufferMax"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m10"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_n2DHardwareBufferMin"><param name="Name" value="m_n2DHardwareBufferMin"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m8"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_n2DSoftwareBufferMax"><param name="Name" value="m_n2DSoftwareBufferMax"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m12"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_n2DSoundsLoaded"><param name="Name" value="m_n2DSoundsLoaded"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#m2"><param name="Name" value="AudioMgrStats"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_n3DHardwareBufferMax"><param name="Name" value="m_n3DHardwareBufferMax"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m11"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_n3DHardwareBufferMin"><param name="Name" value="m_n3DHardwareBufferMin"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m9"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_n3DSoftwareBufferMax"><param name="Name" value="m_n3DSoftwareBufferMax"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m13"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_n3DSoundsLoaded"><param name="Name" value="m_n3DSoundsLoaded"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#m3"><param name="Name" value="AudioMgrStats"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_nInsideConeAngle"><param name="Name" value="m_nInsideConeAngle"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m3"><param name="Name" value="Sound3DProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_nMode"><param name="Name" value="m_nMode"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m8"><param name="Name" value="Sound3DProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_nOptimalSampleBits"><param name="Name" value="m_nOptimalSampleBits"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m15"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_nOptimalSampleRate"><param name="Name" value="m_nOptimalSampleRate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m16"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_nOutsideConeAngle"><param name="Name" value="m_nOutsideConeAngle"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m4"><param name="Name" value="Sound3DProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_nPriority"><param name="Name" value="m_nPriority"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m4"><param name="Name" value="Sound3DInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m4"><param name="Name" value="SoundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_nReadCursor"><param name="Name" value="m_nReadCursor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m11"><param name="Name" value="Sound3DProp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#m3"><param name="Name" value="SoundProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_nSegmentMax"><param name="Name" value="m_nSegmentMax"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m14"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_nSegmentsLoaded"><param name="Name" value="m_nSegmentsLoaded"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrStats.html#m4"><param name="Name" value="AudioMgrStats"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_pAudioStreamFactory"><param name="Name" value="m_pAudioStreamFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m18"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_pDLS"><param name="Name" value="m_pDLS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#m3"><param name="Name" value="SegmentInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_pMusicCallback"><param name="Name" value="m_pMusicCallback"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m19"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_Prop"><param name="Name" value="m_Prop"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerInit.html#m0"><param name="Name" value="ListenerInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m5"><param name="Name" value="Sound3DInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m5"><param name="Name" value="SoundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_pSound3D"><param name="Name" value="m_pSound3D"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m0"><param name="Name" value="PeriodicInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_pSound"><param name="Name" value="m_pSound"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackgroundInit.html#m0"><param name="Name" value="BackgroundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_sFileName"><param name="Name" value="m_sFileName"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioScriptInit.html#m0"><param name="Name" value="AudioScriptInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structDLSInit.html#m0"><param name="Name" value="DLSInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#m0"><param name="Name" value="SegmentInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m0"><param name="Name" value="Sound3DInit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m0"><param name="Name" value="SoundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_sWorkingPath"><param name="Name" value="m_sWorkingPath"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAudioMgrInit.html#m17"><param name="Name" value="AudioMgrInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_vConeOrientation"><param name="Name" value="m_vConeOrientation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m2"><param name="Name" value="Sound3DProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_vOrientFront"><param name="Name" value="m_vOrientFront"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m2"><param name="Name" value="ListenerProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_vOrientTop"><param name="Name" value="m_vOrientTop"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m3"><param name="Name" value="ListenerProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_vPosition"><param name="Name" value="m_vPosition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m0"><param name="Name" value="ListenerProp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m0"><param name="Name" value="Sound3DProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="m_vVelocity"><param name="Name" value="m_vVelocity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structListenerProp.html#m1"><param name="Name" value="ListenerProp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m1"><param name="Name" value="Sound3DProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="OnSegmentStart"><param name="Name" value="OnSegmentStart"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicCallback.html#a0"><param name="Name" value="IMusicCallback"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Open"><param name="Name" value="Open"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioStream.html#a0"><param name="Name" value="IAudioStream"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Pause"><param name="Name" value="Pause"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a1"><param name="Name" value="IPlayable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PauseAll"><param name="Name" value="PauseAll"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a15"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html"><param name="Name" value="PeriodicInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m4"><param name="Name" value="m_fMaxDelay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m2"><param name="Name" value="m_fMaxPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m3"><param name="Name" value="m_fMinDelay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m8"><param name="Name" value="m_fMinDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m1"><param name="Name" value="m_fMinPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m5"><param name="Name" value="m_fXRange"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m6"><param name="Name" value="m_fYRange"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m7"><param name="Name" value="m_fZRange"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#m0"><param name="Name" value="m_pSound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structPeriodicInit.html#a0"><param name="Name" value="PeriodicInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Play"><param name="Name" value="Play"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a0"><param name="Name" value="IPlayable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PlayTheme"><param name="Name" value="PlayTheme"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a4"><param name="Name" value="IMusicManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="QuerySupport"><param name="Name" value="QuerySupport"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a16"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a28"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ReleaseSound3D"><param name="Name" value="ReleaseSound3D"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a15"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ReleaseSound"><param name="Name" value="ReleaseSound"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a7"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RemoveAll"><param name="Name" value="RemoveAll"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a8"><param name="Name" value="IMusicManager"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a4"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RemoveAllSounds3D"><param name="Name" value="RemoveAllSounds3D"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a20"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RemoveAllSounds"><param name="Name" value="RemoveAllSounds"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a12"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RemoveAllSoundScapes"><param name="Name" value="RemoveAllSoundScapes"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a27"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RemoveSound3D"><param name="Name" value="RemoveSound3D"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a19"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RemoveSound"><param name="Name" value="RemoveSound"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a11"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RemoveSoundScape"><param name="Name" value="RemoveSoundScape"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a26"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RemoveTheme"><param name="Name" value="RemoveTheme"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a7"><param name="Name" value="IMusicManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ResetSound3DItr"><param name="Name" value="ResetSound3DItr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a17"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ResetSoundItr"><param name="Name" value="ResetSoundItr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a9"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ResetSoundScapeItr"><param name="Name" value="ResetSoundScapeItr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a24"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ResetThemeItr"><param name="Name" value="ResetThemeItr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a5"><param name="Name" value="IMusicManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ResumeAll"><param name="Name" value="ResumeAll"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a16"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html"><param name="Name" value="SegmentInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#m1"><param name="Name" value="m_bLooping"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#m2"><param name="Name" value="m_bMusic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#m3"><param name="Name" value="m_pDLS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#m0"><param name="Name" value="m_sFileName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSegmentInit.html#a0"><param name="Name" value="SegmentInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Set"><param name="Name" value="Set"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a18"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a30"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetAirAbsorptionFactor"><param name="Name" value="SetAirAbsorptionFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a11"><param name="Name" value="IEAXBuffer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetAirAbsorptionHF"><param name="Name" value="SetAirAbsorptionHF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a12"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetBox"><param name="Name" value="SetBox"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html#a0"><param name="Name" value="IZoomFX"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetConeAngles"><param name="Name" value="SetConeAngles"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a11"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetConeOrientation"><param name="Name" value="SetConeOrientation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a13"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetConeOutsideVolume"><param name="Name" value="SetConeOutsideVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a15"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetDecayHFRatio"><param name="Name" value="SetDecayHFRatio"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a4"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetDecayTime"><param name="Name" value="SetDecayTime"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a3"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetDirect"><param name="Name" value="SetDirect"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a0"><param name="Name" value="IEAXBuffer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetDirectHF"><param name="Name" value="SetDirectHF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a1"><param name="Name" value="IEAXBuffer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetDistanceFactor"><param name="Name" value="SetDistanceFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a10"><param name="Name" value="IListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetDopplerFactor"><param name="Name" value="SetDopplerFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a12"><param name="Name" value="IListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetEnvironment"><param name="Name" value="SetEnvironment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a9"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetEnvironmentDiffusion"><param name="Name" value="SetEnvironmentDiffusion"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a11"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetEnvironmentSize"><param name="Name" value="SetEnvironmentSize"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a10"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetFlags"><param name="Name" value="SetFlags"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a12"><param name="Name" value="IEAXBuffer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a13"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetMacroFX"><param name="Name" value="SetMacroFX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html#a2"><param name="Name" value="IZoomFX"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetMaxDistance"><param name="Name" value="SetMaxDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a7"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetMinDistance"><param name="Name" value="SetMinDistance"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a9"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetMode"><param name="Name" value="SetMode"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a17"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetMusicVolume"><param name="Name" value="SetMusicVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a12"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetObstruction"><param name="Name" value="SetObstruction"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a5"><param name="Name" value="IEAXBuffer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetObstructionLFRatio"><param name="Name" value="SetObstructionLFRatio"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a6"><param name="Name" value="IEAXBuffer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetOcclusion"><param name="Name" value="SetOcclusion"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a7"><param name="Name" value="IEAXBuffer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetOcclusionLFRatio"><param name="Name" value="SetOcclusionLFRatio"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a8"><param name="Name" value="IEAXBuffer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetOcclusionRoomRatio"><param name="Name" value="SetOcclusionRoomRatio"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a9"><param name="Name" value="IEAXBuffer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetOrientation"><param name="Name" value="SetOrientation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a8"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html#a1"><param name="Name" value="IZoomFX"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetOutsideVolumeHF"><param name="Name" value="SetOutsideVolumeHF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a10"><param name="Name" value="IEAXBuffer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetPan"><param name="Name" value="SetPan"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a5"><param name="Name" value="ISound"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetPitch"><param name="Name" value="SetPitch"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a7"><param name="Name" value="ISound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a21"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetPosition"><param name="Name" value="SetPosition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a4"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a3"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetProperties"><param name="Name" value="SetProperties"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a13"><param name="Name" value="IEAXBuffer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a14"><param name="Name" value="IEAXListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a2"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a1"><param name="Name" value="ISound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a1"><param name="Name" value="ISound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIZoomFX.html#a3"><param name="Name" value="IZoomFX"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetReadCursor"><param name="Name" value="SetReadCursor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a9"><param name="Name" value="ISound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a23"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetReflections"><param name="Name" value="SetReflections"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a5"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetReflectionsDelay"><param name="Name" value="SetReflectionsDelay"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a6"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetReverb"><param name="Name" value="SetReverb"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a7"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetReverbDelay"><param name="Name" value="SetReverbDelay"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a8"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetRolloffFactor"><param name="Name" value="SetRolloffFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a14"><param name="Name" value="IListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetRoom"><param name="Name" value="SetRoom"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a2"><param name="Name" value="IEAXBuffer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a0"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetRoomHF"><param name="Name" value="SetRoomHF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a3"><param name="Name" value="IEAXBuffer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a1"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetRoomRolloffFactor"><param name="Name" value="SetRoomRolloffFactor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXBuffer.html#a4"><param name="Name" value="IEAXBuffer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIEAXListener.html#a2"><param name="Name" value="IEAXListener"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetSoundVolume"><param name="Name" value="SetSoundVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a10"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetVariable"><param name="Name" value="SetVariable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioScript.html#a1"><param name="Name" value="IAudioScript"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetVelocity"><param name="Name" value="SetVelocity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a6"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a5"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SetVolume"><param name="Name" value="SetVolume"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound.html#a3"><param name="Name" value="ISound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a19"><param name="Name" value="ISound3D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundScape.html#a3"><param name="Name" value="ISoundScape"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html"><param name="Name" value="Sound3DInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m2"><param name="Name" value="m_bLooping"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m3"><param name="Name" value="m_bMusic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m1"><param name="Name" value="m_bStreaming"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m4"><param name="Name" value="m_nPriority"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m5"><param name="Name" value="m_Prop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#m0"><param name="Name" value="m_sFileName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DInit.html#a0"><param name="Name" value="Sound3DInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html"><param name="Name" value="Sound3DProp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m5"><param name="Name" value="m_fConeOutsideVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m7"><param name="Name" value="m_fMaxDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m6"><param name="Name" value="m_fMinDistance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m10"><param name="Name" value="m_fPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m9"><param name="Name" value="m_fVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m3"><param name="Name" value="m_nInsideConeAngle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m8"><param name="Name" value="m_nMode"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m4"><param name="Name" value="m_nOutsideConeAngle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m11"><param name="Name" value="m_nReadCursor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m2"><param name="Name" value="m_vConeOrientation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m0"><param name="Name" value="m_vPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#m1"><param name="Name" value="m_vVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSound3DProp.html#a0"><param name="Name" value="Sound3DProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html"><param name="Name" value="SoundInit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m2"><param name="Name" value="m_bLooping"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m3"><param name="Name" value="m_bMusic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m1"><param name="Name" value="m_bStreaming"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m4"><param name="Name" value="m_nPriority"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m5"><param name="Name" value="m_Prop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#m0"><param name="Name" value="m_sFileName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundInit.html#a0"><param name="Name" value="SoundInit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html"><param name="Name" value="SoundProp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#m1"><param name="Name" value="m_fPan"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#m2"><param name="Name" value="m_fPitch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#m0"><param name="Name" value="m_fVolume"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#m3"><param name="Name" value="m_nReadCursor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSoundProp.html#a0"><param name="Name" value="SoundProp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Stop"><param name="Name" value="Stop"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIPlayable.html#a2"><param name="Name" value="IPlayable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="StopAll"><param name="Name" value="StopAll"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a14"><param name="Name" value="IAudioManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Term"><param name="Name" value="Term"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioManager.html#a1"><param name="Name" value="IAudioManager"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIListener.html#a1"><param name="Name" value="IListener"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIMusicManager.html#a1"><param name="Name" value="IMusicManager"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISoundManager.html#a1"><param name="Name" value="ISoundManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Unload"><param name="Name" value="Unload"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIAudioBase.html#a3"><param name="Name" value="IAudioBase"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Unlock"><param name="Name" value="Unlock"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIDLS.html#a2"><param name="Name" value="IDLS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ZoomFX"><param name="Name" value="ZoomFX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classISound3D.html#a27"><param name="Name" value="ISound3D"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXBox.html"><param name="Name" value="ZoomFXBox"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXBox.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXBox.html#a0"><param name="Name" value="ZoomFXBox"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXOrientation.html"><param name="Name" value="ZoomFXOrientation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXOrientation.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXOrientation.html#a0"><param name="Name" value="ZoomFXOrientation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXProps.html"><param name="Name" value="ZoomFXProps"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXProps.html#a1"><param name="Name" value="Clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structZoomFXProps.html#a0"><param name="Name" value="ZoomFXProps"></OBJECT>
+</UL>

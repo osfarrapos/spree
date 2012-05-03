@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XPacker - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE38.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/XPacker.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\XPacker\StdAfx.cpp"
+]
+Creating command line "cl.exe @G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE38.tmp" 
+Creating temporary file "G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE39.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/XPacker.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\XPacker\XPacker.cpp"
+"D:\Work\EmperorOfDragons\XPacker\XPackerDlg.cpp"
+"D:\Work\EmperorOfDragons\XPacker\DirDialog.cpp"
+"D:\Work\EmperorOfDragons\XPacker\EditSoundListItemDlg.cpp"
+"D:\Work\EmperorOfDragons\XPacker\ModifySoundSceneItemDlg.cpp"
+"D:\Work\EmperorOfDragons\XPacker\MywndTab.cpp"
+"D:\Work\EmperorOfDragons\XPacker\NewPackageFileDlg.cpp"
+"D:\Work\EmperorOfDragons\XPacker\NewSectionDlg.cpp"
+"D:\Work\EmperorOfDragons\XPacker\PackingView.cpp"
+"D:\Work\EmperorOfDragons\XPacker\ProgressDlg.cpp"
+"D:\Work\EmperorOfDragons\XPacker\SetRootPathDlg.cpp"
+"D:\Work\EmperorOfDragons\XPacker\WavePackageView.cpp"
+"D:\Work\EmperorOfDragons\XPacker\wndTab.cpp"
+"D:\Work\EmperorOfDragons\XPacker\xShadeButton.cpp"
+"D:\Work\EmperorOfDragons\XPacker\XTreeCtrl.cpp"
+"D:\Work\EmperorOfDragons\XPacker\Package.cpp"
+"D:\Work\EmperorOfDragons\XPacker\PackFileItem.cpp"
+"D:\Work\EmperorOfDragons\XPacker\SectionList.cpp"
+"D:\Work\EmperorOfDragons\XPacker\SndTableList.cpp"
+"D:\Work\EmperorOfDragons\XPacker\WavePackage.cpp"
+"D:\Work\EmperorOfDragons\XPacker\XDSound.cpp"
+"D:\Work\EmperorOfDragons\XPacker\Xitem.cpp"
+"D:\Work\EmperorOfDragons\XPacker\Xlist.cpp"
+]
+Creating command line "cl.exe @G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE39.tmp" 
+Creating temporary file "G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE3A.tmp" with contents
+[
+Imagehlp.lib shlwapi.lib Zip/Zip.lib winmm.lib dsound.lib dxguid.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/XPacker.pdb" /machine:I386 /nodefaultlib:"LIBC" /out:"Release/XPacker.exe" 
+.\Release\StdAfx.obj
+.\Release\XPacker.obj
+.\Release\XPackerDlg.obj
+.\Release\DirDialog.obj
+.\Release\EditSoundListItemDlg.obj
+.\Release\ModifySoundSceneItemDlg.obj
+.\Release\MywndTab.obj
+.\Release\NewPackageFileDlg.obj
+.\Release\NewSectionDlg.obj
+.\Release\PackingView.obj
+.\Release\ProgressDlg.obj
+.\Release\SetRootPathDlg.obj
+.\Release\WavePackageView.obj
+.\Release\wndTab.obj
+.\Release\xShadeButton.obj
+.\Release\XTreeCtrl.obj
+.\Release\Package.obj
+.\Release\PackFileItem.obj
+.\Release\SectionList.obj
+.\Release\SndTableList.obj
+.\Release\WavePackage.obj
+.\Release\XDSound.obj
+.\Release\Xitem.obj
+.\Release\Xlist.obj
+.\Release\XPacker.res
+]
+Creating command line "link.exe @G:\DOCUME~1\kerygma\LOCALS~1\Temp\RSPE3A.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+XPacker.cpp
+XPackerDlg.cpp
+DirDialog.cpp
+EditSoundListItemDlg.cpp
+ModifySoundSceneItemDlg.cpp
+MywndTab.cpp
+NewPackageFileDlg.cpp
+NewSectionDlg.cpp
+PackingView.cpp
+ProgressDlg.cpp
+SetRootPathDlg.cpp
+WavePackageView.cpp
+wndTab.cpp
+xShadeButton.cpp
+XTreeCtrl.cpp
+Package.cpp
+PackFileItem.cpp
+SectionList.cpp
+SndTableList.cpp
+WavePackage.cpp
+Generating Code...
+Compiling...
+XDSound.cpp
+Xitem.cpp
+Xlist.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+XPacker.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

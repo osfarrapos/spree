@@ -1,0 +1,20 @@
+// _XWindow_TestServerNotice.cpp: implementation of the _XWindow_TestServerNotice class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "XWindow_TestServerNotice.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+_XWindow_TestServerNotice::_XWindow_TestServerNotice()
+{
+
+}
+
+_XWindow_TestServerNotice::~_XWindow_TestServerNotice()
+{
+
+}

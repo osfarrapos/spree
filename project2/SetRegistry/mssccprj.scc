@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[SetRegistry.dsp]
+SCC_Aux_Path = "\\Kerygma\NDSourceSafeServer\"
+SCC_Project_Name = "$/EmperorOfDragons/SetRegistry", BJEBAAAA

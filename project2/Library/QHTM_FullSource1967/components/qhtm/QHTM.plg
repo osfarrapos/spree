@@ -1,0 +1,938 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: jpeglib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP219.tmp" with contents
+[
+/nologo /MD /W3 /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "STRICT" /Fo"Release\obj/" /Fd"Release\obj/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcapimin.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcapistd.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jccoefct.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jccolor.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcdctmgr.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jchuff.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcinit.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcmainct.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcmarker.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcmaster.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcomapi.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcparam.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcphuff.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcprepct.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jcsample.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jctrans.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdapimin.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdapistd.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdatadst.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdatasrc.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdcoefct.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdcolor.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jddctmgr.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdhuff.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdinput.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdmainct.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdmarker.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdmaster.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdmerge.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdphuff.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdpostct.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdsample.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jdtrans.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jerror.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jfdctflt.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jfdctfst.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jfdctint.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jidctflt.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jidctfst.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jidctint.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jidctred.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jmemmgr.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jmemnobs.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jquant1.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jquant2.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\jpeg-6b\jutils.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP219.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21A.tmp" with contents
+[
+/nologo /out:"..\..\bin\jpeglib.lib" 
+".\Release\obj\jcapimin.obj"
+".\Release\obj\jcapistd.obj"
+".\Release\obj\jccoefct.obj"
+".\Release\obj\jccolor.obj"
+".\Release\obj\jcdctmgr.obj"
+".\Release\obj\jchuff.obj"
+".\Release\obj\jcinit.obj"
+".\Release\obj\jcmainct.obj"
+".\Release\obj\jcmarker.obj"
+".\Release\obj\jcmaster.obj"
+".\Release\obj\jcomapi.obj"
+".\Release\obj\jcparam.obj"
+".\Release\obj\jcphuff.obj"
+".\Release\obj\jcprepct.obj"
+".\Release\obj\jcsample.obj"
+".\Release\obj\jctrans.obj"
+".\Release\obj\jdapimin.obj"
+".\Release\obj\jdapistd.obj"
+".\Release\obj\jdatadst.obj"
+".\Release\obj\jdatasrc.obj"
+".\Release\obj\jdcoefct.obj"
+".\Release\obj\jdcolor.obj"
+".\Release\obj\jddctmgr.obj"
+".\Release\obj\jdhuff.obj"
+".\Release\obj\jdinput.obj"
+".\Release\obj\jdmainct.obj"
+".\Release\obj\jdmarker.obj"
+".\Release\obj\jdmaster.obj"
+".\Release\obj\jdmerge.obj"
+".\Release\obj\jdphuff.obj"
+".\Release\obj\jdpostct.obj"
+".\Release\obj\jdsample.obj"
+".\Release\obj\jdtrans.obj"
+".\Release\obj\jerror.obj"
+".\Release\obj\jfdctflt.obj"
+".\Release\obj\jfdctfst.obj"
+".\Release\obj\jfdctint.obj"
+".\Release\obj\jidctflt.obj"
+".\Release\obj\jidctfst.obj"
+".\Release\obj\jidctint.obj"
+".\Release\obj\jidctred.obj"
+".\Release\obj\jmemmgr.obj"
+".\Release\obj\jmemnobs.obj"
+".\Release\obj\jquant1.obj"
+".\Release\obj\jquant2.obj"
+".\Release\obj\jutils.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21A.tmp"
+<h3>Output Window</h3>
+Compiling...
+jcapimin.c
+jcapistd.c
+jccoefct.c
+jccolor.c
+jcdctmgr.c
+jchuff.c
+jcinit.c
+jcmainct.c
+jcmarker.c
+jcmaster.c
+jcomapi.c
+jcparam.c
+jcphuff.c
+jcprepct.c
+jcsample.c
+jctrans.c
+jdapimin.c
+jdapistd.c
+jdatadst.c
+jdatasrc.c
+Generating Code...
+Compiling...
+jdcoefct.c
+jdcolor.c
+jddctmgr.c
+jdhuff.c
+jdinput.c
+jdmainct.c
+jdmarker.c
+jdmaster.c
+jdmerge.c
+jdphuff.c
+jdpostct.c
+jdsample.c
+jdtrans.c
+jerror.c
+jfdctflt.c
+jfdctfst.c
+jfdctint.c
+jidctflt.c
+jidctfst.c
+jidctint.c
+Generating Code...
+Compiling...
+jidctred.c
+jmemmgr.c
+jmemnobs.c
+jquant1.c
+jquant2.c
+jutils.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: ZLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21B.tmp" with contents
+[
+/nologo /MD /W3 /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\adler32.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\compress.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\crc32.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\deflate.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\gzio.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\infblock.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\infcodes.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\inffast.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\inflate.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\inftrees.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\infutil.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\trees.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\uncompr.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21B.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21C.tmp" with contents
+[
+/nologo /out:"..\..\bin\ZLib.lib" 
+.\Release\adler32.obj
+.\Release\compress.obj
+.\Release\crc32.obj
+.\Release\deflate.obj
+.\Release\gzio.obj
+.\Release\infblock.obj
+.\Release\infcodes.obj
+.\Release\inffast.obj
+.\Release\inflate.obj
+.\Release\inftrees.obj
+.\Release\infutil.obj
+.\Release\trees.obj
+.\Release\uncompr.obj
+.\Release\zutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21C.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+trees.c
+uncompr.c
+zutil.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: ImgLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21D.tmp" with contents
+[
+/nologo /MD /W4 /O2 /I "..\ZLib" /I "..\\" /D "_LIB" /D "NDEBUG" /D "WIN32" /D "_MBCS" /Fp"Release/ImgLib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\DecodeBMP.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\DecodeGIF.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\DecodeICO.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\DecodeJPEG.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\DecodeMNG.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\DecodePCX.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\DecodePNG.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\DibLoader.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\Frame.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\Image.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21D.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21E.tmp" with contents
+[
+/nologo /MD /W4 /O2 /I "..\ZLib" /I "..\\" /D "_LIB" /D "NDEBUG" /D "WIN32" /D "_MBCS" /Fp"Release/ImgLib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21E.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21F.tmp" with contents
+[
+/nologo /out:"..\..\bin\ImgLib.lib" 
+.\Release\DecodeBMP.obj
+.\Release\DecodeGIF.obj
+.\Release\DecodeICO.obj
+.\Release\DecodeJPEG.obj
+.\Release\DecodeMNG.obj
+.\Release\DecodePCX.obj
+.\Release\DecodePNG.obj
+.\Release\DibLoader.obj
+.\Release\Frame.obj
+.\Release\Image.obj
+.\Release\StdAfx.obj
+\Work\EmperorOfDragons\Library\QHTM_FullSource1967\bin\jpeglib.lib
+\Work\EmperorOfDragons\Library\QHTM_FullSource1967\bin\ZLib.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP21F.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+DecodeBMP.cpp
+DecodeGIF.cpp
+DecodeICO.cpp
+DecodeJPEG.cpp
+DecodeMNG.cpp
+DecodePCX.cpp
+DecodePNG.cpp
+DibLoader.cpp
+Frame.cpp
+Image.cpp
+Generating Code...
+D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\ImgLib\DecodeGIF.cpp(264) : warning C4702: unreachable code
+Creating library...
+<h3>
+--------------------Configuration: DataSource - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP220.tmp" with contents
+[
+/nologo /MD /W4 /O2 /I "..\\" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/DataSource.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DataSource\BufferDataSource.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DataSource\DataSourceABC.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DataSource\FileDataSource.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DataSource\ResourceDataSource.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP220.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP221.tmp" with contents
+[
+/nologo /MD /W4 /O2 /I "..\\" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/DataSource.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DataSource\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP221.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\bin\DataSource.lib"  .\Release\BufferDataSource.obj .\Release\DataSourceABC.obj .\Release\FileDataSource.obj .\Release\ResourceDataSource.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+BufferDataSource.cpp
+DataSourceABC.cpp
+FileDataSource.cpp
+ResourceDataSource.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: DebugHlp - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP222.tmp" with contents
+[
+/nologo /MD /W4 /O2 /I "../" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_DEBUG_HELP_NO_LINK_LIBS" /Fp"Release/DebugHlp.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DebugHlp\ApiFailure.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DebugHlp\AssertFailed.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DebugHlp\DebugHlp.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DebugHlp\Trace.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DebugHlp\vmalprintf.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP222.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP223.tmp" with contents
+[
+/nologo /MD /W4 /O2 /I "../" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_DEBUG_HELP_NO_LINK_LIBS" /Fp"Release/DebugHlp.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\DebugHlp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP223.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\bin\DebugHlp.lib"  .\Release\ApiFailure.obj .\Release\AssertFailed.obj .\Release\DebugHlp.obj .\Release\StdAfx.obj .\Release\Trace.obj .\Release\vmalprintf.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ApiFailure.cpp
+AssertFailed.cpp
+DebugHlp.cpp
+Trace.cpp
+vmalprintf.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: libpng - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP224.tmp" with contents
+[
+/nologo /MD /W3 /O2 /I "..\zlib\\" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\png.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngerror.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pnggccrd.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngget.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngmem.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngpread.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngread.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngrio.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngrtran.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngrutil.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngset.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngtest.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngtrans.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngvcrd.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngwio.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngwrite.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngwtran.c"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\libpng\pngwutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP224.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP225.tmp" with contents
+[
+/nologo /out:"..\..\bin\libpng.lib" 
+.\Release\png.obj
+.\Release\pngerror.obj
+.\Release\pnggccrd.obj
+.\Release\pngget.obj
+.\Release\pngmem.obj
+.\Release\pngpread.obj
+.\Release\pngread.obj
+.\Release\pngrio.obj
+.\Release\pngrtran.obj
+.\Release\pngrutil.obj
+.\Release\pngset.obj
+.\Release\pngtest.obj
+.\Release\pngtrans.obj
+.\Release\pngvcrd.obj
+.\Release\pngwio.obj
+.\Release\pngwrite.obj
+.\Release\pngwtran.obj
+.\Release\pngwutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP225.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pnggccrd.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtest.c
+pngtrans.c
+pngvcrd.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: guitools - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP226.tmp" with contents
+[
+/nologo /MD /W4 /Ox /Oa /Ow /Og /Oi /Os /Op /I "../" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /FAs /Fa"Release/" /FR"Release/" /Fp"Release/guitools.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\CreateRoundCornerRegion.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIB.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBAlphaBlend.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBBlur.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBClearToColour.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBConvertToGrayScale.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBCreateCopy.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBCreateRegionFromTransparency.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBCreateResized.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBDrawBitmapOntoUs.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBDrawLine.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBDrawTransparent.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBDrawWithAlphaChannel.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBFillRect.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBGetPixel.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBGradientFillLeftToRight.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBGradientFillTopToBottom.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBPutPixel.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBPutPixelBlend.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBRectangle.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DIBSetColourTransparent.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\DrawBitmapShadow.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\drawcontext.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\GradientFill.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\GuiBaseObject.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\GuiBaseWindowObject.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\Guitooltip.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\HandleMouseWheelRegisteredMessage.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\palette.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\RadialGradient.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP226.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP227.tmp" with contents
+[
+/nologo /MD /W4 /Ox /Oa /Ow /Og /Oi /Os /Op /I "../" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /FAs /Fa"Release/" /FR"Release/" /Fp"Release/guitools.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP227.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP228.tmp" with contents
+[
+/nologo /out:"..\..\bin\\guitools.lib" 
+.\Release\CreateRoundCornerRegion.obj
+.\Release\DIB.obj
+.\Release\DIBAlphaBlend.obj
+.\Release\DIBBlur.obj
+.\Release\DIBClearToColour.obj
+.\Release\DIBConvertToGrayScale.obj
+.\Release\DIBCreateCopy.obj
+.\Release\DIBCreateRegionFromTransparency.obj
+.\Release\DIBCreateResized.obj
+.\Release\DIBDrawBitmapOntoUs.obj
+.\Release\DIBDrawLine.obj
+.\Release\DIBDrawTransparent.obj
+.\Release\DIBDrawWithAlphaChannel.obj
+.\Release\DIBFillRect.obj
+.\Release\DIBGetPixel.obj
+.\Release\DIBGradientFillLeftToRight.obj
+.\Release\DIBGradientFillTopToBottom.obj
+.\Release\DIBPutPixel.obj
+.\Release\DIBPutPixelBlend.obj
+.\Release\DIBRectangle.obj
+.\Release\DIBSetColourTransparent.obj
+.\Release\DrawBitmapShadow.obj
+.\Release\drawcontext.obj
+.\Release\GradientFill.obj
+.\Release\GuiBaseObject.obj
+.\Release\GuiBaseWindowObject.obj
+.\Release\Guitooltip.obj
+.\Release\HandleMouseWheelRegisteredMessage.obj
+.\Release\palette.obj
+.\Release\RadialGradient.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP228.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CreateRoundCornerRegion.cpp
+DIB.cpp
+DIBAlphaBlend.cpp
+DIBBlur.cpp
+DIBClearToColour.cpp
+DIBConvertToGrayScale.cpp
+DIBCreateCopy.cpp
+DIBCreateRegionFromTransparency.cpp
+DIBCreateResized.cpp
+DIBDrawBitmapOntoUs.cpp
+DIBDrawLine.cpp
+DIBDrawTransparent.cpp
+DIBDrawWithAlphaChannel.cpp
+DIBFillRect.cpp
+DIBGetPixel.cpp
+DIBGradientFillLeftToRight.cpp
+DIBGradientFillTopToBottom.cpp
+DIBPutPixel.cpp
+DIBPutPixelBlend.cpp
+DIBRectangle.cpp
+Generating Code...
+Compiling...
+DIBSetColourTransparent.cpp
+DrawBitmapShadow.cpp
+drawcontext.cpp
+GradientFill.cpp
+GuiBaseObject.cpp
+GuiBaseWindowObject.cpp
+Guitooltip.cpp
+HandleMouseWheelRegisteredMessage.cpp
+palette.cpp
+RadialGradient.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: QHTM - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Release/QHTM.res" /d "NDEBUG" "D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\qhtm.rc"" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP229.tmp" with contents
+[
+/nologo /MD /W4 /WX /O2 /I "..\\" /D "NDEBUG" /D "QHTM_DLL" /D "_WINDOWS" /D "_MBCS" /D "QHTM_NO_LINK_LIBS" /D "WIN32" /FR"Release/" /Fp"Release/QHTM.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLButtonSection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLComboSection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlcontrolsection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLEditSection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlhorizontalrulesection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlimagesection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLListboxSection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlsection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlsectionabc.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlsectioncreator.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlsectionlink.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmltablesection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmltextsection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\MessageReflector.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\parentsection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\scrollcontainer.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\sectionabc.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\SubClassControl.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\tipwindow.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\decodecharset.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\getfontsize.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlanchor.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlblockquote.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLBreak.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlcontrol.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLDefinitionList.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLDefinitionListItem.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmldocument.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmldocumentobject.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLForm.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLFormInput.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLFormObjectABC.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlgetalignmentfromstring.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlhorizontalrule.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlimage.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmllist.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmllistitem.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLOption.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlparagraph.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlparagraphobject.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlparse.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLSelect.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmltable.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmltablecell.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HTMLTextArea.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmltextblock.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\ParseStyles.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\parsewindowstyle.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\Color.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\cursor.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\fontinfo.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\getcolourfromstring.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\getfontsizeaspixels.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\getnumberparameter.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlprint.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\mouse.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\simplestring.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\tablelayout.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\getdisplayworkarea.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\gotourl.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\HandleMouseWheelRegisteredMessage.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\htmlparsebase.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\resourceloader.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\striremove.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\stristr.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\strremove.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\aquireimage.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\defaults.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\dllmain.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\guitools\drawcontext.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\DrawTiledBitmap.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\enablecooltips.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\loadtextfile.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\qhtm_gethtmlheight.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\QHTM_Initialize.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\qhtm_messagebox.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\qhtm_renderhtml.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\qhtm_sethtmlbutton.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\qhtm_setresources.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\qhtm_trace.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\qhtm_uninitialize.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\QHTM_WndProc.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\qhtmcontrolsection.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\qhtmimage.cpp"
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\registerwindow.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP229.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP22A.tmp" with contents
+[
+/nologo /MD /W4 /WX /O2 /I "..\\" /D "NDEBUG" /D "QHTM_DLL" /D "_WINDOWS" /D "_MBCS" /D "QHTM_NO_LINK_LIBS" /D "WIN32" /FR"Release/" /Fp"Release/QHTM.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\EmperorOfDragons\Library\QHTM_FullSource1967\components\qhtm\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP22A.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP22B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"..\..\bin\QHTM.pdb" /debug /machine:I386 /def:".\QHTM.def" /out:"..\..\bin\QHTM.dll" /implib:"../../bin/QHTM.lib" /LINK50COMPAT 
+.\Release\HTMLButtonSection.obj
+.\Release\HTMLComboSection.obj
+.\Release\HTMLControlSection.obj
+.\Release\HTMLEditSection.obj
+.\Release\HTMLHorizontalRuleSection.obj
+.\Release\HTMLImageSection.obj
+.\Release\HTMLListboxSection.obj
+.\Release\HTMLSection.obj
+.\Release\HTMLSectionABC.obj
+.\Release\HTMLSectionCreator.obj
+.\Release\HTMLSectionLink.obj
+.\Release\htmltablesection.obj
+.\Release\HTMLTextSection.obj
+.\Release\MessageReflector.obj
+.\Release\ParentSection.obj
+.\Release\ScrollContainer.obj
+.\Release\sectionabc.obj
+.\Release\SubClassControl.obj
+.\Release\TipWindow.obj
+.\Release\DecodeCharset.obj
+.\Release\GetFontSize.obj
+.\Release\HtmlAnchor.obj
+.\Release\htmlblockquote.obj
+.\Release\HTMLBreak.obj
+.\Release\HTMLControl.obj
+.\Release\HTMLDefinitionList.obj
+.\Release\HTMLDefinitionListItem.obj
+.\Release\HTMLDocument.obj
+.\Release\HTMLDocumentObject.obj
+.\Release\HTMLForm.obj
+.\Release\HTMLFormInput.obj
+.\Release\HTMLFormObjectABC.obj
+.\Release\HTMLGetAlignmentFromString.obj
+.\Release\HTMLHorizontalRule.obj
+.\Release\HTMLImage.obj
+.\Release\HtmlList.obj
+.\Release\HTMLListItem.obj
+.\Release\HTMLOption.obj
+.\Release\HTMLParagraph.obj
+.\Release\HTMLParagraphObject.obj
+.\Release\HTMLParse.obj
+.\Release\HTMLSelect.obj
+.\Release\HTMLTable.obj
+.\Release\HTMLTableCell.obj
+.\Release\HTMLTextArea.obj
+.\Release\HTMLTextBlock.obj
+.\Release\ParseStyles.obj
+.\Release\ParseWindowStyle.obj
+.\Release\Color.obj
+.\Release\cursor.obj
+.\Release\FontInfo.obj
+.\Release\GetColourFromString.obj
+.\Release\GetFontSizeAsPixels.obj
+.\Release\GetNumberParameter.obj
+.\Release\HTMLPrint.obj
+.\Release\Mouse.obj
+.\Release\SimpleString.obj
+.\Release\tablelayout.obj
+.\Release\GetDisplayWorkArea.obj
+.\Release\GotoUrl.obj
+.\Release\HandleMouseWheelRegisteredMessage.obj
+.\Release\HTMLParseBase.obj
+.\Release\ResourceLoader.obj
+.\Release\striremove.obj
+.\Release\stristr.obj
+.\Release\strremove.obj
+.\Release\AquireImage.obj
+.\Release\Defaults.obj
+.\Release\dllmain.obj
+.\Release\drawcontext.obj
+.\Release\DrawTiledBitmap.obj
+.\Release\EnableCoolTips.obj
+.\Release\LoadTextFile.obj
+.\Release\QHTM_GetHTMLHeight.obj
+.\Release\QHTM_Initialize.obj
+.\Release\QHTM_MessageBox.obj
+.\Release\QHTM_RenderHTML.obj
+.\Release\QHTM_SetHTMLButton.obj
+.\Release\QHTM_SetResources.obj
+.\Release\QHTM_Trace.obj
+.\Release\QHTM_Uninitialize.obj
+.\Release\QHTM_WndProc.obj
+.\Release\QHTMControlSection.obj
+.\Release\QHTMImage.obj
+.\Release\RegisterWindow.obj
+.\Release\StdAfx.obj
+.\Release\QHTM.res
+\Work\EmperorOfDragons\Library\QHTM_FullSource1967\bin\ImgLib.lib
+\Work\EmperorOfDragons\Library\QHTM_FullSource1967\bin\jpeglib.lib
+\Work\EmperorOfDragons\Library\QHTM_FullSource1967\bin\ZLib.lib
+\Work\EmperorOfDragons\Library\QHTM_FullSource1967\bin\DataSource.lib
+\Work\EmperorOfDragons\Library\QHTM_FullSource1967\bin\DebugHlp.lib
+\Work\EmperorOfDragons\Library\QHTM_FullSource1967\bin\libpng.lib
+\Work\EmperorOfDragons\Library\QHTM_FullSource1967\bin\guitools.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP22B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+HTMLButtonSection.cpp
+HTMLComboSection.cpp
+htmlcontrolsection.cpp
+HTMLEditSection.cpp
+htmlhorizontalrulesection.cpp
+htmlimagesection.cpp
+HTMLListboxSection.cpp
+htmlsection.cpp
+htmlsectionabc.cpp
+htmlsectioncreator.cpp
+htmlsectionlink.cpp
+htmltablesection.cpp
+htmltextsection.cpp
+MessageReflector.cpp
+parentsection.cpp
+scrollcontainer.cpp
+sectionabc.cpp
+SubClassControl.cpp
+tipwindow.cpp
+decodecharset.cpp
+Generating Code...
+Compiling...
+getfontsize.cpp
+htmlanchor.cpp
+htmlblockquote.cpp
+HTMLBreak.cpp
+htmlcontrol.cpp
+HTMLDefinitionList.cpp
+HTMLDefinitionListItem.cpp
+htmldocument.cpp
+htmldocumentobject.cpp
+HTMLForm.cpp
+HTMLFormInput.cpp
+HTMLFormObjectABC.cpp
+htmlgetalignmentfromstring.cpp
+htmlhorizontalrule.cpp
+htmlimage.cpp
+htmllist.cpp
+htmllistitem.cpp
+HTMLOption.cpp
+htmlparagraph.cpp
+htmlparagraphobject.cpp
+Generating Code...
+Compiling...
+htmlparse.cpp
+HTMLSelect.cpp
+htmltable.cpp
+htmltablecell.cpp
+HTMLTextArea.cpp
+htmltextblock.cpp
+ParseStyles.cpp
+parsewindowstyle.cpp
+Color.cpp
+cursor.cpp
+fontinfo.cpp
+getcolourfromstring.cpp
+getfontsizeaspixels.cpp
+getnumberparameter.cpp
+htmlprint.cpp
+mouse.cpp
+simplestring.cpp
+tablelayout.cpp
+getdisplayworkarea.cpp
+gotourl.cpp
+Generating Code...
+Compiling...
+HandleMouseWheelRegisteredMessage.cpp
+htmlparsebase.cpp
+resourceloader.cpp
+striremove.cpp
+stristr.cpp
+strremove.cpp
+aquireimage.cpp
+defaults.cpp
+dllmain.cpp
+drawcontext.cpp
+DrawTiledBitmap.cpp
+enablecooltips.cpp
+loadtextfile.cpp
+qhtm_gethtmlheight.cpp
+QHTM_Initialize.cpp
+qhtm_messagebox.cpp
+qhtm_renderhtml.cpp
+qhtm_sethtmlbutton.cpp
+qhtm_setresources.cpp
+qhtm_trace.cpp
+Generating Code...
+Compiling...
+qhtm_uninitialize.cpp
+QHTM_WndProc.cpp
+qhtmcontrolsection.cpp
+qhtmimage.cpp
+registerwindow.cpp
+Generating Code...
+Linking...
+   Creating library ../../bin/QHTM.lib and object ../../bin/QHTM.exp
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP22F.tmp" with contents
+[
+/nologo /o"Release/QHTM.bsc" 
+.\Release\StdAfx.sbr
+.\Release\HTMLButtonSection.sbr
+.\Release\HTMLComboSection.sbr
+.\Release\HTMLControlSection.sbr
+.\Release\HTMLEditSection.sbr
+.\Release\HTMLHorizontalRuleSection.sbr
+.\Release\HTMLImageSection.sbr
+.\Release\HTMLListboxSection.sbr
+.\Release\HTMLSection.sbr
+.\Release\HTMLSectionABC.sbr
+.\Release\HTMLSectionCreator.sbr
+.\Release\HTMLSectionLink.sbr
+.\Release\htmltablesection.sbr
+.\Release\HTMLTextSection.sbr
+.\Release\MessageReflector.sbr
+.\Release\ParentSection.sbr
+.\Release\ScrollContainer.sbr
+.\Release\sectionabc.sbr
+.\Release\SubClassControl.sbr
+.\Release\TipWindow.sbr
+.\Release\DecodeCharset.sbr
+.\Release\GetFontSize.sbr
+.\Release\HtmlAnchor.sbr
+.\Release\htmlblockquote.sbr
+.\Release\HTMLBreak.sbr
+.\Release\HTMLControl.sbr
+.\Release\HTMLDefinitionList.sbr
+.\Release\HTMLDefinitionListItem.sbr
+.\Release\HTMLDocument.sbr
+.\Release\HTMLDocumentObject.sbr
+.\Release\HTMLForm.sbr
+.\Release\HTMLFormInput.sbr
+.\Release\HTMLFormObjectABC.sbr
+.\Release\HTMLGetAlignmentFromString.sbr
+.\Release\HTMLHorizontalRule.sbr
+.\Release\HTMLImage.sbr
+.\Release\HtmlList.sbr
+.\Release\HTMLListItem.sbr
+.\Release\HTMLOption.sbr
+.\Release\HTMLParagraph.sbr
+.\Release\HTMLParagraphObject.sbr
+.\Release\HTMLParse.sbr
+.\Release\HTMLSelect.sbr
+.\Release\HTMLTable.sbr
+.\Release\HTMLTableCell.sbr
+.\Release\HTMLTextArea.sbr
+.\Release\HTMLTextBlock.sbr
+.\Release\ParseStyles.sbr
+.\Release\ParseWindowStyle.sbr
+.\Release\Color.sbr
+.\Release\cursor.sbr
+.\Release\FontInfo.sbr
+.\Release\GetColourFromString.sbr
+.\Release\GetFontSizeAsPixels.sbr
+.\Release\GetNumberParameter.sbr
+.\Release\HTMLPrint.sbr
+.\Release\Mouse.sbr
+.\Release\SimpleString.sbr
+.\Release\tablelayout.sbr
+.\Release\GetDisplayWorkArea.sbr
+.\Release\GotoUrl.sbr
+.\Release\HandleMouseWheelRegisteredMessage.sbr
+.\Release\HTMLParseBase.sbr
+.\Release\ResourceLoader.sbr
+.\Release\striremove.sbr
+.\Release\stristr.sbr
+.\Release\strremove.sbr
+.\Release\AquireImage.sbr
+.\Release\Defaults.sbr
+.\Release\dllmain.sbr
+.\Release\drawcontext.sbr
+.\Release\DrawTiledBitmap.sbr
+.\Release\EnableCoolTips.sbr
+.\Release\LoadTextFile.sbr
+.\Release\QHTM_GetHTMLHeight.sbr
+.\Release\QHTM_Initialize.sbr
+.\Release\QHTM_MessageBox.sbr
+.\Release\QHTM_RenderHTML.sbr
+.\Release\QHTM_SetHTMLButton.sbr
+.\Release\QHTM_SetResources.sbr
+.\Release\QHTM_Trace.sbr
+.\Release\QHTM_Uninitialize.sbr
+.\Release\QHTM_WndProc.sbr
+.\Release\QHTMControlSection.sbr
+.\Release\QHTMImage.sbr
+.\Release\RegisterWindow.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP22F.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+QHTM.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

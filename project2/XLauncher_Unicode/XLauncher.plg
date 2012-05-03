@@ -1,0 +1,146 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XLauncher - Win32 tw_Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP31D.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /I "./" /I "./FlashCtrl" /I "./FlashCtrl/Jpeg" /I "./FlashCtrl/Win32" /I "./FlashCtrl/Zlib" /I "./Zip" /I "./WebController" /I "./Library/FMod" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "FSCONTROL_EXPORTS" /D "USE_JPEG" /D "FRAMESPERSEC" /D "SOUND" /D "EDITTEXT" /D "FLASHMP3" /D "FIXEDSIZE" /D "_UNICODE" /D "UNICODE" /D "_XTAIWANESE" /D "_XTW_CSRELEASEVERSION" /FR"XLauncher___Win32_tw_Release/" /Fo"XLauncher___Win32_tw_Release/" /Fd"XLauncher___Win32_tw_Release/" /FD /Zm150 /c 
+"D:\Work\EmperorOfDragons\XLauncher_Unicode\XLauncherDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP31D.tmp" 
+Creating temporary file "C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP31E.tmp" with contents
+[
+UnicoWS.lib Kernel32.lib Advapi32.lib User32.lib Gdi32.lib Shell32.lib Comdlg32.lib Version.lib Mpr.lib Rasapi32.lib Winmm.lib Winspool.lib Vfw32.lib Secur32.lib Oleacc.lib Oledlg.lib Sensapi.lib ws2_32.lib wininet.lib imagehlp.lib mp3decoder.lib ./../Library/FMod/fmodvc.lib d3d9.lib d3dx9.lib /nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"XLauncher___Win32_tw_Release/NDLauncher.pdb" /machine:I386 /nodefaultlib:"kernel32.lib" /nodefaultlib:"advapi32.lib" /nodefaultlib:"user32.lib" /nodefaultlib:"gdi32.lib" /nodefaultlib:"shell32.lib" /nodefaultlib:"comdlg32.lib" /nodefaultlib:"version.lib" /nodefaultlib:"mpr.lib" /nodefaultlib:"rasapi32.lib" /nodefaultlib:"winmm.lib" /nodefaultlib:"winspool.lib" /nodefaultlib:"vfw32.lib" /nodefaultlib:"secur32.lib" /nodefaultlib:"oleacc.lib" /nodefaultlib:"oledlg.lib" /nodefaultlib:"sensapi.lib" /nodefaultlib:"LIBC" /out:"..\Game\TW\NDLauncher.exe" 
+.\XLauncher___Win32_tw_Release\CheckVersionDlg.obj
+.\XLauncher___Win32_tw_Release\noticedialog.obj
+.\XLauncher___Win32_tw_Release\NotInstalledDialog.obj
+.\XLauncher___Win32_tw_Release\StdAfx.obj
+.\XLauncher___Win32_tw_Release\XLauncher.obj
+.\XLauncher___Win32_tw_Release\XLauncherDlg.obj
+.\XLauncher___Win32_tw_Release\XRegistry.obj
+.\XLauncher___Win32_tw_Release\custsite.obj
+.\XLauncher___Win32_tw_Release\idispimp.obj
+.\XLauncher___Win32_tw_Release\webbro.obj
+.\XLauncher___Win32_tw_Release\Markup.obj
+.\XLauncher___Win32_tw_Release\BCMenu.obj
+.\XLauncher___Win32_tw_Release\BitComboBox.obj
+.\XLauncher___Win32_tw_Release\BitListBox.obj
+.\XLauncher___Win32_tw_Release\BitmapDialog.obj
+.\XLauncher___Win32_tw_Release\BitmapSlider.obj
+.\XLauncher___Win32_tw_Release\BtnST.obj
+.\XLauncher___Win32_tw_Release\CeXDib.obj
+.\XLauncher___Win32_tw_Release\Dib.obj
+.\XLauncher___Win32_tw_Release\GradientProgressCtrl.obj
+.\XLauncher___Win32_tw_Release\KCBusyProgressCtrl.obj
+.\XLauncher___Win32_tw_Release\Label.obj
+.\XLauncher___Win32_tw_Release\MacButtons.obj
+.\XLauncher___Win32_tw_Release\SeverMessageDialog.obj
+.\XLauncher___Win32_tw_Release\ShadeButtonST.obj
+.\XLauncher___Win32_tw_Release\SkinHeaderCtrl.obj
+.\XLauncher___Win32_tw_Release\SkinHorizontalScrollbar.obj
+.\XLauncher___Win32_tw_Release\SkinListCtrl.obj
+.\XLauncher___Win32_tw_Release\SkinVerticleScrollbar.obj
+.\XLauncher___Win32_tw_Release\TextProgressCtrl.obj
+.\XLauncher___Win32_tw_Release\XBrowser.obj
+.\XLauncher___Win32_tw_Release\xDib.obj
+.\XLauncher___Win32_tw_Release\XProgressBar.obj
+.\XLauncher___Win32_tw_Release\EnterSerialDlg.obj
+.\XLauncher___Win32_tw_Release\XEncryption.obj
+.\XLauncher___Win32_tw_Release\AutoBuffer.obj
+.\XLauncher___Win32_tw_Release\BigFile.obj
+.\XLauncher___Win32_tw_Release\CentralDir.obj
+.\XLauncher___Win32_tw_Release\FileHeader.obj
+.\XLauncher___Win32_tw_Release\ZipArchive.obj
+.\XLauncher___Win32_tw_Release\ZipException.obj
+.\XLauncher___Win32_tw_Release\ZipInternalInfo.obj
+.\XLauncher___Win32_tw_Release\ZipStorage.obj
+.\XLauncher___Win32_tw_Release\FTPOptionsDialog.obj
+.\XLauncher___Win32_tw_Release\FTPTransferDlg.obj
+.\XLauncher___Win32_tw_Release\Package.obj
+.\XLauncher___Win32_tw_Release\DLGHTML.obj
+.\XLauncher___Win32_tw_Release\XFileDownload.obj
+.\XLauncher___Win32_tw_Release\adler32.obj
+.\XLauncher___Win32_tw_Release\compress.obj
+.\XLauncher___Win32_tw_Release\crc32.obj
+.\XLauncher___Win32_tw_Release\deflate.obj
+.\XLauncher___Win32_tw_Release\gzio.obj
+.\XLauncher___Win32_tw_Release\infback.obj
+.\XLauncher___Win32_tw_Release\inffast.obj
+.\XLauncher___Win32_tw_Release\inflate.obj
+.\XLauncher___Win32_tw_Release\inftrees.obj
+.\XLauncher___Win32_tw_Release\trees.obj
+.\XLauncher___Win32_tw_Release\uncompr.obj
+.\XLauncher___Win32_tw_Release\zutil.obj
+.\XLauncher___Win32_tw_Release\jcomapi.obj
+.\XLauncher___Win32_tw_Release\jdapimin.obj
+.\XLauncher___Win32_tw_Release\jdapistd.obj
+.\XLauncher___Win32_tw_Release\jdcoefct.obj
+.\XLauncher___Win32_tw_Release\jdcolor.obj
+.\XLauncher___Win32_tw_Release\jddctmgr.obj
+.\XLauncher___Win32_tw_Release\jdhuff.obj
+.\XLauncher___Win32_tw_Release\jdinput.obj
+.\XLauncher___Win32_tw_Release\jdmainct.obj
+.\XLauncher___Win32_tw_Release\jdmarker.obj
+.\XLauncher___Win32_tw_Release\jdmaster.obj
+.\XLauncher___Win32_tw_Release\jdpostct.obj
+.\XLauncher___Win32_tw_Release\jdsample.obj
+.\XLauncher___Win32_tw_Release\jfdctint.obj
+.\XLauncher___Win32_tw_Release\jidctint.obj
+.\XLauncher___Win32_tw_Release\jmemmgr.obj
+.\XLauncher___Win32_tw_Release\jmemnobs.obj
+.\XLauncher___Win32_tw_Release\jutils.obj
+.\XLauncher___Win32_tw_Release\debug.obj
+.\XLauncher___Win32_tw_Release\Display.obj
+.\XLauncher___Win32_tw_Release\FlashControlImpl.obj
+.\XLauncher___Win32_tw_Release\FlashStatic.obj
+.\XLauncher___Win32_tw_Release\FSControl.obj
+.\XLauncher___Win32_tw_Release\palette.obj
+.\XLauncher___Win32_tw_Release\sound.obj
+.\XLauncher___Win32_tw_Release\util.obj
+.\XLauncher___Win32_tw_Release\bitbuf.obj
+.\XLauncher___Win32_tw_Release\curve.obj
+.\XLauncher___Win32_tw_Release\edittext.obj
+.\XLauncher___Win32_tw_Release\fixed.obj
+.\XLauncher___Win32_tw_Release\geom.obj
+.\XLauncher___Win32_tw_Release\global.obj
+.\XLauncher___Win32_tw_Release\jpeg.obj
+.\XLauncher___Win32_tw_Release\memcop.obj
+.\XLauncher___Win32_tw_Release\morphinter.obj
+.\XLauncher___Win32_tw_Release\mp3decoder.obj
+.\XLauncher___Win32_tw_Release\raster.obj
+.\XLauncher___Win32_tw_Release\sbitmap.obj
+.\XLauncher___Win32_tw_Release\sdisplay.obj
+.\XLauncher___Win32_tw_Release\sndcodec.obj
+.\XLauncher___Win32_tw_Release\sndmix.obj
+.\XLauncher___Win32_tw_Release\sobject.obj
+.\XLauncher___Win32_tw_Release\splay.obj
+.\XLauncher___Win32_tw_Release\splayer.obj
+.\XLauncher___Win32_tw_Release\sstroker.obj
+.\XLauncher___Win32_tw_Release\unixfonts.obj
+.\XLauncher___Win32_tw_Release\d3denumeration.obj
+.\XLauncher___Win32_tw_Release\d3dutil.obj
+.\XLauncher___Win32_tw_Release\dxutil.obj
+.\XLauncher___Win32_tw_Release\ResChangeDialog.obj
+.\XLauncher___Win32_tw_Release\SelectServer.obj
+.\XLauncher___Win32_tw_Release\XLauncher.res
+]
+Creating command line "link.exe @C:\DOCUME~1\KERYGM~1.IND\LOCALS~1\Temp\RSP31E.tmp"
+<h3>Output Window</h3>
+Compiling...
+XLauncherDlg.cpp
+Linking...
+   Creating library ..\Game\TW\NDLauncher.lib and object ..\Game\TW\NDLauncher.exp
+LINK : warning LNK4049: locally defined symbol ""protected: static struct AFX_INTERFACEMAP const COleControlSite::interfaceMap" (?interfaceMap@COleControlSite@@1UAFX_INTERFACEMAP@@B)" imported
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+NDLauncher.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

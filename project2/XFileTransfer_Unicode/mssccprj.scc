@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[XFileTransfer.dsp]
+SCC_Aux_Path = "\\Local-dev-svr\SourceSafe\Client\NDSourceSafeServer"
+SCC_Project_Name = "$/EmperorOfDragons/XFileTransfer_Unicode", UEAFAAAA
+
+[XFileTransfer.dsw]
+SCC_Aux_Path = "\\Local-dev-svr\SourceSafe\Client\NDSourceSafeServer"
+SCC_Project_Name = "$/EmperorOfDragons/XFileTransfer_Unicode", UEAFAAAA

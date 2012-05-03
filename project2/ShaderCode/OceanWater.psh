@@ -1,0 +1,38 @@
+//c0 -  Common Const (0, 0.5, 1, 0.25)
+//c1 - highlightColor (0.8, 0.76, 0.62, 1)
+ps.1.4
+
+def c0, 0.0, 0.5, 1.0, 0.25
+def c1, 0.8, 0.76, 0.62, 1.0
+
+texld r0, t0		    //bump map 0
+texld r1, t1	        //sample bump map 1
+texcrd r2.rgb, t2       //View vector
+texcrd r3.rgb, t3       //Binormal
+texcrd r4.rgb, t4       //Tangent
+texcrd r5.rgb, t5       //Normal
+
+    add_d2  r0.xy, r0, r1  //Scaled Average of 2 bumpmaps xy offsets
+    mul r1.rgb, r0.x, r3
+    mad r1.rgb, r0.y, r4, r1
+    mad r1.rgb, r0.z, r5, r1       //Put bumpmap normal into world space
+
+    dp3 r0.rgb, r1, r2             //V.N 
+    mad r2.rgb, r1, r0_x2, -r2     //R = 2N(V.N)-V
+
+    mov_sat r1, r0_x2              //2 * V.N  (sample over range of 1d map!)
+
+phase
+texld r2, r2                   //cubic env map   
+texld r3, r1                   //Index fresnel map using 2*V.N
+
+    mul r2.rgb, r2, r2             //Square the environment map
+    +mul r2.a, r2.g, r2.g           //use green channel of env map as specular          
+
+    mul r2.rgb, r2, 1-r0.r         //Fresnel Term 
+    +mul r2.a, r2.a, r2.a          //Specular highlight ^4
+
+    add_d4_sat r2.rgb, r2, r3_x2   //+= Water color
+    +mul r2.a, r2.a, r2.a          //Specular highlight ^8
+
+    mad_sat r0, r2.a, c1, r2       //+= Specular highlight * highlight color

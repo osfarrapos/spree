@@ -1,0 +1,64 @@
+<body background="background.bmp">
+<font name="tahoma" size="12pt">
+	<h4>Image Support</h4>
+	<p>QHTM Supports the following images formats:
+	<ul>
+	<li>BMP
+	<li>MNG
+	<li>PCX
+	<li>JPEG
+	<li>GIF <sup><font size="8pt">You'll need a licence for GIF though</font></sup>
+	<li>Anything else. QHTM has an image callback mechanism!
+	</ul>
+	<p>QHTM uses a custom library called ImgLib, which means you get the full source code to ImgLib too. ImgLib is a powerful and flexible tool for loading and displaying images and it can be used in your applications directly.</p>
+
+fdsjrlekwjrkewljrklewjrkewljrkewlrjewioruewiorueiworueiworueiworuewioruewioruewioruewioruewioruewiroeuwiroewuiroewurieowurieworueiworuewioruewiroeuwiroeuwiroewuiroewuiroewrwe
+
+<p>江湖?雲錄是九龍爭霸的任務系統。江湖?雲錄的進??在縮圖上標?[！]、[？]跟著標?就可以輕鬆地進?任務。江湖?雲錄是由帝龍?、武林?、俠客?、機緣?和武林小事所構成。</p><br>
+
+	<h5>What can we display...</h5>
+	The same bitmap is displayed for all of the images below. First we just display it, then we make white transparent, then we make blue transparent. We do the same again but with a border, and then a border of 5 pixels.
+	<table cellpadding=10>
+		<tr>
+			<td>
+				<img src="CIRCLE.BMP">
+			</td>
+			<td>
+				<img src="CIRCLE.BMP" transparent-color='white'>
+			</td>
+			<td>
+				<img src="CIRCLE.BMP" transparent-color='blue'>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="CIRCLE.BMP" border=1>
+			</td>
+			<td>
+				<img src="CIRCLE.BMP" transparent-color='white' border=1>
+			</td>
+			<td>
+				<img src="CIRCLE.BMP" transparent-color='blue' border=1>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="CIRCLE.BMP" border=5>
+			</td>
+			<td>
+				<img src="CIRCLE.BMP" transparent-color='white' border=5>
+			</td>
+			<td>
+				<img src="CIRCLE.BMP" transparent-color='blue' border=5>
+			</td>
+		</tr>
+	</table>
+	<h5>What else...</h5>
+	We could do the same with any image type. Not just BMP format images. This include JPG's and PNG. PNG supports native transparency so QHTM will also use that.
+	<p>We can align images to the top<img src="CIRCLE.BMP" align=top>, middle <img src="CIRCLE.BMP" align=middle> or bottom <img src="CIRCLE.BMP" align=bottom>
+	<p><img src="CIRCLE.BMP" align=right>We can also align images to the left, center or right. Left and right alignment means that really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, long paragraphs will wrap around the image nicely.
+	
+	<h5>And finally...</h5>
+	QHTM allows you to handle image loading and optionally handle the display. This is very powerful and incredibly flexible. It means you are free to decide how you want QHTM to acquire the images.
+</font>
+</body>

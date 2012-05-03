@@ -1,0 +1,1193 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_PWCINTERFACETEXT    TEXT    DISCARDABLE     "res\\eu_interface.txt"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_TAIWANESEINTERFACETEXT TEXT    DISCARDABLE     "res\\tw_interface.txt"
+IDR_JAPANESEINTERFACETEXT TEXT    DISCARDABLE     "res\\jp_interface.txt"
+IDR_RUSSIANINTERFACETEXT TEXT    DISCARDABLE     "res\\rs_interface.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_XLAUNCHER_DIALOG DIALOGEX 0, 0, 519, 402
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "",ID_RUNBUTTON,414,379,36,18,WS_DISABLED
+    PUSHBUTTON      "",ID_SETUPBUTTON,323,379,36,18
+    PUSHBUTTON      "",IDCANCEL,456,379,36,18
+    CONTROL         "List1",IDC_SERVERMESSAGELIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOCOLUMNHEADER | 
+                    WS_TABSTOP,11,324,257,35
+    CTEXT           "Now update",IDC_STATICUPDATETEXT,287,125,92,51,
+                    SS_CENTERIMAGE
+    PUSHBUTTON      "",ID_JOINBUTTON,280,379,36,18
+    PUSHBUTTON      "",IDC_CLOSEBUTTON,503,3,12,12,BS_FLAT
+    LTEXT           "more",IDC_NOTICEMORESTATIC,376,257,16,8
+    LTEXT           "more",IDC_UPDATEMORESTATIC,493,257,16,8
+    LTEXT           "Nine dragons launcher ver 0.9d",IDC_LAUNCHERTITLESTATIC,
+                    3,6,203,8
+    CONTROL         184,IDC_UPDATEPROGRESS,"Static",SS_BITMAP,11,368,179,4
+    CONTROL         184,IDC_DOWNLOADPROGRESS,"Static",SS_BITMAP,11,379,179,4
+    CONTROL         184,IDC_TOTALUPDATEPROGRESS,"Static",SS_BITMAP,11,389,
+                    179,4
+    RTEXT           "0 %",IDC_PROGRESSRATESTATIC,239,377,23,8
+    PUSHBUTTON      "",IDC_OPTION_HIGH_BUTTON,268,185,33,14
+    PUSHBUTTON      "",IDC_OPTION_MIDDLE_BUTTON,303,185,33,14
+    PUSHBUTTON      "",IDC_OPTION_LOW_BUTTON,337,185,33,14
+    PUSHBUTTON      "",IDC_OPTION_OK_BUTTON,395,185,33,14
+    PUSHBUTTON      "",IDC_OPTION_CANCEL_BUTTON,429,185,33,14
+    PUSHBUTTON      "refresh",IDC_SERVERREFRESH_BUTTON,394,213,33,14
+    PUSHBUTTON      "sl close",IDC_SERVERLISTCLOSE_BUTTON,429,213,33,14
+    LTEXT           "FlashView",IDC_FLASHSTATIC,9,26,168,275,0,
+                    WS_EX_TRANSPARENT
+    COMBOBOX        IDC_TERRAINQUALITYCOMBO,316,26,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_CHARACTERQUALITYCOMBO,316,45,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_VIEWSIGHTCOMBO,316,63,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SHADOWQUALITYCOMBO,316,80,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_USEHARDWARECURSORCOMBO,316,99,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_DISABLED | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_NOTICEEXPLORER,
+                    "{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,443,
+                    333,32,16
+    CONTROL         "",IDC_UPDATEEXPLORER,
+                    "{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,478,
+                    333,32,16
+    PUSHBUTTON      "",IDC_SHOWPATCHINFO_BUTTON,457,117,33,14
+    PUSHBUTTON      "",IDC_HIDEPATCHINFO_BUTTON,492,117,10,14
+    PUSHBUTTON      "",ID_SELECTSERVERBUTTON,367,379,36,18
+    COMBOBOX        IDC_SOUNDOUTPUTTYPECOMBO,411,26,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SOUNDDRIVERCOMBO,411,42,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_MIXRATECOMBO,411,58,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Notice",IDC_NOTICESTATIC,278,257,63,8
+    LTEXT           "Update",IDC_UPDATESTATIC,398,257,78,8
+    CTEXT           "Update title",IDC_UPDATETITLESTATIC,373,76,63,8,
+                    SS_CENTERIMAGE
+    LTEXT           "Terrain",IDC_TERRAINOPTIONSTATIC,373,88,35,8
+    LTEXT           "Model",IDC_MODELOPTIONSTATIC,371,99,24,8
+    LTEXT           "Sight",IDC_SIGHTOPTIONSTATIC,370,108,25,8
+    LTEXT           "Shadow",IDC_SHADOWOPTIONSTATIC,369,120,28,8
+    LTEXT           "Cursor",IDC_CURSOROPTIONSTATIC,369,131,33,8
+    LTEXT           "Output",IDC_SOUNDOUTPUTDEVICEOPTIONSTATIC,424,87,63,8
+    LTEXT           "Driver",IDC_SOUNDDRIVEROPTIONSTATIC,424,98,63,8
+    LTEXT           "Samplerate",IDC_SOUNDSAMPLERATEOPTIONSTATIC,424,106,63,
+                    8
+    CTEXT           "Setup",IDC_OPTIONTITLESTATIC,430,76,63,8,SS_CENTERIMAGE
+    LTEXT           "Graphic",IDC_GRAPHICSTITLESTATIC,422,138,41,8
+    LTEXT           "Sound",IDC_SOUNDTITLESTATIC,466,138,41,8
+    CONTROL         275,IDC_COLOGOSTATIC,"Static",SS_BITMAP,278,339,38,24
+    COMBOBOX        IDC_DOWNLOADMETHODCOMBO,462,58,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Download method",IDC_DOWNLOADMETHODSTATIC,405,157,63,8
+    PUSHBUTTON      "",IDC_CHANGERESOLUTION,395,167,67,14
+    LTEXT           "Language",IDC_SOUNDSAMPLERATEOPTIONSTATIC2,391,233,41,8
+    COMBOBOX        IDC_LANGUAGECOMBO,438,231,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Auto run",IDC_SOUNDSAMPLERATEOPTIONSTATIC3,391,246,41,8
+    COMBOBOX        IDC_AUTORUNCOMBO,438,244,48,86,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_SERIALDIALOG DIALOGEX 0, 0, 259, 36
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Enter authentication number"
+FONT 9, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SERIALFIELDEDIT1,16,1,32,14,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_SERIALFIELDEDIT2,63,1,32,14,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_SERIALFIELDEDIT3,111,1,32,14,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_SERIALFIELDEDIT4,156,1,32,14,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_SERIALFIELDEDIT5,206,1,38,14,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,74,19,50,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,126,19,50,14
+    LTEXT           "-",IDC_STATIC,54,4,8,8
+    LTEXT           "-",IDC_STATIC,102,4,8,8
+    LTEXT           "-",IDC_STATIC,148,4,8,8
+    LTEXT           "-",IDC_STATIC,195,4,8,8
+END
+
+IDD_SERVERMESSAGEBOX DIALOGEX 0, 0, 290, 124
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Server message..."
+FONT 9, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "&Upgrade",IDOK,152,112,50,12
+    PUSHBUTTON      "&Settings",ID_CONNECTIONSETTINGSBUTTON,203,112,35,12
+    PUSHBUTTON      "&Cancel",IDCANCEL,240,112,50,12
+    EDITTEXT        IDC_MESSAGEEDIT,0,0,290,110,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | 
+                    WS_VSCROLL,WS_EX_STATICEDGE
+END
+
+IDD_SELECTSERVERDIALOG DIALOGEX 0, 0, 195, 67
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Select server"
+FONT 9, "Arial", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,54,52,86,14
+    LISTBOX         IDC_SERVERLIST,1,1,192,26,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,148,31,35,14,ES_AUTOHSCROLL
+    LTEXT           "Patch number    current :",IDC_STATIC,1,34,83,8
+    EDITTEXT        IDC_EDIT2,87,31,27,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "new : ",IDC_STATIC,123,34,20,8
+    CONTROL         "Spin1",IDC_PATCHNUMBERSPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,184,32,9,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_XLAUNCHER_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 268
+        HORZGUIDE, 26
+        HORZGUIDE, 131
+    END
+
+    IDD_SERIALDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 257
+        TOPMARGIN, 1
+    END
+
+    IDD_SELECTSERVERDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 193
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 66
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_XLAUNCHER_DIALOG DLGINIT
+BEGIN
+    IDC_NOTICEEXPLORER, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x05ca, 0x0000, 0x031a, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    IDC_UPDATEEXPLORER, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x05ca, 0x0000, 0x031a, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    IDC_DOWNLOADMETHODCOMBO, 0x403, 21, 0
+0x6957, 0x496e, 0x654e, 0x2074, 0x6f64, 0x6e77, 0x6f6c, 0x6461, 0x7265, 
+0x3120, "\000" 
+    IDC_DOWNLOADMETHODCOMBO, 0x403, 21, 0
+0x6957, 0x496e, 0x654e, 0x2074, 0x6f64, 0x6e77, 0x6f6c, 0x6461, 0x7265, 
+0x3220, "\000" 
+    IDC_DOWNLOADMETHODCOMBO, 0x403, 16, 0
+0x4549, 0x4420, 0x776f, 0x6c6e, 0x616f, 0x6564, 0x2072, 0x0031, 
+    IDC_DOWNLOADMETHODCOMBO, 0x403, 16, 0
+0x4549, 0x4420, 0x776f, 0x6c6e, 0x616f, 0x6564, 0x2072, 0x0032, 
+    IDC_DOWNLOADMETHODCOMBO, 0x403, 18, 0
+0x4354, 0x2f50, 0x5049, 0x6420, 0x776f, 0x6c6e, 0x616f, 0x6564, 0x0072, 
+
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_RS_COLOGOBITMAP     BITMAP  DISCARDABLE     "res\\rs_CoLogo.bmp"
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_NEXONINTERFACETEXT  TEXT    DISCARDABLE     "res\\kr_interface.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "X Launcher"
+FONT 9, "Arial"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "X Launcher ver 0.9b",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002 Indy21 co.,LTD",IDC_STATIC,40,25,188,
+                    8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "Programming by Park il jun [ kerygma@netian.com ]",
+                    IDC_STATIC,40,40,188,8
+END
+
+IDD_FTPOPTIONDIALOG DIALOGEX 0, 0, 239, 248
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Options"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "[ 3D 장치 설정 ]",IDC_STATIC,2,3,235,46
+    LTEXT           "해상도",IDC_STATIC,11,20,46,8,WS_DISABLED
+    COMBOBOX        IDC_RESOLUTIONCOMBO,62,16,78,96,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ZBuffer",IDC_STATIC,11,36,46,8,WS_DISABLED
+    COMBOBOX        IDC_ZBUFFERCOMBO,62,33,78,96,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "하드웨어 커서 사용",IDC_USEHARDWARECURSORCHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,149,34,78,10
+    GROUPBOX        "[ 화면 설정 ]",IDC_STATIC,2,51,235,148
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,8,61,224,70
+    CTEXT           "텍스쳐 해상도",IDC_STATIC,62,67,78,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "MipMap level",IDC_STATIC,149,67,78,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "지형",IDC_STATIC,11,82,46,8
+    COMBOBOX        IDC_TERRAINQUALITYCOMBO,62,79,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_TERRAINMIPLEVELCOMBO,149,79,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "건물",IDC_STATIC,10,99,46,8
+    COMBOBOX        IDC_BUILDINGQUALITYCOMBO,62,96,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BUILDINGMIPLEVELCOMBO,149,96,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "캐릭터",IDC_STATIC,10,116,46,8
+    COMBOBOX        IDC_CHARACTERQUALITYCOMBO,62,113,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CHARACTERMIPLEVELCOMBO,149,113,78,96,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,8,154,224,18
+    LTEXT           "그림자",IDC_STATIC,11,159,46,8
+    COMBOBOX        IDC_CHARACTERSHADOWQUALITYCOMBO,62,156,78,96,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "캐릭터",IDC_USECHARACTERSHADOWCHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,149,159,36,10
+    CONTROL         "구름",IDC_USECLOUDSHADOWCHECK,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_DISABLED | WS_TABSTOP,195,159,32,10
+    PUSHBUTTON      "최상",ID_SETVERYHIGHLEVELBUTTON,7,180,74,14
+    PUSHBUTTON      "중간",ID_SETMIDDLELEVELBUTTON2,82,180,74,14
+    PUSHBUTTON      "최하",ID_SETLOWLEVELBUTTON,158,180,74,14
+    LTEXT           "3D 사운드",IDC_STATIC,10,214,46,8,WS_DISABLED
+    GROUPBOX        "[ 사운드 설정 ]",IDC_STATIC,2,202,235,27
+    COMBOBOX        IDC_3DSOUNDCOMBO,62,212,78,96,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,158,232,39,14
+    PUSHBUTTON      "Cancel",IDCANCEL,199,232,38,14
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,8,133,224,18
+    LTEXT           "시야",IDC_STATIC,11,138,46,8
+    COMBOBOX        IDC_SIGHTRANGECOMBO,62,135,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_FTPTRANSFER DIALOGEX 0, 0, 259, 113
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "데이터 다운로드 중..."
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Progress1",IDC_FTPDOWNLOADPROGRESS,"msctls_progress32",
+                    PBS_SMOOTH | WS_BORDER,1,15,256,6
+    CTEXT           "",IDC_TIMELEFT,77,29,126,8,SS_CENTERIMAGE
+    CTEXT           "",IDC_FILESTATUS,1,3,256,9,0,WS_EX_STATICEDGE
+    LTEXT           "",IDC_TRANSFER_RATE,207,29,51,8
+    PUSHBUTTON      "Cancel",IDCANCEL,100,98,50,12,NOT WS_TABSTOP
+    RTEXT           "다운로드 상태  : ",IDC_DOWNLOADSTATIC,9,29,60,8
+    CONTROL         "List1",IDC_PROGRESSMESSAGELIST,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,1,45,256,46
+END
+
+IDD_NOTINSTALLEDBOX DIALOGEX 0, 0, 235, 49
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "XLauncher error"
+FONT 9, "Arial", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,93,32,50,12,WS_GROUP
+    CTEXT           "Please. reinstall...",IDC_STATIC,7,4,221,24,
+                    SS_CENTERIMAGE
+END
+
+IDD_NOTICEDIALOG DIALOG DISCARDABLE  0, 0, 370, 371
+STYLE DS_CENTER | WS_POPUP
+FONT 9, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,-57,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,-57,24,50,14
+    PUSHBUTTON      "",IDC_CLOSEBUTTON,350,2,15,16,BS_FLAT
+    CONTROL         "",IDC_WEBBOARDBROWSER,
+                    "{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,0,21,
+                    370,349
+    LTEXT           "Static",IDC_TITLESTATIC,4,6,135,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+    END
+
+    IDD_FTPOPTIONDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 236
+        VERTGUIDE, 11
+        VERTGUIDE, 57
+        VERTGUIDE, 62
+        VERTGUIDE, 140
+        VERTGUIDE, 149
+        VERTGUIDE, 207
+        VERTGUIDE, 227
+        VERTGUIDE, 232
+        VERTGUIDE, 237
+        TOPMARGIN, 3
+        HORZGUIDE, 18
+        HORZGUIDE, 34
+    END
+
+    IDD_FTPTRANSFER, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 257
+        VERTGUIDE, 69
+        VERTGUIDE, 77
+        TOPMARGIN, 1
+    END
+
+    IDD_NOTINSTALLEDBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 4
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FTPOPTIONDIALOG DLGINIT
+BEGIN
+    IDC_ZBUFFERCOMBO, 0x403, 9, 0
+0x205a, 0x7542, 0x6666, 0x7265, "\000" 
+    IDC_ZBUFFERCOMBO, 0x403, 9, 0
+0x2057, 0x7542, 0x6666, 0x7265, "\000" 
+    IDC_TERRAINQUALITYCOMBO, 0x403, 5, 0
+0xd6c3, 0xcfc7, "\000" 
+    IDC_TERRAINQUALITYCOMBO, 0x403, 5, 0
+0xdfc1, 0xa3b0, "\000" 
+    IDC_TERRAINQUALITYCOMBO, 0x403, 5, 0
+0xf3bb, 0xdeb1, "\000" 
+    IDC_TERRAINQUALITYCOMBO, 0x403, 5, 0
+0xd6c3, 0xf3bb, "\000" 
+    IDC_TERRAINMIPLEVELCOMBO, 0x403, 5, 0
+0xd6c3, 0xcfc7, "\000" 
+    IDC_TERRAINMIPLEVELCOMBO, 0x403, 5, 0
+0xdfc1, 0xa3b0, "\000" 
+    IDC_TERRAINMIPLEVELCOMBO, 0x403, 5, 0
+0xd6c3, 0xf3bb, "\000" 
+    IDC_BUILDINGQUALITYCOMBO, 0x403, 5, 0
+0xd6c3, 0xcfc7, "\000" 
+    IDC_BUILDINGQUALITYCOMBO, 0x403, 5, 0
+0xdfc1, 0xa3b0, "\000" 
+    IDC_BUILDINGQUALITYCOMBO, 0x403, 5, 0
+0xf3bb, 0xdeb1, "\000" 
+    IDC_BUILDINGQUALITYCOMBO, 0x403, 5, 0
+0xd6c3, 0xf3bb, "\000" 
+    IDC_BUILDINGMIPLEVELCOMBO, 0x403, 5, 0
+0xd6c3, 0xcfc7, "\000" 
+    IDC_BUILDINGMIPLEVELCOMBO, 0x403, 5, 0
+0xdfc1, 0xa3b0, "\000" 
+    IDC_BUILDINGMIPLEVELCOMBO, 0x403, 5, 0
+0xd6c3, 0xf3bb, "\000" 
+    IDC_CHARACTERQUALITYCOMBO, 0x403, 5, 0
+0xd6c3, 0xcfc7, "\000" 
+    IDC_CHARACTERQUALITYCOMBO, 0x403, 5, 0
+0xdfc1, 0xa3b0, "\000" 
+    IDC_CHARACTERQUALITYCOMBO, 0x403, 5, 0
+0xf3bb, 0xdeb1, "\000" 
+    IDC_CHARACTERQUALITYCOMBO, 0x403, 5, 0
+0xd6c3, 0xf3bb, "\000" 
+    IDC_CHARACTERMIPLEVELCOMBO, 0x403, 5, 0
+0xd6c3, 0xcfc7, "\000" 
+    IDC_CHARACTERMIPLEVELCOMBO, 0x403, 5, 0
+0xdfc1, 0xa3b0, "\000" 
+    IDC_CHARACTERMIPLEVELCOMBO, 0x403, 5, 0
+0xd6c3, 0xf3bb, "\000" 
+    IDC_CHARACTERSHADOWQUALITYCOMBO, 0x403, 5, 0
+0xd6c3, 0xcfc7, "\000" 
+    IDC_CHARACTERSHADOWQUALITYCOMBO, 0x403, 5, 0
+0xdfc1, 0xa3b0, "\000" 
+    IDC_CHARACTERSHADOWQUALITYCOMBO, 0x403, 5, 0
+0xf3bb, 0xdeb1, "\000" 
+    IDC_CHARACTERSHADOWQUALITYCOMBO, 0x403, 5, 0
+0xd6c3, 0xf3bb, "\000" 
+    IDC_3DSOUNDCOMBO, 0x403, 14, 0
+0xe7bb, 0xebbf, 0xcfc7, 0xf6c1, 0xbe20, 0xc0ca, 0x00bd, 
+    IDC_3DSOUNDCOMBO, 0x403, 18, 0
+0x6f4e, 0x5620, 0x7269, 0x7574, 0x6c61, 0x7a69, 0x7461, 0x6f69, 0x006e, 
+
+    IDC_3DSOUNDCOMBO, 0x403, 13, 0
+0x6948, 0x6867, 0x5120, 0x6175, 0x696c, 0x7974, "\000" 
+    IDC_3DSOUNDCOMBO, 0x403, 14, 0
+0x694c, 0x6867, 0x2074, 0x7551, 0x6c61, 0x7469, 0x0079, 
+    IDC_SIGHTRANGECOMBO, 0x403, 7, 0
+0xa1b0, 0xf5b1, 0xd4b0, "\000" 
+    IDC_SIGHTRANGECOMBO, 0x403, 5, 0
+0xb8ba, 0xebc5, "\000" 
+    IDC_SIGHTRANGECOMBO, 0x403, 5, 0
+0xd6b8, 0xaeb8, "\000" 
+    IDC_SIGHTRANGECOMBO, 0x403, 9, 0
+0xc6be, 0xd6c1, 0xd6b8, 0xaeb8, "\000" 
+    0
+END
+
+IDD_NOTICEDIALOG DLGINIT
+BEGIN
+    IDC_WEBBOARDBROWSER, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x42f9, 0x0000, 0x4398, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CLOSEBITMAP         BITMAP  DISCARDABLE     "res\\Close.bmp"
+IDB_POPUPBORDERBITMAP   BITMAP  DISCARDABLE     "res\\PopupBorder.bmp"
+IDB_NOTICECLOSEBUTTONBITMAP BITMAP  DISCARDABLE     "res\\NoticeCloseButton.bmp"
+IDB_PATCHSLIDERBITMAP   BITMAP  DISCARDABLE     "res\\patchslider.bmp"
+IDB_PATCHSLIDERBACKBITMAP BITMAP  DISCARDABLE     "res\\patchsliderback.bmp"
+IDB_PROGRESSBARBACKBORDERBITMAP BITMAP  DISCARDABLE     "res\\ProgressbarBackBorder.bmp"
+IDB_PROGRESSBARBACKBORDERTITLE BITMAP  DISCARDABLE     "res\\ProgressbarBackBorderTitle.bmp"
+IDB_SERVERREFRESH_HIGHLIGHTBITMAP BITMAP  DISCARDABLE     "res\\ServerSelect_RefreshHighlight.bmp"
+IDB_SERVERREFRESH_NORMALBITMAP BITMAP  DISCARDABLE     "res\\ServerSelect_RefreshNormal.bmp"
+IDB_SERVERCLOSE_NORMALBITMAP BITMAP  DISCARDABLE     "res\\ServerSelect_CloseNormal.bmp"
+IDB_COMBO_RIGHTDOWN     BITMAP  DISCARDABLE     "res\\rightdown.bmp"
+IDB_SERVERFULLBITMAP    BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_UPDATETITLEBITMAP   BITMAP  DISCARDABLE     "res\\UpdateTitle.bmp"
+IDB_MINICLOSEBUTTONNORMALBITMAP BITMAP  DISCARDABLE     "res\\miniclose_normal.bmp"
+IDB_MINICLOSEBUTTONHIGHLIGHTBITMAP BITMAP  DISCARDABLE     "res\\miniclose_highlight.bmp"
+IDB_SELECTSERVER_NORMALBITMAP BITMAP  DISCARDABLE     "res\\selectserverbtn_normal.bmp"
+IDB_SELECTSERVER_HIGHLIGHTBITMAP BITMAP  DISCARDABLE     "res\\selectserverbtn_highlight.bmp"
+IDB_SERVERCLOSE_HIGHLIGHTBITMAP BITMAP  DISCARDABLE     "res\\ServerSelect_CloseHighlight.bmp"
+IDB_TW_COLOGOBITMAP     BITMAP  DISCARDABLE     "res\\tw_CoLogo.bmp"
+IDB_VN_COLOGOBITMAP     BITMAP  DISCARDABLE     "res\\vn_CoLogo.bmp"
+IDB_KR_COLOGOBITMAP     BITMAP  DISCARDABLE     "res\\kr_CoLogo.bmp"
+IDB_US_COLOGOBITMAP     BITMAP  DISCARDABLE     "res\\us_CoLogo.bmp"
+IDB_TW_COLOGOBITMAP1    BITMAP  DISCARDABLE     "res\\tw_colog.bmp"
+IDB_EU_COLOGOBITMAP     BITMAP  DISCARDABLE     "res\\eu_CoLogo.bmp"
+IDB_JP_COLOGOBITMAP     BITMAP  DISCARDABLE     "res\\jp_CoLogo.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\XLauncher.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MainIcon.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,9,100,4
+ PRODUCTVERSION 0,9,100,4
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "XLauncher\0"
+            VALUE "FileVersion", "0, 9, 100, 4\0"
+            VALUE "InternalName", "XLauncher\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "XLauncher.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "XLauncher\0"
+            VALUE "ProductVersion", "0, 9, 100, 4\0"
+            VALUE "SpecialBuild", "4\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HANDCURSOR          CURSOR  DISCARDABLE     "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_BUTTONWAVE          WAVE    DISCARDABLE     "res\\Launcherbutton.wav"
+IDR_PATCHCOMPLETEWAVE   WAVE    DISCARDABLE     "res\\PatchComplete.wav"
+IDR_STARTGAMEWAVE       WAVE    DISCARDABLE     "res\\StartGame.wav"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_VIETNAMESEINTERFACETEXT2 TEXT    DISCARDABLE     "res\\vn_interface.txt"
+IDR_ENGLISHINTERFACETEXT TEXT    DISCARDABLE     "res\\us_interface.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FTPOPTIONDIALOG DIALOGEX 0, 0, 239, 248
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Options"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "[ 3D Device ]",IDC_STATIC,2,3,235,46
+    LTEXT           "Resolution",IDC_STATIC,11,20,46,8,WS_DISABLED
+    COMBOBOX        IDC_RESOLUTIONCOMBO,62,16,78,96,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ZBuffer",IDC_STATIC,11,36,46,8,WS_DISABLED
+    COMBOBOX        IDC_ZBUFFERCOMBO,62,33,78,96,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use hardware cursor",IDC_USEHARDWARECURSORCHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,149,34,78,10
+    GROUPBOX        "[ Quality ]",IDC_STATIC,2,51,235,148
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,8,61,224,70
+    CTEXT           "Texture resolution",IDC_STATIC,62,67,78,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "MipMap level",IDC_STATIC,149,67,78,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Terrain",IDC_STATIC,11,82,46,8
+    COMBOBOX        IDC_TERRAINQUALITYCOMBO,62,79,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_TERRAINMIPLEVELCOMBO,149,79,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Building",IDC_STATIC,10,99,46,8
+    COMBOBOX        IDC_BUILDINGQUALITYCOMBO,62,96,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BUILDINGMIPLEVELCOMBO,149,96,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Charactor",IDC_STATIC,10,116,46,8
+    COMBOBOX        IDC_CHARACTERQUALITYCOMBO,62,113,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CHARACTERMIPLEVELCOMBO,149,113,78,96,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,8,154,224,18
+    LTEXT           "Shadow",IDC_STATIC,11,159,46,8
+    COMBOBOX        IDC_CHARACTERSHADOWQUALITYCOMBO,62,156,78,96,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Character",IDC_USECHARACTERSHADOWCHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,149,159,36,10
+    CONTROL         "Cloud",IDC_USECLOUDSHADOWCHECK,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_DISABLED | WS_TABSTOP,195,159,32,10
+    PUSHBUTTON      "High quality",ID_SETVERYHIGHLEVELBUTTON,7,180,74,14
+    PUSHBUTTON      "Medium quality",ID_SETMIDDLELEVELBUTTON2,82,180,74,14
+    PUSHBUTTON      "Low quality",ID_SETLOWLEVELBUTTON,158,180,74,14
+    LTEXT           "Use 3D Sound",IDC_STATIC,10,214,46,8,WS_DISABLED
+    GROUPBOX        "[ Sound ]",IDC_STATIC,2,202,235,27
+    COMBOBOX        IDC_3DSOUNDCOMBO,62,212,78,96,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,158,232,39,14
+    PUSHBUTTON      "Cancel",IDCANCEL,199,232,38,14
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,8,133,224,18
+    LTEXT           "Sight",IDC_STATIC,11,138,46,8
+    COMBOBOX        IDC_SIGHTRANGECOMBO,62,135,78,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_FTPTRANSFER DIALOGEX 0, 0, 259, 113
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Download data..."
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Progress1",IDC_FTPDOWNLOADPROGRESS,"msctls_progress32",
+                    PBS_SMOOTH | WS_BORDER,1,15,256,6
+    CTEXT           "",IDC_TIMELEFT,77,29,126,8,SS_CENTERIMAGE
+    CTEXT           "",IDC_FILESTATUS,1,3,256,9,0,WS_EX_STATICEDGE
+    LTEXT           "",IDC_TRANSFER_RATE,207,29,51,8
+    PUSHBUTTON      "Cancel",IDCANCEL,100,98,50,12,NOT WS_TABSTOP
+    RTEXT           "Status  : ",IDC_DOWNLOADSTATIC,9,29,60,8
+    CONTROL         "List1",IDC_PROGRESSMESSAGELIST,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,1,45,256,46
+END
+
+IDD_NOTINSTALLEDBOX DIALOGEX 0, 0, 235, 49
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "XLauncher error"
+FONT 9, "굴림", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,93,32,50,12,WS_GROUP
+    CTEXT           "Please. reinstall...",IDC_STATIC,7,4,221,24,
+                    SS_CENTERIMAGE
+END
+
+IDD_PATCHNUMBERSERVERCONNECTDIALOG DIALOGEX 0, 0, 259, 20
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Check version"
+FONT 9, "Arial", 0, 0, 0x1
+BEGIN
+    CTEXT           "Check update data...",IDC_CHECKVERSIONSTATIC,1,6,256,8
+END
+
+IDD_RESOPTIONDIALOG DIALOG DISCARDABLE  0, 0, 195, 62
+STYLE WS_POPUP | WS_BORDER
+FONT 9, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,91,50,50,10
+    PUSHBUTTON      "Cancel",IDCANCEL,143,50,50,10
+    COMBOBOX        IDC_RESOLUTIONCOMBO,72,24,121,263,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_REFRESHRATECOMBO,72,36,121,274,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Resolution",IDC_RESOLUTIONSTATIC,3,26,66,8
+    LTEXT           "Refresh rate",IDC_REFRESHRATESTATIC,2,39,68,8
+    LTEXT           "Display mode",IDC_WINDOWSMODESTATIC,3,14,66,8
+    COMBOBOX        IDC_WINDOWMODECOMBO,72,11,121,263,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    CTEXT           "Resolution",IDC_WINDOWSMODESTATIC2,3,1,190,8,
+                    SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FTPOPTIONDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 236
+        VERTGUIDE, 11
+        VERTGUIDE, 32
+        VERTGUIDE, 112
+        TOPMARGIN, 3
+        HORZGUIDE, 41
+        HORZGUIDE, 68
+        HORZGUIDE, 85
+    END
+
+    IDD_FTPTRANSFER, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 257
+        VERTGUIDE, 69
+        VERTGUIDE, 77
+        TOPMARGIN, 1
+    END
+
+    IDD_NOTINSTALLEDBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 4
+    END
+
+    IDD_PATCHNUMBERSERVERCONNECTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 257
+        TOPMARGIN, 1
+    END
+
+    IDD_RESOPTIONDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 193
+        VERTGUIDE, 3
+        BOTTOMMARGIN, 60
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FTPOPTIONDIALOG DLGINIT
+BEGIN
+    IDC_ZBUFFERCOMBO, 0x403, 9, 0
+0x205a, 0x7542, 0x6666, 0x7265, "\000" 
+    IDC_ZBUFFERCOMBO, 0x403, 9, 0
+0x2057, 0x7542, 0x6666, 0x7265, "\000" 
+    IDC_TERRAINQUALITYCOMBO, 0x403, 4, 0
+0x6f4c, 0x0077, 
+    IDC_TERRAINQUALITYCOMBO, 0x403, 7, 0
+0x694d, 0x6464, 0x656c, "\000" 
+    IDC_TERRAINQUALITYCOMBO, 0x403, 5, 0
+0x6948, 0x6867, "\000" 
+    IDC_TERRAINQUALITYCOMBO, 0x403, 8, 0
+0x614d, 0x6978, 0x756d, 0x006d, 
+    IDC_TERRAINMIPLEVELCOMBO, 0x403, 4, 0
+0x6f4c, 0x0077, 
+    IDC_TERRAINMIPLEVELCOMBO, 0x403, 7, 0
+0x694d, 0x6464, 0x656c, "\000" 
+    IDC_TERRAINMIPLEVELCOMBO, 0x403, 5, 0
+0x6948, 0x6867, "\000" 
+    IDC_BUILDINGQUALITYCOMBO, 0x403, 4, 0
+0x6f4c, 0x0077, 
+    IDC_BUILDINGQUALITYCOMBO, 0x403, 7, 0
+0x694d, 0x6464, 0x656c, "\000" 
+    IDC_BUILDINGQUALITYCOMBO, 0x403, 5, 0
+0x6948, 0x6867, "\000" 
+    IDC_BUILDINGQUALITYCOMBO, 0x403, 8, 0
+0x614d, 0x6978, 0x756d, 0x006d, 
+    IDC_BUILDINGMIPLEVELCOMBO, 0x403, 4, 0
+0x6f4c, 0x0077, 
+    IDC_BUILDINGMIPLEVELCOMBO, 0x403, 7, 0
+0x694d, 0x6464, 0x656c, "\000" 
+    IDC_BUILDINGMIPLEVELCOMBO, 0x403, 5, 0
+0x6948, 0x6867, "\000" 
+    IDC_CHARACTERQUALITYCOMBO, 0x403, 4, 0
+0x6f4c, 0x0077, 
+    IDC_CHARACTERQUALITYCOMBO, 0x403, 7, 0
+0x694d, 0x6464, 0x656c, "\000" 
+    IDC_CHARACTERQUALITYCOMBO, 0x403, 5, 0
+0x6948, 0x6867, "\000" 
+    IDC_CHARACTERQUALITYCOMBO, 0x403, 8, 0
+0x614d, 0x6978, 0x756d, 0x006d, 
+    IDC_CHARACTERMIPLEVELCOMBO, 0x403, 4, 0
+0x6f4c, 0x0077, 
+    IDC_CHARACTERMIPLEVELCOMBO, 0x403, 7, 0
+0x694d, 0x6464, 0x656c, "\000" 
+    IDC_CHARACTERMIPLEVELCOMBO, 0x403, 5, 0
+0x6948, 0x6867, "\000" 
+    IDC_CHARACTERSHADOWQUALITYCOMBO, 0x403, 4, 0
+0x6f4c, 0x0077, 
+    IDC_CHARACTERSHADOWQUALITYCOMBO, 0x403, 7, 0
+0x694d, 0x6464, 0x656c, "\000" 
+    IDC_CHARACTERSHADOWQUALITYCOMBO, 0x403, 5, 0
+0x6948, 0x6867, "\000" 
+    IDC_CHARACTERSHADOWQUALITYCOMBO, 0x403, 8, 0
+0x614d, 0x6978, 0x756d, 0x006d, 
+    IDC_3DSOUNDCOMBO, 0x403, 14, 0
+0xe7bb, 0xebbf, 0xcfc7, 0xf6c1, 0xbe20, 0xc0ca, 0x00bd, 
+    IDC_3DSOUNDCOMBO, 0x403, 18, 0
+0x6f4e, 0x5620, 0x7269, 0x7574, 0x6c61, 0x7a69, 0x7461, 0x6f69, 0x006e, 
+
+    IDC_3DSOUNDCOMBO, 0x403, 13, 0
+0x6948, 0x6867, 0x5120, 0x6175, 0x696c, 0x7974, "\000" 
+    IDC_3DSOUNDCOMBO, 0x403, 14, 0
+0x694c, 0x6867, 0x2074, 0x7551, 0x6c61, 0x7469, 0x0079, 
+    IDC_SIGHTRANGECOMBO, 0x403, 6, 0
+0x6853, 0x726f, 0x0074, 
+    IDC_SIGHTRANGECOMBO, 0x403, 7, 0
+0x694d, 0x6464, 0x656c, "\000" 
+    IDC_SIGHTRANGECOMBO, 0x403, 5, 0
+0x6f4c, 0x676e, "\000" 
+    IDC_SIGHTRANGECOMBO, 0x403, 8, 0
+0x614d, 0x6978, 0x756d, 0x006d, 
+    0
+END
+
+IDD_RESOPTIONDIALOG DLGINIT
+BEGIN
+    IDC_WINDOWMODECOMBO, 0x403, 11, 0
+0x7546, 0x6c6c, 0x6373, 0x6572, 0x6e65, "\000" 
+    IDC_WINDOWMODECOMBO, 0x403, 9, 0
+0x6957, 0x646e, 0x776f, 0x6465, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_RESDIALOGBITMAP     BITMAP  DISCARDABLE     "res\\Resolution.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "XLauncher information[&A)..."
+    IDS_FTPTRANSFER_FILESTATUS1 "[ %1 ]"
+    IDP_SOCKETS_INIT_FAILED "FAILED : Windows socket initialize..."
+    IDS_FTPTRANSFER_CONNECTED "Connected."
+    IDS_FTPTRANSFER_RESOLVING_NAME "Resolving name: %1"
+    IDS_FTPTRANSFER_RESOLVED_NAME "Resolved name to %1"
+    IDS_FTPTRANSFER_CONNECTING 
+                            "Connecting to Emperor of dragons update server"
+    IDS_FTPTRANSFER_FAIL_OPEN_FILE "ERROR [%1] : Open the remote file."
+    IDS_FTPTRANSFER_GETTING_FILE_INFORMATION "Recieve file informations..."
+    IDS_FTPTRANSFER_FILESTATUS2 "%1 to %2"
+    IDS_FTPTRANSFER_GENERIC_ERROR "ERROR [%1] : Transper the file"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FTPTRANSFER_FAIL_CONNECT_SERVER 
+                            "ERROR [%1] : Connecting to the server"
+    IDS_FTPTRANSFER_INVALID_SERVER_RESPONSE 
+                            "Failed to receive a valid response from the server"
+    IDS_TRANSFER_OK_TO_OVERWRITE 
+                            "The file '%1' already exists on the server.\nDo you want to replace it?"
+    IDS_FTPTRANSFER_ERROR_READFILE "ERROR [%1] : Downloading the file."
+    IDS_FTPTRANSFER_PERCENTAGE "%1% of %2 Completed"
+    IDS_FTPTRANSFER_RETREIVEING_FILE "Downloading..."
+    IDS_FTPTRANSFER_OF      "%1 / %2"
+    IDS_FTPTRANSFER_SECONDS "%1 Sec"
+    IDS_FTPTRANSFER_MINUTES "%1 Min"
+    IDS_FTPTRANSFER_MINUTES_AND_SECONDS "%1 Min %2 Sec"
+    IDS_FTPTRANSFER_BYTES   "%1 Bytes"
+    IDS_FTPTRANSFER_UPLOADING_FILE "Uploading..."
+    IDS_FTPTRANSFER_KILOBYTES "%1 Kb"
+    IDS_FTPTRANSFER_ERROR_WRITEFILE "ERROR [%1] : Uploading the file."
+    IDS_FTPTRANSFER_MEGABYTES "%1 Mb"
+    IDS_FTPTRANSFER_TIMELEFT "%1 [ %2 ]"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FTPTRANSFER_BYTESPERSECOND "%1 Bytes/Sec"
+    IDS_FTPTRANSFER_KILOBYTESPERSECOND "%1 Kb/Sec"
+    IDS_FTPTRANSFER_OK_TO_OVERWRITE 
+                            "The file '%1' already exists.\nDo you want to replace it?"
+    IDS_FTPTRANSFER_FAIL_LOCALFILE_OPEN1 
+                            "ERROR [%1] : Opening the file to be downloaded."
+    IDS_FTPTRANSFER_ABORTING_TRANSFER "Aborting download"
+    IDS_FTPTRANSFER_FAIL_LOCALFILE_OPEN2 
+                            "ERROR [%1] : Opening the file to be uploaded."
+    IDS_FTPTRANSFER_UPLOAD_CAPTION "File Upload"
+    IDS_UPDATECOMPLETE      "Click run button to play"
+    IDS_UPDATEPROGRESS      "Update..."
+    IDS_EODHOMEPAGEURL      "http://www.ninedragons.co.kr/member/me_member.asp"
+    IDS_CHECKVERSIONSTRING  "Check update data..."
+    IDS_ERRORCONNECTVERSIONCHECKSERVERSTRING 
+                            "Failed to connect to an upgrade information server!"
+    IDS_LOGINFAIL_INVALIDCLIENTVERSION "Invalid client version."
+    IDS_SETREGISTRY         "Set registry information."
+    IDS_NOTICE              "Notice"
+    IDS_ERROR_NOTFOUNDFOLDER "ERROR : Can not found inistall folder."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_RELEASEUPDATEFILE   "Decompress update file."
+    IDS_ENDRELEASEUPDATE    "Complete decompress update file."
+    IDS_STARTUPDATE         "Start update. update number : %d"
+    IDS_COMPLETEUPDATE      "Update complete."
+    IDS_FAILUPDATE          "Fail update file."
+    IDS_STARTAPP            "MESSAGE : Start Game.\n"
+    IDS_COMPAREVERSION      "Server version : %s %d.%d / Client version : %s : %d.%d"
+    IDS_COMPAREPATCHNUMBER  "Patch number     Server : %d / Client : %d"
+    IDS_XLAUNCHERVERSION    "XLauncher version   Server : %s %d.%d / Client : %s %d.%d"
+    IDS_DIFFERENTUPDATE     "Can not update. Different package."
+    IDS_CANNOTUPDATE        "Can not update program."
+    IDS_WARNNOTICE          "Refer to Notice of ""http://www.ninedragons.co.kr"""
+    IDS_NONOTICE            "No notice."
+    IDS_HTTPDOWNLOAD_FILE   "[%s] File download...\n"
+    IDS_HTTPDOWNLOADED_FILE "[%s] File download complete.\n"
+END
+
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_COMBO_CEN           BITMAP  DISCARDABLE     "res\\center.bmp"
+IDB_COMBO_LEFT          BITMAP  DISCARDABLE     "res\\left.bmp"
+IDB_COMBO_RIGHT         BITMAP  DISCARDABLE     "res\\right.bmp"
+IDB_LIST_BOT            BITMAP  DISCARDABLE     "res\\list_bot.bmp"
+IDB_LIST_LEFT           BITMAP  DISCARDABLE     "res\\list_left.bmp"
+IDB_LIST_RIGHT          BITMAP  DISCARDABLE     "res\\list_right.bmp"
+IDB_LIST_TOP            BITMAP  DISCARDABLE     "res\\list_top.bmp"
+IDB_COLUMNHEADER_END    BITMAP  DISCARDABLE     "res\\ColumnHeaderEnd.bmp"
+IDB_COLUMNHEADER_SPAN   BITMAP  DISCARDABLE     "res\\ColumnHeaderSpan.bmp"
+IDB_COLUMNHEADER_START  BITMAP  DISCARDABLE     "res\\ColumnHeaderStart.bmp"
+IDB_HORIZONTAL_SCROLLBAR_THUMB BITMAP  DISCARDABLE     "res\\HorizontalScrollBarThumb.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_HORIZONTAL_SCROLLBAR_LEFTARROW BITMAP  DISCARDABLE     "res\\HorizontalScrollBarLeftArrow.bmp"
+IDB_HORIZONTAL_SCROLLBAR_RIGHTARROW BITMAP  DISCARDABLE     "res\\HorizontalScrollBarRightArrow.bmp"
+IDB_HORIZONTAL_SCROLLBAR_SPAN BITMAP  DISCARDABLE     "res\\HorizontalScrollBarSpan.bmp"
+IDB_VERTICLE_SCROLLBAR_BOTTOM BITMAP  DISCARDABLE     "res\\VerticleScrollbarBottom.bmp"
+IDB_VERTICLE_SCROLLBAR_DOWNARROW BITMAP  DISCARDABLE     "res\\VerticleScrollBarDownArrow.bmp"
+IDB_VERTICLE_SCROLLBAR_SPAN BITMAP  DISCARDABLE     "res\\VerticleScrollBarSpan.bmp"
+IDB_VERTICLE_SCROLLBAR_THUMB BITMAP  DISCARDABLE     "res\\VerticleScrollBarThumb.bmp"
+IDB_VERTICLE_SCROLLBAR_TOP BITMAP  DISCARDABLE     "res\\VerticleScrollbarTop.bmp"
+IDB_VERTICLE_SCROLLBAR_UPARROW BITMAP  DISCARDABLE     "res\\VerticleScrollBarUpArrow.bmp"
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\XLauncher.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

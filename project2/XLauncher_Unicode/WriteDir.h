@@ -1,0 +1,5 @@
+
+
+
+
+BOOL WriteDirectory(CString dd);

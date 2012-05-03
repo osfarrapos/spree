@@ -1,0 +1,799 @@
+# Microsoft Developer Studio Generated Dependency File, included by FSControl.mak
+
+.\zlib\adler32.cpp : \
+	".\StdAfx.h"\
+	".\zlib\stdafx.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\zlib\infblock.cpp : \
+	".\StdAfx.h"\
+	".\zlib\infblock.h"\
+	".\zlib\infcodes.h"\
+	".\zlib\inftrees.h"\
+	".\zlib\infutil.h"\
+	".\zlib\stdafx.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	".\zlib\zutil.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\zlib\infcodes.cpp : \
+	".\StdAfx.h"\
+	".\zlib\infblock.h"\
+	".\zlib\infcodes.h"\
+	".\zlib\inffast.h"\
+	".\zlib\inftrees.h"\
+	".\zlib\infutil.h"\
+	".\zlib\stdafx.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	".\zlib\zutil.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\zlib\inffast.cpp : \
+	".\StdAfx.h"\
+	".\zlib\infblock.h"\
+	".\zlib\infcodes.h"\
+	".\zlib\inffast.h"\
+	".\zlib\inftrees.h"\
+	".\zlib\infutil.h"\
+	".\zlib\stdafx.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	".\zlib\zutil.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\zlib\inflate.cpp : \
+	".\StdAfx.h"\
+	".\zlib\infblock.h"\
+	".\zlib\stdafx.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	".\zlib\zutil.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\zlib\inftrees.cpp : \
+	".\StdAfx.h"\
+	".\zlib\inftrees.h"\
+	".\zlib\stdafx.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	".\zlib\zutil.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\zlib\infutil.cpp : \
+	".\StdAfx.h"\
+	".\zlib\infblock.h"\
+	".\zlib\infcodes.h"\
+	".\zlib\inftrees.h"\
+	".\zlib\infutil.h"\
+	".\zlib\stdafx.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	".\zlib\zutil.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\zlib\uncompr.cpp : \
+	".\StdAfx.h"\
+	".\zlib\stdafx.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\zlib\zutil.cpp : \
+	".\StdAfx.h"\
+	".\zlib\stdafx.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	".\zlib\zutil.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jcomapi.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdapimin.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdapistd.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdcoefct.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdcolor.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jddctmgr.cpp : \
+	".\JPEG\jconfig.h"\
+	".\JPEG\jdct.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdhuff.cpp : \
+	".\JPEG\jconfig.h"\
+	".\JPEG\jdhuff.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdinput.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdmainct.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdmarker.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdmaster.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdpostct.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jdsample.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jfdctint.cpp : \
+	".\JPEG\jconfig.h"\
+	".\JPEG\jdct.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jidctint.cpp : \
+	".\JPEG\jconfig.h"\
+	".\JPEG\jdct.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jmemmgr.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmemsys.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jmemnobs.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmemsys.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEG\jutils.cpp : \
+	".\JPEG\jconfig.h"\
+	".\jpeg\jerror.h"\
+	".\jpeg\jinclude.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpegint.h"\
+	".\JPEG\jpeglib.h"\
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Win32\debug.cpp : \
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Win32\Display.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\edittext.h"\
+	".\fixed.h"\
+	".\genericfonts.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\splayer.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\win32\FSControl.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\FlashControlImpl.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\edittext.h"\
+	".\fixed.h"\
+	".\FlashControl.h"\
+	".\FlashControlImpl.h"\
+	".\genericfonts.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\splayer.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\win32\FSControl.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\win32\FSControl.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\edittext.h"\
+	".\fixed.h"\
+	".\FlashControl.h"\
+	".\FlashControlImpl.h"\
+	".\genericfonts.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\mcontext.h"\
+	".\memcop.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\splayer.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\win32\FSControl.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Win32\palette.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\edittext.h"\
+	".\fixed.h"\
+	".\genericfonts.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\splayer.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\win32\FSControl.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Win32\sound.cpp : \
+	".\fixed.h"\
+	".\global.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\fixed.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\bitbuf.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\fixed.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\memcop.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\shape.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\Win32\palette.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\curve.cpp : \
+	".\curve.h"\
+	".\fixed.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\Win32\debug.h"\
+	".\Win32\fixed.h"\
+	
+
+.\edittext.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\edittext.h"\
+	".\fixed.h"\
+	".\genericfonts.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\splayer.h"\
+	".\sstroker.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\win32\FSControl.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\fixed.cpp : \
+	".\fixed.h"\
+	".\global.h"\
+	".\Win32\debug.h"\
+	".\Win32\fixed.h"\
+	
+
+.\geom.cpp : \
+	".\fixed.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\Win32\debug.h"\
+	".\Win32\fixed.h"\
+	
+
+.\global.cpp : \
+	".\global.h"\
+	".\memcop.h"\
+	".\Win32\debug.h"\
+	
+
+.\jpeg.cpp : \
+	".\global.h"\
+	".\jpeg.h"\
+	".\JPEG\jconfig.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpeglib.h"\
+	".\Win32\debug.h"\
+	
+
+.\memcop.cpp : \
+	".\global.h"\
+	".\memcop.h"\
+	".\Win32\debug.h"\
+	
+
+.\morphinter.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\fixed.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\morphinter.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\shape.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\Win32\palette.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\mp3decoder.cpp : \
+	".\bitstream.h"\
+	".\fixed.h"\
+	".\global.h"\
+	".\mp3decifc.h"\
+	".\mp3decoder.h"\
+	".\mp3sscdef.h"\
+	".\mp3streaminfo.h"\
+	".\mpegbitstream.h"\
+	".\mpegheader.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\fixed.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\raster.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\fixed.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\sbitmap.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\fixed.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\memcop.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\shape.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\Win32\palette.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\sdisplay.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\edittext.h"\
+	".\fixed.h"\
+	".\genericfonts.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\splayer.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\sndcodec.cpp : \
+	".\fixed.h"\
+	".\global.h"\
+	".\mp3decifc.h"\
+	".\mp3decoder.h"\
+	".\mp3sscdef.h"\
+	".\mp3streaminfo.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\Win32\debug.h"\
+	".\Win32\fixed.h"\
+	
+
+.\sndmix.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\fixed.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\sobject.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\edittext.h"\
+	".\fixed.h"\
+	".\genericfonts.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\morphinter.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\splayer.h"\
+	".\sstroker.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\splay.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\edittext.h"\
+	".\fixed.h"\
+	".\genericfonts.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\jpeg.h"\
+	".\JPEG\jconfig.h"\
+	".\JPEG\jmorecfg.h"\
+	".\JPEG\jpeglib.h"\
+	".\memcop.h"\
+	".\morphinter.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\splayer.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\splayer.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\edittext.h"\
+	".\fixed.h"\
+	".\genericfonts.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\memcop.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\splayer.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\sstroker.cpp : \
+	".\Bitbuf.h"\
+	".\curve.h"\
+	".\fixed.h"\
+	".\geom.h"\
+	".\global.h"\
+	".\raster.h"\
+	".\sbitmap.h"\
+	".\sdisplay.h"\
+	".\shape.h"\
+	".\sndcodec.h"\
+	".\sndmix.h"\
+	".\sobject.h"\
+	".\splay.h"\
+	".\sstroker.h"\
+	".\stags.h"\
+	".\StdAfx.h"\
+	".\Win32\debug.h"\
+	".\Win32\display.h"\
+	".\Win32\fixed.h"\
+	".\Win32\palette.h"\
+	".\Win32\Sound.h"\
+	"h:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\unixfonts.cpp : \
+	".\zlib\zconf.h"\
+	".\zlib\zlib.h"\
+	

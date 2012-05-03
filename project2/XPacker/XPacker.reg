@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\XPacker.Application = XPacker Application
+HKEY_CLASSES_ROOT\XPacker.Application\CLSID = {50B2B8F5-6BAA-11D5-A852-00022A009AE8}
+
+HKEY_CLASSES_ROOT\CLSID\{50B2B8F5-6BAA-11D5-A852-00022A009AE8} = XPacker Application
+HKEY_CLASSES_ROOT\CLSID\{50B2B8F5-6BAA-11D5-A852-00022A009AE8}\ProgId = XPacker.Application
+HKEY_CLASSES_ROOT\CLSID\{50B2B8F5-6BAA-11D5-A852-00022A009AE8}\LocalServer32 = XPACKER.EXE

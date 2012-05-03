@@ -1,0 +1,371 @@
+Written by Russ Freeman Copyright ฉ1998-Now.
+Email: russf@gipsysoft.com
+Web site: http://www.gipsysoft.com/
+Last updated: <whatever the last change was>
+
+QHTM Change History
+-------------------
+****** build 173 ******
+29-10-2004	Fixed problem where "line" scrolling was way too big. It now uses a font height to determine the amount to scroll for a "line".
+29-10-2004	Fixed bug where internal links (#id) were case sensitive...they should have been case-insensitive.
+12-09-2004	Forms now include the "submit" value e.g. Submit=value 
+
+****** build 172 ******
+12/05/2004	Fixed bug when compiling the static link libs where it would like to also include the LIB for the DLL.
+11/05/2004	Fixed bugs printing forms (red rectangles were printed for form edit controls, list and combo boxes
+11/05/2004	Fixed build issues with VS.NET.
+09/05/2004	Added bgcolorcenter for all the places where a background can be used. To use it specify a top, bottom, left or right color, and a center color.
+            e.g. <table width=100% bgcolorcenter="255, 255, 255" bgcolorright="199,211,247">
+01/05/2004	Fixed bug where &nbsp; style character entities withough the semi-colon would cause QHTM to be really slow at parsing the HTML.
+01/05/2004	Removed compiler settings for exception handling and reduce the default size of QHTM from 424KB to 392KB.
+01/05/2004	Fixed annoying bug where QHTM would not activate if the window had no links or controls - affected mouse activation
+
+****** build 171 ******
+25/04/2004	Moved header file components/imglib.h to components/imglib/imglib.h - you should be usre to erase the original one if you have the source code.
+24/04/2004	Added support for WM_GETTEXT and WM_GETTEXTLENGTH - Demo example now uses these.
+24/04/2004	Added ability for tables, table rows and table cells to have tiled bitmap backgrounds
+24/04/2004	Removed CGradient (h/cpp), added Background.h. Changes as appropriate
+
+****** build 170 ******
+19/04/2004	Added support for native transparency and alpha channels in MNG animations. Paint Shop Pro's Animation Shop creates these very nicely.
+12/04/2004	Added ability to get resources from other EXEs and DLLs: <img src="RES:myexe.exe:bitmap1.bmp">
+12/04/2004	Added support for directly reading icons. Using QHTM's image library an icon is read as a serious of frames. Each frame can have a different size.
+						For icons in QHTM you really need to have just one icon in the file/group otherwise you could end up viewing the wrong icon.
+						Support also includes 32 bit alpha channel icons on all operating systems regardless of OS support for these types of icons.
+02/04/2004	Fixed bug where images with alpha channels wouldn't stretch...now they do.
+
+****** build 169 ******
+22/03/2004	Added support for COLSPAN...still thinking about ROWSPAN.
+
+****** build 168 ******
+21/03/2004	Properly fixed the bug with scaling when printing and where images with full paths were not working.
+
+****** build 167 ******
+06/03/2004	Fixed bug where specified table/row heights were not being scaled when printed.
+
+****** build 166 ******
+19/01/2004	Fixed bug where images with full paths would not be loaded.
+19/01/2004	Fixed crash bug where hable headings (THEAD) were not being created properly. Also, table headings are now centered as per IE.
+19/01/2004	Fixed compile bug for VS7.
+
+****** build 165 ******
+13/12/2003	Fixed bug where tooltips in non-default character sets were displaying in the wrong character set.
+13/12/2003	Fixed bug where multiple select list boxes were not showing up in a form.
+13/12/2003	Minor reorganisations of the code, please remove palette.cpp/h from the QHTM sources as they have now been moved into the guitools lib.
+13/12/2003	Fixed problem with QHTM.H including incorrect libraries: http://www.gipsysoft.com/forum/topic.asp?id=12
+13/12/2003	Fixed issues where animations were not working due to a missing include.
+
+****** build 164 ****** 
+07/12/2003	Added standard system colours (GetSysColor) e.g. COLOR_3DDKSHADOW to colours you can use. Supported everywhere a colour is supported.
+07/12/2003	Removed extra line space after lists to make the output more IE-like.
+02/12/2003	Change the way link tooltips are figured out. You can now have title="" in a link if you want no tooltip at all.
+02/12/2003	Add PBS_SMOOTH and PBS_VERTICAL to control styles.
+02/12/2003	Fixed bug with RegisterWindow colors.
+
+****** build 163 ****** 
+26/11/2003	Added mousewheel support. If there is vertical scrollbars then it will scroll vertically. If there are only horizontal scrollbars
+            it will scroll horizontally.
+24/11/2003	Added VAR and DFN - same styles as I (italic).
+24/11/2003	Added KBD and SAMP - same styles as CODE and TT.
+24/11/2003	Fixed bug in unicode versions where lists and right/left aligned images in tables would have the same impact as"nowrap"
+24/11/2003	Fixed a crash bug when parsing some forms with lists
+24/11/2003	Added ability to specify colours as RGB e.g. color="255,0,0"
+24/11/2003	Added ability for body, table and cell backgrounds to have ether a vertical or horizontal colour gradient:
+            New attributes are:
+              bgcolorleft
+              bgcolorright
+              bgcolortop
+              bgcolorbottom
+						If you don't set both top and bottom, or left and right, then no gradient will be used.
+
+****** build 161 ****** 
+20/11/2003	Fixed bug where character-set settings were not being carried through to ordered and unordered lists.
+20/11/2003	Fixed bug where the HTML below was causing the first character of the text to be missed out when the text followed a tag:
+						<br>อเ๘่ - First character is missing
+20/11/2003	Fixed build error when including QHTM.H in 'C' source files.
+20/11/2003	Changed the way QHTM_GetHTMLHeight and QHTM_RenderHTML work. They now have a "flags" parameter instead of "source".
+            The initial reason for the change was to allow transparent rendering (QHTM_RENDER_FLAG_TRANSPARENT) but now we have
+						an interface that is much more flexible. You shouldn't need to make any changes to your code.
+						I will update the docs as soon as possible.
+19/11/2003	Added missing &apos; to the entities.
+
+****** build 160 ****** 
+20/06/2003	Added Alpha Channel support for PNG images.
+20/06/2003	Fixed strange behaviour where fonts weren't set right for HTML when control was placed on a dialog and HTML was loaded from the dialog resource template.
+19/06/2003	Fixed some errors in the QHTM.h file that would lead to bad linking when using unicode debug builds.
+
+****** build 161 ****** 
+02/02/2003	Added better Win9x font compatibility.
+02/02/2003	Added QHTM_Uninitialize to clean up some stuff QHTM uses.
+
+
+****** build 160 ****** 
+29/01/2003	Fixed bug where hyperlink IDs where sometimes being treated as the tooltip.
+20/10/2002	Added ability to specify percent cols for TEXTAREA e.g. cols="100%". A bit of a hack but it works a treat.
+
+****** build 159 ****** 
+12/10/2002	Added QHTM_SET_DEFAULTS to set various defaults in QHTM. These are *global* defaults and will apply to all instances in your application.
+30/09/2002	Fixed bug where links in HTML tooltips didn't work.
+
+****** build 158 ****** 
+30/09/2002	Added support for ALT attribute for use with images.
+30/09/2002	Altered library setup to make building and linking static unicode libraries easier.
+
+****** build 157 ****** 
+28/09/2002	Added build numbering to make everyones life easier.
+28/09/2002	Fixed bug where different groups of radio buttons were acting as one.
+28/09/2002	Fixed up APIExample (in the examples) so it now offers all functionality including demonstrating how to save a HTML file as a bitmap.
+28/09/2002	Added numeric IDs to all form controls so you can now use GetDlgItem( hwndQHTM, <number> ) to get the HWND of the form control.
+26/09/2002	Fixed bug where inputs in tables within tables would cause an assert.
+22/09/2002	Fixed bug where QHTM would scroll badly when first clicking on a QHTM scrollbar
+
+17/09/2002	Added unicode builds for QHTM. If you have the source code then you can now build unicode versions of the DLL/LIBs/etc.
+17/09/2002	Added ANSI and Unicode versions of QHTM_ADD_HTML (just like windows API). You need not change your code as macros will do it for you.
+17/09/2002	Added ability for ANSI DLL to notify Unicode applications. It sends the windows message WM_NOTIFYFORMAT to it's parent prior to send the WM_NOTIFY.
+15/09/2002	Fixed problem where HTML tooltips that were then sent TTM_UPDATE would display badly.
+15/09/2002	Fixed an issue where forms in tables could cause a crash when submitting.
+
+14/09/2002	Added QHTM_SET_DEFAULT_RESOURCE_HANDLE so you can use plain SetWindowText to set the HTML but have images some place else.
+14/09/2002	Added QHTM_RESET_FORM to reset a form from within your code and added manual submit and reset to the "Demo" menu of "Demo".
+14/09/2002	Fixed bug in form layout when a form spans tables and table cells.
+08/09/2002	Fixed bug in QHTM_GET_LINK_FROM_POINT where it was only working with the first link on the page.
+08/09/2002	Fixed bug where QHTM_GOTO_LINK was not working correctly.
+
+08/09/2002	Removed the examples from the standard source package. This shrinks the size of the source download and also
+	        allows me to upload the samples fairly easily. More examples to come later and much tidying of the examples is needed.
+08/09/2002	Altered the way QHTM is linked. YOu can now just include "QHTM.h" and it will link the required files.
+            If you don't want that then do this:
+			#define QHTM_NO_LINK_LIBS
+			#include <qhtm/qhtm.h>
+
+			If you have the source and want QHTM statically linked then do this:
+			#define QHTM_LINK_STATIC_LIBS
+			#include <qhtm/qhtm.h>
+
+			For this to work you'll need to alter your project settings to specify an additional library path of where-ever the
+			"bin" directrory is. By default the examples have an additional library path of:
+			"..\..\..\..\bin\"
+08/09/2002	Moved QHTM config items from QHTM_Includes.h to \QHTM\config.h - this is where you'd compile features out to make QHTM smaller.
+08/09/2002	Removed "light" configurations from the QHTM and ImgLib projects. If you open the source and get an error then you need to close MSDEV and delete the .opt file from the QHTM directory.
+07/09/2002	Fixed a couple of build issues when QHTM is used with an older Platform SDK.
+07/09/2002	Made QHTM_GET_LINK_REGION more robust by checking for NULL in the link ID both passed and stored.
+06/09/2002	Fixed stupid bug in QHTM_SUBMIT_FORM. The form was submitted okay but the form contents were not updated prior to the submit.
+
+31/08/2002	Because I changed the calling convention of the callbacks (which means you need to change your callback code) I have also
+	        changed them so they can have an "LPARAM" value. You set it using QHTM_SET_LPARAM (QHTM_SetLPARAM) and it is then passed to the callback functions.
+			This makes uing QHTM in C++ even nicer and general usage of callbacks should be more useful.
+31/08/2002	Added QHTM_GET_LINK_REGION (QHTM_GetLinkRegion). Given a link ID it will get the HRGN, you can then use region as you see fit e.g. Use GetRgnBox to get the RECT of the region.
+31/08/2002	Added pcszLinkID to the link notification structure NMQHTM.
+31/08/2002	Fixed bug where form single line edit controls were sized 2 pixels too small.
+31/08/2002	Added QHTM_SUBMIT_FORM (QHTM_SubmitForm macro) to manually submit a form.
+31/08/2002	Fixed bug where empty BR tags did nothing where they should have increased the Y position by the current font height.
+31/08/2002	Fixed bug where a QHTM with links would scroll when focused (with the mouse) for the first time.
+31/08/2002	Fixed stupid problem with calling convention of callbacks. Please look at the typedefs of the QHTM callbacks and notice the addition of CALLBACK. This would often cause a crash in the FORM submit callback after the callback has finished.
+31/08/2002	Fixed OBO error and scaling error when using a table within a table. 100% width would *sometimes* be 99.9%.
+28/07/2002	Fixed bug where table cells without tables would cause a crash.
+28/07/2002	Fixed bug where certain russian characters were causing QHTM to choke.
+
+26/07/2002	Added ability to get link information based on a mouse point (relative to QHTM).
+26/07/2002	Added CLEAR=[all|left|right] attribute to BR tag. This moves the next line to be past any margins.
+26/07/2002	Fixed PRE layout bug, spotted by Joel Lucsy. Test file ('We Come in Peace'): http://www4.telge.kth.se/~d99_kme/
+25/07/2002	Add table cell height support.
+25/07/2002	Added option to always show tooltips on links even when the QHTM application is not the active application.
+21/07/2002	Fixed annoyance where accidentally calling QHTM_Initialize twice would fail the second time.
+20/07/2002	Added support for WM_PRINTCLIENT so AnimateWindow works when QHTM is one of the child windows
+
+19/07/2002	Fixed OBO error when rendering table cells with no padding/spacing and using a background cell colour.
+19/07/2002	Fixed bug where the CENTER attribute was not being reset with /CENTER
+19/07/2002	Altered HTML comment handling to work better with some more obscure comment styles.
+13/07/2002	Change the line scrolling size to be a factor of the HTML height.
+13/07/2002	Added page home/end, up/down and arrow up/down keyboard navigation.
+17/06/2002	Fixed logic bug that would cause ASSERTs to fire when displaying a form inside a table.
+17/06/2002	Fixed crash bug where an image name was missing.
+
+16/06/2002	Moved all examples and demos to a subfolder of QHTM called "examples".
+16/06/2002	Altered project layout so that include and lib paths are no longer needed. Each DSP file has additional include directories set and all projects build into a "bin" directory. This does mean that you'll need to set the working directory of projects such as APIExample(static) if you want them to load HTML files that have paths hardcoded into them.
+14/06/2002	Fixed issue of QHTM not obeying the MARGINWIDTH, MARGINHEIGHT, TOPMARGIN and LEFTMARGIN HTML BODY attributes
+14/06/2002	Added support for BGCOLOR on TR tags.
+14/06/2002	Fixed bug where text after a comment was not treated correctly.
+14/06/2002	Fixed bug in comment handling where empty comments "<!---->" would behave badly.
+14/06/2002	Fixed bug where WS_EX_TRANSPARENT wasn't working correctly.
+14/06/2002	Altered QHTM_ADD_HTML so passing 0 scrolls to the top, 1 scrolls to the bottom and anything else does not scroll.
+
+02/06/2002	Fixed compile error when removing the BMP file support from ImgLib.
+30/05/2002	Fixed bug where "transparent-color" was being ignored when QHTM_SetResourceCallback was being used.
+28/05/2002	Added ability to read unicode files to both ansi and unicode builds.
+28/05/2002	Added forms support.
+25/05/2002	Added 147 extra colour names...such as aquamarine, blueviolet, cornflowerblue...etc.
+24/05/2002	Fixed bug in display where a left aligned image in a heading was messing up right aligned text within the same heading.
+24/05/2002	Fixed bug in parser where heading were incorrectly inheriting their alignment from previous paragraphs
+18/05/2002	Fixed bug in parser where BR tags were resetting the link status.
+18/05/2002	Fixed bug where PRE was not creating a new paragraph - rather it was setting the current paragraph style. Test document: The PNG spec.
+
+18/05/2002	Added support for +/- in font sizes
+18/05/2002	Added definition lists, which include the DL, DT and DD tags. No-one seems to agree on how to display them so I opted for the way opera works as it seems to make more sense.
+18/05/2002	Added support for TT - which renders the same as PRE but without the preformatted layout.
+18/05/2002	Added option "QHTM_OPT_SET_RESOURCE_CALLBACK" - this forces QHTM to ask the callback for *all* resources. This can allow you to easily grab images and web pages from sources such as databases.
+18/05/2002	Lots of internal tidying up of the code and reorganisation. If you have the source then I'd advise removing all files and getting the latest.
+18/05/2002	Radically improved render speed when using an assortment of fonts.
+12/05/2002	Added support for "type" in OL and UL elements.
+11/05/2002	Changed default font size to 3.
+11/05/2002	Added "value=" to ordered lists. This means you can set the number of items, subsequent items continu numerically from there. See the lists.html example.
+11/05/2002	Fixed problem where "nowrap" wasn't working correctly.
+11/05/2002	Added "compact" for ordered and unordered lists
+11/05/2002	Fixed layout bug where text wrapped around images and tables wasn't going to the normal margins soon enough.
+11/05/2002	Fixed problem where right aligned tables would creep into preceding text because they were not being given a new paragraph break.
+11/05/2002	Fixed problem where the cursor image (hand/pointer) wasn't getting updated when the control was automatically scrolled.
+11/05/2002	Added ability to send the control scrolling to the bottom when using QHTM_ADD_HTML. Also added QHTM_AddHTML2 message cracker macro to make life easier.
+11/05/2002	Fixed problem where animations (images) were being restarted when resized.
+
+11/05/2002	Added bgcolor to text so you can change the background colour of any piece of text.
+08/05/2002	Fixed bug where right aligned images were not getting a margin to their left - thus sometimes text could be drawn too close to the image edge.
+08/05/2002	Fixed bug where table cells with background colours could draw 1 pixel outside their border.
+06/05/2002	Added extra image callback so authors can provide a HBITMAP. Useful for non-C++ developers.
+			QHTM will ask you for a HBITMAP, it's up to you to delete the resulting HBITMAP as QHTM will make a copy of it.
+05/05/2002	Made HTML comment handling more robust.
+05/05/2002	Added ability to ignore SCRIPT and STYLE tags - when used with general wbe pages these would sometimes be displayed as plain text.
+05/05/2002	Added logging-to-file support to DebugHLP to aid in debugging broken HTML files. Internal use only.
+05/05/2002	Fixed a load of UNICODE issues
+05/05/2002	Added support for transparent GIF and PNG.
+05/05/2002	Added ability for any image to be transparent. Use transparent-color='color' where "color" is a normal HTML colour description.
+
+	** Stopped using build numbers **
+
+1.56
+	21/04/2002			Added new project called "QHTM Static Link" and changed "APIExampleStatic" to use this new LIB.
+		This project generates the two libraries "QHTMs.lib" (release) and "QHTMsd.lib" (debug).
+		Link your application to these and you don't need to distribute a DLL!
+		You'll also need to link to imglib, zlib, lpng103 and jpeglib depending on your imaging requirements.
+	16/04/2002	Fixed problem where font sizes larger than 7 would be displayed small - they are now corrected to font size 7.
+	16/04/2002	Fixed crash where badly (I mean BADLY) formed HTML with tables would cause QHTM to go crazy.
+
+1.55
+	01/02/2002	Fixed bug where <a href="#top"> wasn't hyperlinking to the top of the document
+	01/02/2002	Added image callback, including ability to animate
+	01/02/2002	Broke out ImgLib CDataSourceABC classes into their own library as they could be used for other projects.
+	01/02/2002	Added BODY background image support - including animations.
+	27/02/2002	Fixed QHTM WinHelper namespace so QHTM classes no longer conflict with MFC classes. Namely CSize, CPoint and CRect. Solves problem of statically linking to MFC projects.
+	27/02/2002	Fixed bug where single quoted parameters were not being parsed correctly.
+	27/02/2002	Fixed bug where badly formed FONT could cause a crash.
+
+1.54
+	03/02/2002	Fixed problem where background table colours were not printing. They are now.
+	03/02/2002	Changed ApiExample...to print the current file.
+	03/02/2002	Fixed problem where font "courier" was misbehaving.
+
+1.53
+	27	Jan		2001	Fixed bug with QHTM_SET_SCROLL_POS where setting to -1 should have set it to the end.
+	27	Jan		2001	Added the ability to *add* HTML to the current document.
+	26 Oct		2001	Fixed problem where QHTM windows didn't respond to scrollbar context menus items for top, bottom, left and right
+	20 Oct		2001	Fixed crash when QHTM_MessageBox was used in a COM component.
+	29 Sept		2001	Removed call to RegisterWindow from DLL main and also fixed build issues with latest Platform SDK
+	16 August	2001	Added QHTM_RenderHTML and QHTM_GetHTMLHeight to enable HTML to be rendered onto HDC's
+	16 August	2001	Added QHTM_SetHTMLButton to enable HTML content on a pushbutton.
+	16 August	2001	Added QHTM_OPT_ENABLE_SCROLLBARS and QHTM_EnableScrollbars to enable/disable scroll bars on QHTM.
+
+1.52
+	05 August	2001	Fixed bug under win9x where some fonts widths were not calculated properly and this resulted in text being overwritten. The example showed this behaviour.
+	05 August	2001	Added "Windows-oem" and "gb2312" character set.
+	05 August	2001	Fixed bug where table row height was not working properly.
+
+1.51 - test released July 27th 2001
+	23 July		2001	QHTM now sends a WM_CTLCOLORSTATIC to it's parent.
+	23 July		2001	Fixed QHTM tooltips to also use the font and colours from the system.
+	23 July		2001	Fixed Cooltips to use the font and colours specified in the system by default.
+	23 July		2001	Changed control so it defaults the font to be whatever was sent to it using WM_SETFONT (must be before being assigned HTML).
+	23 July		2001	Fixed problem where TAB characters were being placed as-is when in PRE, replaced with 8 spaces in rendered HTML.
+	21 July		2001	Added option to get and set the default margins used by QHTM. QHTM_SetMargins and QHTM_OPT_MARGINS
+	21 July		2001	Added HTML MessageBox function; QHTM_MessageBox.
+	21 July		2001	Changed default table vertical alignment to be middle (just like it should).
+	21 July		2001	Added support for valign in tables. Added QHTM extension of valign in the <TABLE> tag to specify valign for an entire table.
+	21 July		2001	Added support for SUB and SUP.
+	21 July		2001	Fixed bug where some underline text objects weren't drawing properly
+	21 July		2001	Changed SetScrollPos to invalidate the window.
+	21 July		2001	Fixed various alignment and bogus paragraph problems.
+	20 July		2001	Fixed a bug in CoolTips that meant alt-tabbing around behaved badly.
+	20 July		2001	Improved performance by reducing the reallocation of memory, rescanning of strings and having only one buffer used for tokens in the parser/base parser.
+	20 July		2001	Added support for character sets (windows-1250 to windows-1257)
+	16 July		2001	Fixed bug where a font name that didn't exist in the system could be used. Now substitues the default font name (Times new roman).
+	16 July		2001	Fixed bug where the overhang on a space at the end of a token (text block) would cause the space to shrink!
+
+1.5		- Released July 15th 2001
+	11 July		2001	Added ability for the parser to extract comments and pass them on - maybe to process SSI statements like "#include".
+	11 July		2001	Added margin around aligned tables so text doesn't push up against the table.
+	11 July		2001	Added margin around aligned images so text doesn't push up against the image.
+	11 July		2001	Fixed bug in aligned(left, right) table layout where they effectively created new paragraphs, now text correctly wraps around them.
+	11 July		2001	changed default font name to "Times new roman"
+	10 July		2001	Many fixes in the table layout code due to caching of table measurements
+	10 July		2001	Fixed italics so text does not spill onto next character cells.
+	10 July		2001	changed default font size from 1 to 2
+	10 July		2001	Fixed QHTM heading styles to match those of IE.
+	10 July		2001	Fixed QHTM fonts sizes to closer resemble those of IE.
+	10 July		2001	Fixed bug where font point sizes were not working as designed.
+	7 July		2001	Joel Lucsy added the ability to comment out HTML; <!--comment-->
+	7 July		2001	Joel Lucsy added the ability to read bitmaps from resource stored as bitmaps. Reference them using SRC="RES:nID" where nID is the number associated with the bitmap.
+	7 July		2001	Added CODE - Renders in a fixed pitch font (courier new)
+	7 July		2001	Added CITE - Same as Italic 'I'
+	7 July		2001	Fixed a couple of problems in the UNICODE builds.
+	7 July		2001	Added ADDRESS - renders the same as BLOCKQUOTE but uses an Italic font.
+	7 July		2001	Fixed problem (reported by Paul Noble) with QHTM_GetTitle not returning the length of the title copied into the buffer (not including terminating Z)
+	7 July		2001	Added support for PRE and it's deprecated buddy XMP
+	7 July		2001	Added DEL element to be the same as STRIKE
+	6 July		2001	Changed internal structure of CSectionABC to make the control lighter and faster
+	6 July		2001	Fixed bug in thumb tracking when very large documents were loaded. 16bit problem.
+	6 July		2001	Fixed problem in the parser and renderer that displayed text after tables badly (extra space).
+	5 July		2001	Fixed nasty little flicker when giving new document to the control. This was caused
+										by resetting the scrolls to off and the switching them back on again.
+	5 July		2001	Fixed bug where (reported by Joel Lucsy)</p> wasn't working at all - it was being ignored.
+	5 July		2001	Added suggestion from Joel Lucsy to try for the hand cursor from the OS first and then fall back to a resource version.
+	5 July		2001	Added suggestion from Joel Lucsy to read GIF87a as well.
+	5 July		2001	Added suggestion from Joel Lucsy to read resource files from RT_HTML as well.
+	5 July		2001	Joel Lucsy added CENTER and DIV elements
+
+1.4
+	1 July		2001	Moved more defaults into the Defaults class and removed unused code from utils.h.
+	1 July		2001	Fixed bug with mailto URLs opening a new browser window that went nowhere.
+	30 June		2001	Removed unused code from CDrawContext.
+	30 June		2001	Fixed problem where a <p> was needed after a heading. It's not any more (but it doesn't hurt to).
+	30 June		2001	Added ability for control to be transparent. This does cause some flicker due to the fact that
+										it cannot use it's offscreen bitmap and enhanced scrolling ability to draw.
+	30 June		2001	Added ability to have a "light" build of the DLL.
+	30 June		2001	Fixed bug in strikethrough where ordered lists would not correctly pass the property around
+	28 June		2001	Added ability to statically link. This meant many small changes in structure for the code
+										which has resulted in a cleaner build system.
+	23 march	2001	Removed vertical text support from the CDrawContext.
+	23 march	2001	Added support for <strike>.
+	22 march	2001	Fixed bug where getting the title would cause a crash due to OBO error.
+	22 march	2001	Rewrote the timer handling to use the QHTM window rather than a seperate timer event window.
+
+
+1.3	May 13 1999
+	Fixed bug when changing styles in the control - it didn't redraw properly.
+	Fixed scroll bar bugs
+	Fixed bug where an image that is on the limit of moving onto the next line would be
+		moved *way* over to the right. Only happened in rare circumstances.
+	Fixed a couple of minor issues in printing.
+	Fixed image scaling problem when printing.
+	Added several new interfaces for printing.
+	Added ability to set the zoom level (via the set/get options).
+
+
+1.2	March 29 1999
+	Removed a lot of unused code.
+	Added the ability to jump to a named link within a single web page (QHTM_GOTO_LINK)
+	Fixed bug in initialisation of the control. It will now use the initial text from the
+		dialog resources as it's first text.
+	Added printing.
+	Added extra table support.
+	Added CoolTip interface
+	Many bug fixes and speedups throughout.
+
+
+1.1	February 5 1999
+	Added ability to switch on/off the CoolTips. This is via an options set.
+	Fixed a (crash) bug when linking to another document within the QHTM control.
+	Changed the callback mechanism for links. It now uses WM_NOTIFY rather than a registered
+		window message.
+	Fixed CoolTip so it no longer crashes when using explicit tags - it worked okay when using
+		&lt; and &gt;. Now it works properly.
+
+Bugs, suggestions etc. should be sent to russf@gipsysoft.com
+Please visit the web site http://www.gipsysoft.com/qhtm for updates and bug fixes.

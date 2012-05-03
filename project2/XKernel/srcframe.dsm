@@ -1,0 +1,445 @@
+'------------------------------------------------------------------------------
+'FILE DESCRIPTION: Alias25's source code frames
+'------------------------------------------------------------------------------
+
+'******************************************************************************
+'ClassFrame
+'*****************************************************************************
+Sub ClassFrame
+ Dim window
+ set window = ActiveWindow
+
+ If window.type <> "Text" then
+  MsgBox "This macro can only be run within a text window.", 0, _
+   "Create Class Frame"
+  Exit Sub
+ End If
+
+ ClassName = InputBox("Enter the class name:", "Create Class Frame", "ACNONAME")
+ if ClassName = "" then Exit Sub
+
+ ClassDesc = InputBox("Enter the class description:", "Create Class Frame", "No description")
+ if ClassDesc = "" then Exit Sub
+
+ ActiveDocument.Selection = + _
+ "//---------------------------------------------------------------------------" + vbLf + _
+ "//" + vbLf + _
+ "//	" + ClassName + vbLf + _ 
+ "//	" + ClassDesc + vbLf + _
+ "//" + vbLf + _
+ "//---------------------------------------------------------------------------" + vbLf + _
+ "class " + ClassName + vbLf + _
+ "{" + vbLf + _
+ "// public functions ////////////////////////////////////////////////////////" + vbLf + _
+ "public:" + vbLf + _
+ "	" + ClassName + "() {}" + vbLf + _
+ "	~" + ClassName + "() {}" + vbLf + vbLf + _
+ "// public members //////////////////////////////////////////////////////////" + vbLf + _
+ "public:" + vbLf + vbLf + _
+ "// protected functions /////////////////////////////////////////////////////" + vbLf + _
+ "protected:" + vbLf + vbLf + _ 
+ "// protected members ///////////////////////////////////////////////////////" + vbLf + _
+ "protected:" + vbLf + vbLf + _
+ "// private functions ///////////////////////////////////////////////////////" + vbLf + _
+ "private:" + vbLf + vbLf + _ 
+ "// private members /////////////////////////////////////////////////////////" + vbLf + _
+ "private:" + vbLf + vbLf + _
+ "};" + vbLf
+
+End Sub
+
+'******************************************************************************
+'SimpleFunctionFrame
+'*****************************************************************************
+Sub SimpleFunctionFrame
+ ActiveDocument.Selection = + _
+ "//---------------------------------------------------------------------------" + vbLf + _
+ "// Name:" + vbLf + _
+ "// Desc:" + vbLf + _
+ "//---------------------------------------------------------------------------"
+
+End Sub
+
+'******************************************************************************
+'FullFunctionFrame
+'*****************************************************************************
+Sub FullFunctionFrame
+ Dim window
+ set window = ActiveWindow
+
+ If window.type <> "Text" then
+  MsgBox "This macro can only be run within a text window.", 0, _
+   "Create Function Frame"
+  Exit Sub
+ End If
+
+ FunctionName = InputBox("Enter the function prototype:", "Create Function Frame", _
+  "void NoName()")
+ if FunctionName = "" then Exit Sub
+
+ ActiveDocument.Selection = + _
+ "//---------------------------------------------------------------------------" + vbLf + _
+ "// Function:" + vbLf + _
+ "//   " + FunctionName + vbLf + _
+ "// Description:"+ vbLf + _
+ "//   NA" + vbLF + _
+ "// Parms:" + vbLF + _
+ "//   NA" + vbLF + _
+ "// Return:" + vbLF + _
+ "//   NA" + vbLF + _
+ "//---------------------------------------------------------------------------" + vbLf + _
+ "" + FunctionName + vbLf + _
+ "{" + vbLf + _
+ "}" + vbLf
+
+End Sub
+
+
+'******************************************************************************
+'HeaderFrameC
+'*****************************************************************************
+Sub HeaderFrameC
+'DESCRIPTION: Create a .H C frame in the current file
+ Dim window
+ set window = ActiveWindow
+
+ If window.type <> "Text" then
+  MsgBox "This macro can only be run within a text window.", 0, _
+   "Create Header Frame"
+  Exit Sub
+ End If
+
+ AuthorDesc = InputBox("What's your name ?", "Create Header Frame", _
+  "Pierre Renaux")
+ if AuthorDesc = "" then Exit Sub
+
+ ModuleDesc = InputBox("Enter the module description:", "Create Header Frame", _
+  "No description")
+ if ModuleDesc = "" then Exit Sub
+
+ ThisDate = Date
+ DateString = CStr(ThisDate)
+
+ ext = UCase(ActiveDocument.Name)
+ DocName = ext
+ pos = Instr(ext, ".")
+ Do While pos <> 1
+  ext = Mid(ext, pos, (Len(ext) - pos + 1))
+  pos = Instr(ext, ".")
+ Loop
+ ext = LCase(ext)
+ pos = Instr(DocName, ".")
+ DefineName = "__" + Left(UCase(DocName), pos - 1) + "_" + _
+  UCase(Right(ext, len(ext) - 1)) + "__"
+ ActiveDocument.Selection.StartOfDocument
+ ActiveDocument.Selection = "#ifndef " + DefineName + vbLf + _
+ "#define " + DefineName + vbLf + _
+ "#ifdef __cplusplus" + vbLf + _
+ "extern ""C"" {" + vbLf + _
+ "#endif" + vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "//**" + vbLf + _
+ "//** Alias25 (C) 2000" + vbLf + _
+ "//**" + vbLf + _
+ "//** File: " + DocName + vbLf + _
+ "//**" + vbLf + _
+ "//** Date: " + DateString + vbLf + _
+ "//**" + vbLf + _
+ "//** Author: " + AuthorDesc + vbLf + _
+ "//**" + vbLf + _
+ "//** Desc: " + ModuleDesc + vbLf + _
+ "//**" + vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE REQUIRED HEADERS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE DEFINITIONS / ENUMERATIONS / SIMPLE TYPEDEFS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE STRUCTURES" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE DATA DECLARATIONS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE FUNCTION PROTOTYPES" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE TRAILING HEADERS" + vbLf + _
+ "//===========================================================================" + vbLf
+
+ ActiveDocument.Selection.EndOfDocument
+ ActiveDocument.Selection = _
+ vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "//**" + vbLf + _
+ "//**    END HEADER " + DocName + vbLf + _
+ "//**" + vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "#ifdef __cplusplus" + vbLf + _
+ "}" + vbLf + _
+ "#endif" + vbLf + _
+ "#endif // " + DefineName + vbLf
+ ActiveDocument.Selection.StartOfDocument
+  
+End Sub
+
+'******************************************************************************
+'SourceFrameC
+'******************************************************************************
+Sub SourceFrameC
+'DESCRIPTION: Create a .C frame in the current file
+ Dim window
+ set window = ActiveWindow
+ If window.type <> "Text" then
+  MsgBox "This macro can only be run within a text window.", 0, _
+   "Create Source Frame"
+  Exit Sub
+ End If
+
+ AuthorDesc = InputBox("What's your name ?", "Create Header Frame", _
+  "Pierre Renaux")
+ if AuthorDesc = "" then Exit Sub
+
+ ModuleDesc = InputBox("Enter the module description:", "Create Header Frame", _
+  "No description")
+ if ModuleDesc = "" then Exit Sub
+
+ ThisDate = Date
+ DateString = CStr(Date)
+
+ DocName = UCase(ActiveDocument.Name)
+ ActiveDocument.Selection.StartOfDocument
+ ActiveDocument.Selection = _
+ "//***************************************************************************" + vbLf + _
+ "//**" + vbLf + _
+ "//** Alias25 (C) 2000" + vbLf + _
+ "//**" + vbLf + _
+ "//** File: " + DocName + vbLf + _
+ "//**" + vbLf + _
+ "//** Date: " + DateString + vbLf + _
+ "//**" + vbLf + _
+ "//** Author: " + AuthorDesc + vbLf + _
+ "//**" + vbLf + _
+ "//** Desc: " + ModuleDesc + vbLf + _
+ "//**" + vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION HEADERS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE DEFINITIONS / ENUMERATIONS / SIMPLE TYPEDEFS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE STRUCTURES" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION REQUIRED EXTERNAL REFERENCES (AVOID)" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE FUNCTION PROTOTYPES" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE DATA" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE FUNCTIONS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE DATA" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE FUNCTIONS" + vbLf + _
+ "//===========================================================================" + vbLf
+
+ ActiveDocument.Selection.EndOfDocument
+ ActiveDocument.Selection = _
+ vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "//**" + vbLf + _
+ "//**    END MODULE " + DocName + vbLf + _
+ "//**" + vbLf + _
+ "//***************************************************************************" + vbLf
+ ActiveDocument.Selection.StartOfDocument
+  
+End Sub
+
+'******************************************************************************
+'HeaderFrameCPP
+'*****************************************************************************
+Sub HeaderFrameCPP
+'DESCRIPTION: Create a .H C++ frame in the current file
+ Dim window
+ set window = ActiveWindow
+
+ If window.type <> "Text" then
+  MsgBox "This macro can only be run within a text window.", 0, _
+   "Create Header Frame"
+  Exit Sub
+ End If
+
+ AuthorDesc = InputBox("What's your name ?", "Create Header Frame", _
+  "Pierre Renaux")
+ if AuthorDesc = "" then Exit Sub
+
+ ModuleDesc = InputBox("Enter the module description:", "Create Header Frame", _
+  "No description")
+ if ModuleDesc = "" then Exit Sub
+
+ ThisDate = Date
+ DateString = CStr(ThisDate)
+
+ ext = UCase(ActiveDocument.Name)
+ DocName = ext
+ pos = Instr(ext, ".")
+ Do While pos <> 1
+  ext = Mid(ext, pos, (Len(ext) - pos + 1))
+  pos = Instr(ext, ".")
+ Loop
+ ext = LCase(ext)
+ pos = Instr(DocName, ".")
+ DefineName = "__" + Left(UCase(DocName), pos - 1) + "_" + _
+  UCase(Right(ext, len(ext) - 1)) + "__"
+ ActiveDocument.Selection.StartOfDocument
+ ActiveDocument.Selection = "#ifndef " + DefineName + vbLf + _
+ "#define " + DefineName + vbLf + _
+ "#ifdef __cplusplus" + vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "//**" + vbLf + _
+ "//** Alias25 (C) 2000" + vbLf + _
+ "//**" + vbLf + _
+ "//** File: " + DocName + vbLf + _
+ "//**" + vbLf + _
+ "//** Date: " + DateString + vbLf + _
+ "//**" + vbLf + _
+ "//** Author: " + AuthorDesc + vbLf + _
+ "//**" + vbLf + _
+ "//** Desc: " + ModuleDesc + vbLf + _
+ "//**" + vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE REQUIRED HEADERS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE DEFINITIONS / ENUMERATIONS / SIMPLE TYPEDEFS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE CLASS PROTOTYPES / EXTERNAL CLASS REFERENCES" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE STRUCTURES / UTILITY CLASSES" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE DATA DECLARATIONS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE FUNCTION PROTOTYPES" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE OBJECT CLASS DEFINITIONS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE TRAILING HEADERS" + vbLf + _
+ "//===========================================================================" + vbLf
+
+ ActiveDocument.Selection.EndOfDocument
+ ActiveDocument.Selection = _
+ vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "//**" + vbLf + _
+ "//**    END HEADER " + DocName + vbLf + _
+ "//**" + vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "#endif // __cplusplus" + vbLf + _
+ "#endif // " + DefineName + vbLf
+ ActiveDocument.Selection.StartOfDocument
+  
+End Sub
+
+'******************************************************************************
+'SourceFrameCPP
+'******************************************************************************
+
+Sub SourceFrameCPP
+'DESCRIPTION: Create a .CPP frame in the current file
+ Dim window
+ set window = ActiveWindow
+ If window.type <> "Text" then
+  MsgBox "This macro can only be run within a text window.", 0, _
+   "Create Source Frame"
+  Exit Sub
+ End If
+
+ AuthorDesc = InputBox("What's your name ?", "Create Header Frame", _
+  "Pierre Renaux")
+ if AuthorDesc = "" then Exit Sub
+
+ ModuleDesc = InputBox("Enter the module description:", "Create Header Frame", _
+  "No description")
+ if ModuleDesc = "" then Exit Sub
+
+ ThisDate = Date
+ DateString = CStr(Date)
+
+ DocName = UCase(ActiveDocument.Name)
+ ActiveDocument.Selection.StartOfDocument
+ ActiveDocument.Selection = _
+ "//***************************************************************************" + vbLf + _
+ "//**" + vbLf + _
+ "//** Alias25 (C) 2000" + vbLf + _
+ "//**" + vbLf + _
+ "//** File: " + DocName + vbLf + _
+ "//**" + vbLf + _
+ "//** Date: " + DateString + vbLf + _
+ "//**" + vbLf + _
+ "//** Author: " + AuthorDesc + vbLf + _
+ "//**" + vbLf + _
+ "//** Desc: " + ModuleDesc + vbLf + _
+ "//**" + vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION HEADERS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE DEFINITIONS / ENUMERATIONS / SIMPLE TYPEDEFS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE CLASS PROTOTYPES / EXTERNAL CLASS REFERENCES" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE STRUCTURES / UTILITY CLASSES" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION REQUIRED EXTERNAL REFERENCES (AVOID)" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE FUNCTION PROTOTYPES" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE DATA" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    IMPLEMENTATION PRIVATE FUNCTIONS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE DATA" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE FUNCTIONS" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//===========================================================================" + vbLf + _
+ "//    INTERFACE CLASS BODIES" + vbLf + _
+ "//===========================================================================" + vbLf
+
+ ActiveDocument.Selection.EndOfDocument
+ ActiveDocument.Selection = _
+ vbLf + _
+ "//***************************************************************************" + vbLf + _
+ "//**" + vbLf + _
+ "//**    END MODULE " + DocName + vbLf + _
+ "//**" + vbLf + _
+ "//***************************************************************************" + vbLf
+ ActiveDocument.Selection.StartOfDocument
+  
+End Sub

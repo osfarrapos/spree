@@ -1,0 +1,344 @@
+Binary files libpng-1.2.4-orig/contrib/gregbook/readpng.o and libpng-1.2.4/contrib/gregbook/readpng.o differ
+diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -I 'libpng-1.2.4-orig*' libpng-1.2.4-orig/contrib/visupng/PngFile.h libpng-1.2.4/contrib/visupng/PngFile.h
+*** libpng-1.2.4-orig/contrib/visupng/PngFile.h	Tue Jun  6 01:21:40 2000
+--- libpng-1.2.4/contrib/visupng/PngFile.h	Sat Feb 10 17:02:24 2001
+***************
+*** 1,10 ****
+  //------------------------------------------
+  //  PNGFILE.H -- Header File for pngfile.c
+  //------------------------------------------
+! 
+! // Copyright 2000, Willem van Schaik.  For conditions of distribution and
+! // use, see the copyright/license/disclaimer notice in png.h
+! 
+  #include <stdio.h>
+  #include <stdlib.h>
+  #include <string.h>
+--- 1,7 ----
+  //------------------------------------------
+  //  PNGFILE.H -- Header File for pngfile.c
+  //------------------------------------------
+! #define byte	short
+  #include <stdio.h>
+  #include <stdlib.h>
+  #include <string.h>
+diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -I 'libpng-1.2.4-orig*' libpng-1.2.4-orig/contrib/visupng/VisualPng.rc libpng-1.2.4/contrib/visupng/VisualPng.rc
+*** libpng-1.2.4-orig/contrib/visupng/VisualPng.rc	Mon Jun 12 13:55:08 2000
+--- libpng-1.2.4/contrib/visupng/VisualPng.rc	Mon Jul  8 20:46:36 2002
+***************
+*** 7,13 ****
+  //
+  // Generated from the TEXTINCLUDE 2 resource.
+  //
+! #include "afxres.h"
+  
+  /////////////////////////////////////////////////////////////////////////////
+  #undef APSTUDIO_READONLY_SYMBOLS
+--- 7,17 ----
+  //
+  // Generated from the TEXTINCLUDE 2 resource.
+  //
+! //#include "afxres.h"
+! #define APSTUDIO_HIDDEN_SYMBOLS
+! #include "windows.h"
+! #undef APSTUDIO_HIDDEN_SYMBOLS
+! #include "dlgs.h"
+  
+  /////////////////////////////////////////////////////////////////////////////
+  #undef APSTUDIO_READONLY_SYMBOLS
+***************
+*** 87,92 ****
+--- 91,98 ----
+      "P",            IDM_FILE_PREVIOUS,      VIRTKEY, CONTROL, NOINVERT
+      "V",            IDM_FILE_PREVIOUS,      VIRTKEY, CONTROL, NOINVERT
+      "X",            IDM_FILE_EXIT,          VIRTKEY, ALT, NOINVERT
++     VK_DOWN,        IDM_FILE_PREVIOUS,      VIRTKEY, CONTROL, NOINVERT
++     VK_UP,          IDM_FILE_PREVIOUS,      VIRTKEY, CONTROL, NOINVERT
+  END
+  
+  
+***************
+*** 150,152 ****
+--- 156,177 ----
+  /////////////////////////////////////////////////////////////////////////////
+  #endif    // not APSTUDIO_INVOKED
+  
++ #include <gnuversion.h>
++ #define VER_FILEVERSION 1,0,0,0
++ #define VER_FILEVERSION_STR "1.0"
++ #define VER_LEGALCOPYRIGHT_STR "Copyright © 2002 W. van Schaik"
++ //#define VER_COMMENT_STR  ""	 
++ 
++ #define VER_FILEDESCRIPTION_STR "VisualPng: viewer for PNG images"
++ #define VER_INTERNALNAME_STR "visualpng"
++ #define VER_ORIGINALFILENAME_STR "visualpng.exe"
++ #define VER_WWW_STR "http://www.schaik.com/png/visualpng.html"
++ #define VER_COMPANYNAME_STR "Schaik"
++ #define VER_LICENSE_STR "http://www.schaik.com/png/visualpng.html"
++ #define VER_LEGALTRADEMARKS_STR "VisualPng®"
++ 
++ #define VER_PRODUCTNAME_STR "VisualPng"
++ #define VER_PRODUCTVERSION VER_FILEVERSION
++ #define VER_PRODUCTVERSION_STR VER_FILEVERSION_STR
++ 
++ #include <gnu.version>
+diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -I 'libpng-1.2.4-orig*' libpng-1.2.4-orig/contrib/visupng/resource.h libpng-1.2.4/contrib/visupng/resource.h
+*** libpng-1.2.4-orig/contrib/visupng/resource.h	Mon Jun  5 17:28:48 2000
+--- libpng-1.2.4/contrib/visupng/resource.h	Sun Feb 25 15:41:22 2001
+***************
+*** 10,15 ****
+--- 10,16 ----
+  #define IDM_OPTIONS_BACKGROUND          40006
+  #define IDM_OPTIONS_STRETCH             40007
+  #define IDM_HELP_ABOUT                  40008
++ #define IDC_STATIC                      -1
+  
+  // Next default values for new objects
+  // 
+diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -I 'libpng-1.2.4-orig*' libpng-1.2.4-orig/makefile.mingw libpng-1.2.4/makefile.mingw
+*** libpng-1.2.4-orig/makefile.mingw	Mon Jul  8 02:15:16 2002
+--- libpng-1.2.4/makefile.mingw	Mon Jul  8 19:01:20 2002
+***************
+*** 1,4 ****
+! # makefile for cygwin on x86
+  #   Builds both dll (with import lib) and static lib versions
+  #   of the library, and builds two copies of pngtest: one
+  #   statically linked and one dynamically linked.
+--- 1,4 ----
+! # makefile for mingw on x86
+  #   Builds both dll (with import lib) and static lib versions
+  #   of the library, and builds two copies of pngtest: one
+  #   statically linked and one dynamically linked.
+***************
+*** 36,49 ****
+  # list at the bottom of this makefile.
+  
+  CC=gcc
+! ifdef MINGW
+! MINGW_CCFLAGS=-mno-cygwin -I/usr/include/mingw
+  MINGW_LDFLAGS=-mno-cygwin -L/usr/lib/mingw
+! endif
+  
+  # Where "make install" puts libpng*.a, *png*.dll, png.h, and pngconf.h
+  ifndef prefix
+! prefix=/usr
+  $(warning You haven't specified a 'prefix=' location. Defaulting to "/usr")
+  endif
+  
+--- 36,50 ----
+  # list at the bottom of this makefile.
+  
+  CC=gcc
+! # ifdef MINGW
+! MINGW_CCFLAGS=-mno-cygwin -I/usr/include/mingw -fnative-struct -DPNG_USE_PNGGCCRD
+  MINGW_LDFLAGS=-mno-cygwin -L/usr/lib/mingw
+! # endif
+  
+  # Where "make install" puts libpng*.a, *png*.dll, png.h, and pngconf.h
++ prefix=c:/progra~1/LibPng
+  ifndef prefix
+! prefix=c:/progra~1/LibPng
+  $(warning You haven't specified a 'prefix=' location. Defaulting to "/usr")
+  endif
+  
+***************
+*** 82,93 ****
+  PNGMIN = 1.2.4
+  PNGVER = $(PNGMAJ).$(PNGMIN)
+  
+! SHAREDLIB=cygpng$(PNGDLL).dll
+  STATLIB=libpng.a
+  IMPLIB=libpng.dll.a
+  SHAREDDEF=libpng.def
+  LIBS=$(SHAREDLIB) $(STATLIB)
+  EXE=.exe
+  
+  LDFLAGS=$(strip -L. $(MINGW_LDFLAGS) -lpng $(addprefix -L,$(ZLIBLIB)) -lz)
+  LDSFLAGS=$(strip -shared -L.  $(MINGW_LDFLAGS) -Wl,--export-all)
+--- 83,97 ----
+  PNGMIN = 1.2.4
+  PNGVER = $(PNGMAJ).$(PNGMIN)
+  
+! SHAREDLIB=libpng.dll
+  STATLIB=libpng.a
+  IMPLIB=libpng.dll.a
+  SHAREDDEF=libpng.def
+  LIBS=$(SHAREDLIB) $(STATLIB)
+  EXE=.exe
++ SHAREDRC=libpng.rc
++ SHAREDRCO=libpng-rc.o
++ O2DLL=o2dll
+  
+  LDFLAGS=$(strip -L. $(MINGW_LDFLAGS) -lpng $(addprefix -L,$(ZLIBLIB)) -lz)
+  LDSFLAGS=$(strip -shared -L.  $(MINGW_LDFLAGS) -Wl,--export-all)
+***************
+*** 114,131 ****
+  
+  OBJS = png.o pngset.o pngget.o pngrutil.o pngtrans.o pngwutil.o \
+  	pngread.o pngrio.o pngwio.o pngwrite.o pngrtran.o \
+! 	pngwtran.o pngmem.o pngerror.o pngpread.o # pnggccrd.o
+  
+! OBJSDLL = $(OBJS:.o=.pic.o)
+  
+! .SUFFIXES: .c .o .pic.o
+  
+  %.o : %.c
+  	$(CC) -c $(CFLAGS) -o $@ $<
+  %.pic.o : CFLAGS += -DPNG_BUILD_DLL
+  %.pic.o : %.c
+  	$(CC) -c $(CFLAGS) -o $@ $<
+! 
+  all: all-static all-shared libpng.pc libpng-config libpng.pc libpng-config
+  
+  # Make this to verify that "make [...] install" will do what you want.
+--- 118,137 ----
+  
+  OBJS = png.o pngset.o pngget.o pngrutil.o pngtrans.o pngwutil.o \
+  	pngread.o pngrio.o pngwio.o pngwrite.o pngrtran.o \
+! 	pngwtran.o pngmem.o pngerror.o pngpread.o pnggccrd.o
+  
+! OBJSDLL = $(OBJS:.o=.pic.o)	$(SHAREDRCO)
+  
+! .SUFFIXES: .c .o .pic.o	.rc	-rc.o
+  
+  %.o : %.c
+  	$(CC) -c $(CFLAGS) -o $@ $<
+  %.pic.o : CFLAGS += -DPNG_BUILD_DLL
+  %.pic.o : %.c
+  	$(CC) -c $(CFLAGS) -o $@ $<
+! %-rc.o: %.rc
+! 	windres -i $< -o $@
+!   
+  all: all-static all-shared libpng.pc libpng-config libpng.pc libpng-config
+  
+  # Make this to verify that "make [...] install" will do what you want.
+***************
+*** 180,194 ****
+  $(SHAREDDEF): projects/msvc/png32ms.def
+  	cat $< | sed -e '1{G;s/^\(.*\)\(\n\)/EXPORTS/;};2,/^EXPORTS/d' | \
+  	sed -e 's/\([^;]*\);/;/' > $@
+  
+  $(SHAREDLIB): $(OBJSDLL) $(SHAREDDEF)
+! 	$(CC) $(LDSFLAGS) -o $@ $(OBJSDLL) -L. $(LDEXTRA)
+  
+! pngtest$(EXE): pngtest.pic.o $(SHAREDLIB)
+! 	$(CC) $(CFLAGS) $< $(LDFLAGS) -o $@
+  
+! pngtest-stat$(EXE): pngtest.o $(STATLIB)
+! 	$(CC) -static $(CFLAGS) $< $(LDFLAGS) -o $@
+  
+  pngtest.pic.o: pngtest.c
+  	$(CC) $(CFLAGS) -c $< -o $@
+--- 186,202 ----
+  $(SHAREDDEF): projects/msvc/png32ms.def
+  	cat $< | sed -e '1{G;s/^\(.*\)\(\n\)/EXPORTS/;};2,/^EXPORTS/d' | \
+  	sed -e 's/\([^;]*\);/;/' > $@
++ 	echo '500 ICON MOVEABLE PURE LOADONCALL DISCARDABLE \"libpng.ico\"' >> $@
++ 
+  
+  $(SHAREDLIB): $(OBJSDLL) $(SHAREDDEF)
+! 	$(O2DLL) $(IMPLIB) -n $@ $(OBJSDLL) $(LDSFLAGS) $(LDEXTRA) -L. -L$(ZLIBLIB) -lz
+  
+! pngtest$(EXE): pngtest.pic.o pngtest-rc.o $(SHAREDLIB)
+! 	$(CC) $(CFLAGS) $< pngtest-rc.o $(LDFLAGS) -o $@
+  
+! pngtest-stat$(EXE): pngtest.o pngtest-rc.o $(STATLIB)
+! 	$(CC) -static $(CFLAGS) $< pngtest-rc.o $(LDFLAGS) -o $@
+  
+  pngtest.pic.o: pngtest.c
+  	$(CC) $(CFLAGS) -c $< -o $@
+***************
+*** 206,214 ****
+  
+  install-static: $(STATLIB) install-headers install-man
+  	-@if [ ! -d $(DL) ]; then $(MKDIR) $(DL); fi
+! 	install -m 644 $(STATLIB) $(DL)/$(LIBNAME).a
+  	-@rm -f $(DL)/$(STATLIB)
+! 	(cd $(DL); ln -sf $(LIBNAME).a $(STATLIB))
+  
+  install-shared: $(SHAREDLIB) libpng.pc libpng-config install-headers install-man
+  	-@if [ ! -d $(DL) ]; then $(MKDIR) $(DL); fi
+--- 214,222 ----
+  
+  install-static: $(STATLIB) install-headers install-man
+  	-@if [ ! -d $(DL) ]; then $(MKDIR) $(DL); fi
+! 	install -cpm 644 $(STATLIB) $(DL)/$(LIBNAME).a
+  	-@rm -f $(DL)/$(STATLIB)
+! 	(cd $(DL); cp -fp $(LIBNAME).a $(STATLIB))
+  
+  install-shared: $(SHAREDLIB) libpng.pc libpng-config install-headers install-man
+  	-@if [ ! -d $(DL) ]; then $(MKDIR) $(DL); fi
+***************
+*** 216,242 ****
+  	-@if [ ! -d $(DL)/pkgconfig ]; then $(MKDIR) $(DL)/pkgconfig; fi
+  	-@/bin/rm -f $(DL)/pkgconfig/$(LIBNAME).pc
+  	-@/bin/rm -f $(DL)/pkgconfig/libpng.pc
+! 	install -m 644 $(IMPLIB) $(DL)/$(LIBNAME).dll.a
+  	-@rm -f $(DL)/$(IMPLIB)
+! 	(cd $(DL); ln -sf $(LIBNAME).dll.a $(IMPLIB))
+! 	install -s -m 755 $(SHAREDLIB) $(DB)
+! 	install -m 644 libpng.pc $(DL)/pkgconfig/$(LIBNAME).pc
+! 	(cd $(DL)/pkgconfig; ln -sf $(LIBNAME).pc libpng.pc)
+  
+  install-headers:
+  	-@if [ ! -d $(DI) ]; then $(MKDIR) $(DI); fi
+  	-@if [ ! -d $(DI)/$(LIBNAME) ]; then $(MKDIR) $(DI)/$(LIBNAME); fi
+  	-@rm -f $(DI)/png.h
+  	-@rm -f $(DI)/pngconf.h
+! 	install -m 644 $(S)/png.h $(S)/pngconf.h $(DI)/$(LIBNAME)
+  	-@rm -f $(DI)/libpng
+! 	(cd $(DI); ln -sf $(LIBNAME) libpng; ln -sf $(LIBNAME)/* .)
+  
+  install-man:
+  	-@if [ ! -d $(D)$(MAN3PATH) ]; then $(MKDIR) $(D)$(MAN3PATH); fi
+  	-@if [ ! -d $(D)$(MAN5PATH) ]; then $(MKDIR) $(D)$(MAN5PATH); fi
+! 	install -m 644 $(S)/libpngpf.3 $(S)/libpng.3 $(D)$(MAN3PATH)
+! 	install -m 644 $(S)/png.5 $(D)$(MAN5PATH)
+  
+  install-config: libpng-config
+  	-@if [ ! -d $(DB) ]; then mkdir $(DB); fi
+--- 224,250 ----
+  	-@if [ ! -d $(DL)/pkgconfig ]; then $(MKDIR) $(DL)/pkgconfig; fi
+  	-@/bin/rm -f $(DL)/pkgconfig/$(LIBNAME).pc
+  	-@/bin/rm -f $(DL)/pkgconfig/libpng.pc
+! 	install -cpm 644 $(IMPLIB) $(DL)/$(LIBNAME).dll.a
+  	-@rm -f $(DL)/$(IMPLIB)
+! 	(cd $(DL); cp -fp $(LIBNAME).dll.a $(IMPLIB))
+! 	install -s -cpm 755 $(SHAREDLIB) $(DB)
+! 	install -cpm 644 libpng.pc $(DL)/pkgconfig/$(LIBNAME).pc
+! 	(cd $(DL)/pkgconfig; cp -fp $(LIBNAME).pc libpng.pc)
+  
+  install-headers:
+  	-@if [ ! -d $(DI) ]; then $(MKDIR) $(DI); fi
+  	-@if [ ! -d $(DI)/$(LIBNAME) ]; then $(MKDIR) $(DI)/$(LIBNAME); fi
+  	-@rm -f $(DI)/png.h
+  	-@rm -f $(DI)/pngconf.h
+! 	install -cpm 644 $(S)/png.h $(S)/pngconf.h $(DI)/$(LIBNAME)
+  	-@rm -f $(DI)/libpng
+! 	(cd $(DI); cp -fp $(LIBNAME) libpng; cp -fp $(LIBNAME)/* .)
+  
+  install-man:
+  	-@if [ ! -d $(D)$(MAN3PATH) ]; then $(MKDIR) $(D)$(MAN3PATH); fi
+  	-@if [ ! -d $(D)$(MAN5PATH) ]; then $(MKDIR) $(D)$(MAN5PATH); fi
+! 	install -cpm 644 $(S)/libpngpf.3 $(S)/libpng.3 $(D)$(MAN3PATH)
+! 	install -cpm 644 $(S)/png.5 $(D)$(MAN5PATH)
+  
+  install-config: libpng-config
+  	-@if [ ! -d $(DB) ]; then mkdir $(DB); fi
+***************
+*** 244,250 ****
+  	-@/bin/rm -f $(DB)/$(LIBNAME)-config
+  	cp libpng-config $(DB)/$(LIBNAME)-config
+  	chmod 755 $(DB)/$(LIBNAME)-config
+! 	(cd $(DB); ln -sf $(LIBNAME)-config libpng-config)
+  
+  # Run this to verify that a future `configure' run will pick up the settings
+  # you want.
+--- 252,258 ----
+  	-@/bin/rm -f $(DB)/$(LIBNAME)-config
+  	cp libpng-config $(DB)/$(LIBNAME)-config
+  	chmod 755 $(DB)/$(LIBNAME)-config
+! 	(cd $(DB); cp -fp $(LIBNAME)-config libpng-config)
+  
+  # Run this to verify that a future `configure' run will pick up the settings
+  # you want.

@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC -//W3C//DTD HTML 4.0 Transitional//EN>
+<html>
+ <head>
+ <title>
+   Authorization Aging Report
+ </title>
+ </head>
+ <body>
+  <div>
+   <table width=850 cellspacing=0 cellpadding=0 border=0>
+    <tr>
+     <td width=600>&nbsp;
+     </td>
+     <td width=250>
+      <p style={font-family:sans-serif;font-size:xx-small;font-weight:bold;font-style:italic;margin-left:5;margin_top:50;} >
+      $$DocVar(REPORT_INFO)$$
+      </p>
+     </td>
+    </tr>
+   </table>
+   <center>
+    <table cellspacing=0 cellpadding=0 border=0>
+     <tr>
+      <td align=center>
+       <p style={font-family:sans-serif;font-size:large;font-weight:bold;margin-left:5;margin_top:5;}>
+         Authorization Aging Report
+       </p>
+      </td>
+     </tr>
+     <tr>
+      <td align=center>
+       <img src=storelogo.bmp><br>
+       <p>
+       </p>
+       <p>
+       </p>
+       <p>
+       </p>
+      </td>
+     </tr>
+    </table>
+    <table cellspacing=0 cellpadding=0 border=0 width=850>
+     <tr>
+      <td valign=center width=450>
+       <p>
+       </p>
+       <p>
+       </p>
+      </td>
+      <td width=400>
+       <p style={font-family:courier;font-size:xx-small;margin-left:5;margin-top:5;>
+        &#160;&#160;&#160;&#160;Report Date Range: 
+        $$DocVar(DATE_RANGE)$$
+        <br>
+        &#160;&#160;&#160;&#160;&#160;&#160;Printed On Date: 
+        $$DocVar(PRINT_DATE)$$
+        <br>
+       </p>
+      </td>
+     </tr>
+    </table>
+    <p>
+     &nbsp;
+    </p>
+    <table width=610 cellspacing=0 cellpadding=0 border=0>
+     <!-- put in the heavy rule at the top of the table -->
+     <tr>
+      <td height=0 width=100% colspan=6>
+       <img src=hrule.gif width=100% height=3>
+      </td>
+     </tr> 
+     <!-- put in the column headers -->
+     <tr>
+      <td height=1 width=100 align=center>
+       Transaction ID
+      </td>
+      <td height=1 width=100 align=center>
+       Order Number
+      </td>
+      <td height=1 width=100 align=right>
+       Amount &#160;&#160;
+      </td>
+      <td height=1 width=120 align=center>
+       Create Date
+      </td>
+      <td height=1 width=120 align=center>
+       Auth Date
+      </td>
+      <td height=1 width=70 align=center>
+       Age (days)
+      </td>
+     </tr>
+     <!-- put in the light rule between the colum header and the data section -->
+     <tr>
+      <td height=0 colspan=6>
+       <img src=hrule.gif width=100% height=1>
+      </td>
+     </tr>
+     <!-- $$EndSection(ReportHeader)$$ -->
+     <!-- $$DocSection(ReportData)$$ -->
+     <!-- dynamically generated data section goes here -->
+     <tr>
+      <td height=1 align=left>
+       <p style={font-family:courier;font-size:x-small;margin-left:5;margin-top:5;}>
+        $$DocVar(TransactionID)$$
+       </p>
+      </td>
+      <td height=1 align=left>
+       <p style={font-family:courier;font-size:x-small;margin-left:5;margin-top:5;}>
+        $$DocVar(OrderNumber)$$
+       </p>
+      </td>
+      <td height=1 align=right>
+       <p style={font-family:courier;font-size:x-small;margin-left:5;margin-top:5;}>
+        $$DocVar(Amount)$$
+        &#160;&#160;
+       </p>
+      </td>
+      <td height=1 align=center>
+       <p style={font-family:courier;font-size:x-small;margin-left:5;margin-top:5;}>
+        $$DocVar(CreationTime)$$
+       </p>
+      </td>
+      <td height=1 align=center>
+       <p style={font-family:courier;font-size:x-small;margin-left:5;margin-top:5;}>
+        $$DocVar(AuthorizedTime)$$
+       </p>
+      </td>
+      <td height=1 align=center>
+       <p style={font-family:courier;font-size:x-small;margin-left:5;margin-top:5;}>
+        $$DocVar(Age)$$
+       </p>
+      </td>
+     </tr>
+     <!-- $$EndSection(ReportData)$$ -->
+     <!-- $$DocSection(ReportFooter)$$ -->
+     <!-- put in the rule at the end of the table -->
+     <tr>
+      <td height=0 colspan=6>
+       <img src=hrule.gif width=100% height=1>
+      </td>
+     </tr>
+    </table>
+    <br>
+   <table width=850 cellspacing=0 cellpadding=0 border=0>
+    <tr>
+     <td width=500>&nbsp;
+     </td>
+     <td width=350>
+      <p style={font-family:sans-serif;font-size:xx-small;font-weight:bold;font-style:italic;margin-left:5;margin_top:50;} >
+       Processed by Secret Universe System Enterprises
+      </p>
+     </td>
+    </tr>
+   </table>
+   </center>
+  </div>
+ </body>
+</html>

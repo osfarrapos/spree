@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[XKernel.dsp]
+SCC_Aux_Path = "\\Client-patch\NDSourceSafeServer\"
+SCC_Project_Name = "$/EmperorOfDragons/XKernel", NDEBAAAA
+
+[XKernel.dsw]
+SCC_Aux_Path = "\\Client-patch\NDSourceSafeServer\"
+SCC_Project_Name = "$/EmperorOfDragons/XKernel", NDEBAAAA

@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[XPatch.dsp]
+SCC_Aux_Path = "\\Local-dev-svr\SourceSafe\Client\NDSourceSafeServer"
+SCC_Project_Name = "$/EmperorOfDragons/XPatch_Unicode", REBFAAAA
+
+[XPatch.dsw]
+SCC_Aux_Path = "\\Local-dev-svr\SourceSafe\Client\NDSourceSafeServer"
+SCC_Project_Name = "$/EmperorOfDragons/XPatch_Unicode", REBFAAAA

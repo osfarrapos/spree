@@ -1,0 +1,87 @@
+***************
+*** 108,130 ****
+  # cosmetic: shortened strings:
+  S =$(SRCDIR)
+  D =$(DESTDIR)
+! DB =$(D)/$(BINPATH)
+! DI =$(D)/$(INCPATH)
+! DL =$(D)/$(LIBPATH)
+  
+  OBJS = png.o pngset.o pngget.o pngrutil.o pngtrans.o pngwutil.o \
+  	pngread.o pngrio.o pngwio.o pngwrite.o pngrtran.o \
+! 	pngwtran.o pngmem.o pngerror.o pngpread.o # pnggccrd.o
+  
+! OBJSDLL = $(OBJS:.o=.pic.o)
+  
+! .SUFFIXES: .c .o .pic.o
+  
+  %.o : %.c
+  	$(CC) -c $(CFLAGS) -o $@ $<
+  %.pic.o : CFLAGS += -DPNG_BUILD_DLL
+  %.pic.o : %.c
+  	$(CC) -c $(CFLAGS) -o $@ $<
+  
+  all: all-static all-shared libpng.pc libpng-config
+  
+--- 112,137 ----
+  # cosmetic: shortened strings:
+  S =$(SRCDIR)
+  D =$(DESTDIR)
+! DB =$(D)$(BINPATH)
+! DI =$(D)$(INCPATH)
+! DL =$(D)$(LIBPATH)
+  
+  OBJS = png.o pngset.o pngget.o pngrutil.o pngtrans.o pngwutil.o \
+  	pngread.o pngrio.o pngwio.o pngwrite.o pngrtran.o \
+! 	pngwtran.o pngmem.o pngerror.o pngpread.o pnggccrd.o
+  
+! OBJSDLL = $(OBJS:.o=.pic.o) $(SHAREDRCO)
+  
+! .SUFFIXES: .c .o .pic.o	.rc .rc.o
+  
+  %.o : %.c
+  	$(CC) -c $(CFLAGS) -o $@ $<
+  %.pic.o : CFLAGS += -DPNG_BUILD_DLL
+  %.pic.o : %.c
+  	$(CC) -c $(CFLAGS) -o $@ $<
++  
++ %-rc.o: %.rc
++ 	windres -i $< -o $@
+  
+  all: all-static all-shared libpng.pc libpng-config
+  
+***************
+*** 248,263 ****
+  
+  # Run this to verify that a future `configure' run will pick up the settings
+  # you want.
+! test-config-install: SHELL=/bin/bash
+! test-config-install: $(DB)/libpng-config
+! 	@echo -e Testing libpng-config functions...'\n'
+! 	@ for TYRA in LDFLAGS CPPFLAGS CFLAGS LIBS VERSION; \
+!    do \
+!     printf "(%d)\t %10s =%s\n" $$(($$gytiu + 1)) $$TYRA \
+!     "$$($(DB)/libpng-config `echo --$$TYRA |tr '[:upper:]' '[:lower:]'`)"; \
+!     gytiu=$$(( $$gytiu + 1 )); \
+!    done
+! 
+  
+  install: install-static install-shared install-man install-config
+  
+--- 257,272 ----
+  
+  # Run this to verify that a future `configure' run will pick up the settings
+  # you want.
+! #test-config-install: SHELL=/bin/bash
+! #test-config-install: $(DB)/libpng-config
+! #	@echo -e Testing libpng-config functions...'\n'
+! #	@ for TYRA in LDFLAGS CPPFLAGS CFLAGS LIBS VERSION; \
+! #   do \
+! #    printf "(%d)\t %10s =%s\n" $$(($$gytiu + 1)) $$TYRA \
+! #    "$$($(DB)/libpng-config `echo --$$TYRA |tr '[:upper:]' '[:lower:]'`)"; \
+! #    gytiu=$$(( $$gytiu + 1 )); \
+! #   done
+! #
+  
+  install: install-static install-shared install-man install-config
+  
