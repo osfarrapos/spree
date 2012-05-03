@@ -1,0 +1,24 @@
+LogFiles\system_error__2006-7-27__11h15m44s.TXT[27]-[11:15:55] [LOGIN] [Recv] Recv Login From IP 221.147.34.40
+ [27]-[11:15:55] [ERROR] [Mid Check] Pass Passport : A<nexon10005>, IP<221.147.34.40>
+ [27]-[11:16:0] [SYSTEM] [KICK OUT] Overtime connection client (IP:221.147.34.40)
+ [27]-[11:16:0] [LOGIN] [DB Login] Result 3
+ [27]-[11:16:0] [LOGIN]   => A<nexon10005> DB Login Pass : Ret = 3, Class = 19
+ [27]-[11:16:0] [INFO] Aready loginer (nexon10005)
+[27]-[11:16:0] [ERROR] [FAILED] ret = 7 
+  [27]-[11:16:0]  #### SOCKET :: SendError(10057) ####
+[27]-[11:16:0] [ERROR] Send Request failed (10057)
+[27]-[11:16:5] [SYSTEM] DisConnect - ip:221.147.34.40 , sock : 7372 
+ [27]-[11:16:33] [SYSTEM] Connect - ip:221.147.34.40 , sock : 7368 
+ [27]-[11:16:33] [SYSTEM] [INFO] LS accept 2, 221.147.34.40
+ [27]-[11:16:34] [LOGIN] [Recv] Recv Login From IP 221.147.34.40
+ [27]-[11:16:34] [ERROR] [Mid Check] Pass Passport : A<nexon10006>, IP<221.147.34.40>
+ [27]-[11:16:34] [LOGIN] [DB Login] Result 0
+ [27]-[11:16:34] [LOGIN]   => A<nexon10006> DB Login Pass : Ret = 0, Class = 19
+ [27]-[11:16:37] [LOGIN]   TO DS Nexon<nexon10006>, ND<dump10006> UID Send Loing Success
+ [27]-[11:16:39] [SYSTEM] [KICK OUT] Overtime connection client (IP:221.147.34.40)
+ [27]-[11:16:39] [LOGIN] [Recv] Recv UDP UMSG_LOGIN_DS_LS_RESULT_NUM (acc:dump10006)
+ [27]-[11:16:39] [SYSTEM] [LOGIN FALED] ID = <dump10006> : Message : _ERRNO_STATE_ERROR_
+ [27]-[11:16:39]  #### SOCKET :: SendError(10057) ####
+[27]-[11:16:39] [ERROR] Send Request failed (10057)
+[27]-[11:16:44] [SYSTEM] DisConnect - ip:221.147.34.40 , sock : 7368 
+ 

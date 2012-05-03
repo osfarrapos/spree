@@ -1,0 +1,2 @@
+LogFiles\system_error__2006-7-21__19h58m54s.TXT[21]-[19:59:24] [EXIT] th_UDPSendThread Return
+ End time : 2006-7-21_19:59:30  

@@ -1,0 +1,1 @@
+LogFiles\system_error__2006-8-3__15h28m52s.TXT[3]-[15:29:48] [ERROR] Send Request failed (0)

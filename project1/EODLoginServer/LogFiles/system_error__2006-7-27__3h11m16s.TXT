@@ -1,0 +1,7 @@
+LogFiles\system_error__2006-7-27__3h11m16s.TXT[27]-[3:11:48] [LOGIN] [Recv] Recv Login From IP 0.0.0.0
+ [27]-[3:11:48] [ERROR] [Mid Check] Pass Passport : A<nexon10005>, IP<0.0.0.0>
+ [27]-[3:11:48] [LOGIN] [DB Login] Result 0
+ [27]-[3:11:48] [LOGIN]   => A<nexon10005> DB Login Pass : Ret = 0, Class = 19
+ [27]-[3:11:48] [LOGIN]   TO DS Nexon<nexon10005>, ND<dump10005> UID Send Loing Success
+ [27]-[3:12:14] [EXIT] th_UDPSendThread Return
+ End time : 2006-7-27_3:12:20  

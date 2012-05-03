@@ -1,0 +1,12 @@
+<GameThunkServer>		 						//ThunkServer 配置
+	<AHServer_Host>
+		<ip>127.0.0.1</ip>						//AHServer Ip 地址
+		<port>15306</port>						//AHServer 端口
+	</AHServer_Host>
+	<LogFile>./hook_log/ThunkServer</LogFile>				//Log 路径
+	<GameThunkServer_Start>1</GameThunkServer_Start>			//0 关闭转发, 1 开启转发,
+	<TryConnectionInteval>10000</TryConnectionInteval>			//当AHServer 关闭后,ThunkServer 尝试连接的间隔
+	<Console>0</Console>							//是否在 Console 显示log
+	<LogConnectionError>0</LogConnectionError>				//是否,记录 尝试信息;一般不要记录,只有调试的时候才打开,即时生效
+	<MaxCheckConnectionInterval>6000</MaxCheckConnectionInterval>		//保活信息的周期,这个值不用太小.
+</GameThunkServer>

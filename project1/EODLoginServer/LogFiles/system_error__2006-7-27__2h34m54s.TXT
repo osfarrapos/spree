@@ -1,0 +1,5 @@
+LogFiles\system_error__2006-7-27__2h34m54s.TXT[27]-[2:35:24] [LOGIN] [Recv] Recv Login From IP 0.0.0.0
+ [27]-[2:35:24] [ERROR]   ==> IP Mismatch
+ [27]-[2:36:3] [LOGIN] [Recv] Recv Login From IP 0.0.0.0
+ [27]-[2:36:11] [ERROR] [Mid Check] Pass Passport : A<dump10005>, IP<0.0.0.0>
+ 

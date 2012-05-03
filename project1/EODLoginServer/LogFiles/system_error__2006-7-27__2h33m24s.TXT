@@ -1,0 +1,1 @@
+LogFiles\system_error__2006-7-27__2h33m24s.TXT[27]-[2:33:54] [ERROR] 불량패킷 (0) 

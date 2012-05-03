@@ -1,0 +1,8 @@
+logfile\DS_SystemLogFile
+============================================================
+logfile\DS_SystemLogFile__FOREST_No_5___20080814_12h15m.txt============================================================
+ = Include PKEVENT Box Spawn
+ = Include Invite Friend Event
+ - Include Cash Inven & Depot extend.
+ = Add Cash item test mode : test cashitme on/off
+ - Extended SKill Slot version( both 80 & 100 )

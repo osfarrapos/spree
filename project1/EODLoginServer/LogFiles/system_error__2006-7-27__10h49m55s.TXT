@@ -1,0 +1,4 @@
+LogFiles\system_error__2006-7-27__10h49m55s.TXT[27]-[10:57:30] [SYSTEM] [INFO] PS accept 1, 221.147.34.40
+ [27]-[10:57:37] [SYSTEM] Connect - ip:221.147.34.40 , sock : 7388 
+ [27]-[10:57:37] [SYSTEM] [INFO] LS accept 1, 221.147.34.40
+ 

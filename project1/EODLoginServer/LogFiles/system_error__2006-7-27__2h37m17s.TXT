@@ -1,0 +1,3 @@
+LogFiles\system_error__2006-7-27__2h37m17s.TXT[27]-[2:37:42] [LOGIN] [Recv] Recv Login From IP 0.0.0.0
+ [27]-[2:37:53] [ERROR] [Mid Check] Pass Passport : A<dump10005>, IP<0.0.0.0>
+ 

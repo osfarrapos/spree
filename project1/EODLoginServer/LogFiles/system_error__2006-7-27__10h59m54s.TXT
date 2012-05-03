@@ -1,0 +1,3 @@
+LogFiles\system_error__2006-7-27__10h59m54s.TXT[27]-[11:1:6] [ERROR] 불량패킷 (119) 
+[27]-[11:1:6] Recv Trigger Error Code( err: 10057, sock:7348 )
+[27]-[11:1:6] [ERROR] false == pSocket->RecvRequest() code : 10057

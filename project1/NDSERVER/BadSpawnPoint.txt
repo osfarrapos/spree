@@ -1,0 +1,3 @@
+bad spawn point (211, 174) global: 467, 430
+bad spawn point (-168, -102) global: 87, 153
+bad spawn point (-169, -105) global: 86, 150

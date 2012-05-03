@@ -1,0 +1,19 @@
+LogFiles\system_error__2006-7-27__11h7m48s.TXT[27]-[11:12:57]  #### SOCKET :: SendError(10057) ####
+[27]-[11:12:57] [ERROR] Send Request failed (10057)
+[27]-[11:13:17] [SYSTEM] Connect - ip:221.147.34.40 , sock : 7340 
+ [27]-[11:13:17] [SYSTEM] [INFO] LS accept 2, 221.147.34.40
+ [27]-[11:13:21] [LOGIN] [Recv] Recv Login From IP 221.147.34.40
+ [27]-[11:13:25] [ERROR] [Mid Check] Pass Passport : A<nexon10005>, IP<221.147.34.40>
+ [27]-[11:13:26] [SYSTEM] [KICK OUT] Overtime connection client (IP:221.147.34.40)
+ [27]-[11:13:26] [ERROR] DB::NexonLogin(nexon10005) 
+[27]-[11:13:26] OLE DB Error Record dump for hr = 0x80040e14
+[27]-[11:13:26] Row #:    0 Source: "Microsoft OLE DB Provider for SQL Server" Description: "이름이 'curRow'인 커서가 이미 있습니다." Help File: "(null)" Help Context:    0 GUID: {0C733A63-2A1C-11CE-ADE5-00AA0044773D}
+[27]-[11:13:26] OLE DB Error Record dump end
+[27]-[11:13:26] [LOGIN] [DB Login] Result -1
+ [27]-[11:13:26] [LOGIN]   => A<nexon10005> DB Login Pass : Ret = -1, Class = 0
+ [27]-[11:13:26] [ERROR] [Error] Login failed (13)
+ [27]-[11:13:26] [ERROR] [FAILED] ret = 13 
+  [27]-[11:13:26]  #### SOCKET :: SendError(10057) ####
+[27]-[11:13:26] [ERROR] Send Request failed (10057)
+[27]-[11:13:28] [SYSTEM] DisConnect - ip:221.147.34.40 , sock : 7340 
+ 

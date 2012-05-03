@@ -1,0 +1,5 @@
+LogFiles\system_error__2006-7-27__10h40m39s.TXT[27]-[10:40:52] [EXCEPTION] D:\EODLoginServer\myServer\myServer.cpp, 128, pos:4 
+[27]-[10:40:52] [ERROR] parsing error 
+[27]-[10:40:55] [SYSTEM] [KICK OUT] Overtime connection client (IP:221.147.34.40)
+ [27]-[10:41:2] [SYSTEM] DisConnect - ip:221.147.34.40 , sock : 7224 
+ 

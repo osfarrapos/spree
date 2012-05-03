@@ -1,0 +1,6 @@
+[ODBC]
+DRIVER=SQL Server
+UID=item_db_id
+PWD=item_shop_pass
+APP=Microsoft Data Access Components
+SERVER=221.147.34.1

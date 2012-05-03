@@ -1,0 +1,108 @@
+; 비무 대회 스크립트
+; 오후 5:43 2007-09-07
+; 비무 대회 일정과 대회 상세 정보가 포함된다.
+; 비무 대회는 레벨 제한에 따라 입장 가능 여부가 결정되고, 
+; 우승자에게 별호가 부여된다.
+; 단, 한 캐릭터에게 중복으로 부여될 경우, 레벨 제한의 최대값에 따라, 부여한다.
+; 비무 대회는, 최대 레벨값에 따라 비무 우승자 정보를 유지한다.
+; 일정은 년/월/일/시/분 으로 지정한다.
+; 
+; 비무는 진행 방식이 다른 대회일 경우, 타입으로 구분하여 사용한다.
+; 
+; 
+; 스크립트 내용
+; 1. 비무 진행 스크립트 : 타입의 개수만큼 반복
+; 2. 보상 스크립트 : 보상의 상세 내용을 정리하고, 3에서 보상 내용으로 인덱스만 사용한다.
+;   - reward ~ end 사이에 정리
+; 3. 비무 대회 일정과 제한, 보상 내용.
+;   - start ~ end 안에 정의한다.
+; end.
+;
+
+// 진행 방식을 서술한다. 
+// 먼저 기본적은 제약들을 정의하고,
+// 스케줄러에서, ready/start/end 의 3개 이벤트를 알려준다.
+// ready 를 받으면, ready 에 있는 항목을 시간에 따라 실행한다.
+// start, end 도 위와 동일한 방식으로 실행된다.
+// start 시간과 end 시간은 아래의 스케줄 리스트에서 지정한다.
+//
+// 대회는 ready -> start -> end -> finish(none) 의 상태를 갖고, 
+// end~finish 까지는 end 이벤트 발생 후 10분까지다.
+// 다른 대회와 중복실행 될 수 없다. 
+// 다른 대회와의 중복 여부는 이 스크립트를 읽어 들일 때, 계산한다.
+// 제약 조건은, 아래의 스케줄 리스트에서 재정의 할 수 있다.								
+match_type	1							
+{								
+	constraint1			// 제약 조건을 쓴다.				
+	{							
+		hyperrun	off	// 경공 불가				
+		breath	off	// 내공심법 불가				
+		logout	off	// 로그아웃 불가				
+		escape 	off	// 탈출 불가				
+		party	off	// 동행 불가				
+		trade	off	// 거래 불가				
+		info	off	// 인물정보 불가				
+		recall	off	// 소환/피소환 불가				
+		shop	off	// 노점 불가				
+		hide_me	on	// 캐릭터 정보 숨기기 (On 안보여줌/ Off 보여줌)				
+								
+	}							
+	constraint2							
+	{							
+		use_item	3	901	// 사용 가능 아이템 (포션류는 기본으로 사용 불가)			
+		use_item	3	902				
+	}							
+	constraint3							
+	{							
+		use_skill	5071		// 해당 ID 무공 사용 불가			
+	}							
+	ready							
+	{							
+		1m	notice	textid 	3729	5	// 5분전 공지 : 텍스트 아이디는 3679번을 사용하고, %d 에 5를 넣는다.	
+		2m	notice 	textid 	3729	4		
+		3m	notice 	textid 	3729	3		
+		4m	notice 	textid 	3729	2		
+		5m	notice	textid	3729	1		
+	}							
+	start							
+	{							
+								
+		1m	notice	textid 	3730			
+	}							
+	end							
+	{							
+							// end 가 나오면, 순위를 계산하기 시작한다.	
+		10s	send 	result			// 10초 후, 순위를 보낸다.	
+		15s	notice_winner	textid	3731		// 단일 우승일 경우, 메시지	
+		15s	notice_nowinner	textid	3732		// 무승부일 경우, 메시지	
+		16s	reward	nick				
+		16s	to_winner	textid	3733		// 개인에게만 전달되는 메시지 (1분 후 행낭으로 아이템이 지급됩니다. 행낭을 비워주시길 바랍니다.)	
+		1m	reward	item				
+		5m	clean				// 모든 유저를 경기장 밖으로 보내고, 대회가 종료된다.	
+	}							
+}								
+
+match_reward	// 보상 내용 정리 : reward ~ end 사이에 정의							
+{								
+reward 	1							
+item	male	1	9497	//한빙의(남)				
+item 	female	1	9498	//한빙의(여)				
+nick	3734			//호칭 - 천하제일비무대회우승자				
+end								
+}								
+
+// 스케줄 리스트								
+// start 와 end 								
+match_schedule								
+{								
+start								
+	date	2007-11-07	16:20	2007-11-07	16:50			
+	type 	1
+	level	1-160						
+	reward	1						
+	pos	85	//PVP 지역 85번 영역					
+	respawn	86	//플레이어 스폰 86번 영역					
+	buff	8070	21600	1	//근력 5증가			
+end								
+}								
+_XM_EOS

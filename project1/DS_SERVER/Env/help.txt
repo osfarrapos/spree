@@ -1,0 +1,37 @@
+>>>>>>>>>>>>>>>>>>>>>>>> DS_SERVER 2003.10.? <<<<<<<<<<<<<<<<<<<<<<<<<<<
+------------------------------------------------------------------------
+HELPER TEXT ------------------------------------------------------------
+
+# COMMAND
+
+* : 필수 항목
+
+alllogout	DB에서 모든 계정의 상태를 로그아웃으로 변경합니다.
+
+show		계정, 캐릭터의 정보를 보여드립니다.
+		show [*str1] [str2]
+		str1 : characlist, accountlist, characinfo, accountinfo,serverlist
+				maxcon, system, trace
+		str2 : character name or account string
+		
+set			무언가를 설정한다.
+		show [*str1] [str2]
+		str1 : maxcon, trace, capture
+		str2 : 
+
+backup		DS 데이타를 백업합니다.
+		backup [*str1]
+		str1 : db, file (Backup type)
+
+restore		백업 파일로 부터 데이타를 복구합니다.
+		restore [*str1]
+		str1 : 확장자(bak)를 생략한 파일이름
+
+reload		DB 의 데이타를 읽어와  갱신시킨다.
+		reload [*str1] [*str2]
+		str1 : chr, acc
+		str2 : 캐릭터이름 또는 계정 스트링
+
+quit		DS 서버를 정상적으로 종료합니다.
+
+------------------------------------------------------------------------

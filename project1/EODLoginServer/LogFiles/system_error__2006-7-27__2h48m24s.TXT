@@ -1,0 +1,19 @@
+LogFiles\system_error__2006-7-27__2h48m24s.TXT[27]-[2:48:47] [ERROR] DB::NexonLogin(dump10005) 
+[27]-[2:48:47] OLE DB Error Record dump for hr = 0x80040e14
+[27]-[2:48:47] Row #:    0 Source: "Microsoft OLE DB Provider for SQL Server" Description: "공식 매개 변수 '@forest'은(는) OUTPUT으로 정의되었지만 실제 매개 변수는 OUTPUT으로 선언되지 않았습니다." Help File: "(null)" Help Context:    0 GUID: {0C733A63-2A1C-11CE-ADE5-00AA0044773D}
+[27]-[2:48:47] OLE DB Error Record dump end
+[27]-[2:48:51] [ERROR] Send Request failed (0)
+[27]-[2:50:48] [ERROR] Send Request failed (0)
+[27]-[2:53:19] [ERROR] Send Request failed (0)
+[27]-[2:53:49] [ERROR] DB::NexonLogin(nexon10005) 
+[27]-[2:53:54] OLE DB Error Record dump for hr = 0x80040e07
+[27]-[2:53:54] Row #:    0 Source: "Microsoft OLE DB Provider for SQL Server" Description: "varchar 값 'vvv'을(를) int 데이터 형식의 열로 변환하는 중 구문 오류가 발생했습니다." Help File: "(null)" Help Context:    0 GUID: {0C733A63-2A1C-11CE-ADE5-00AA0044773D}
+[27]-[2:53:54] OLE DB Error Record dump end
+[27]-[2:53:57] [ERROR] Send Request failed (0)
+[27]-[2:57:6] [ERROR] DB::NexonLogin(nexon10005) 
+[27]-[2:57:6] OLE DB Error Record dump for hr = 0x80040e2f
+[27]-[2:57:6] Row #:    0 Source: "Microsoft OLE DB Provider for SQL Server" Description: "문이 종료되었습니다." Help File: "(null)" Help Context:    0 GUID: {0C733A63-2A1C-11CE-ADE5-00AA0044773D}
+[27]-[2:57:6] Row #:    1 Source: "Microsoft OLE DB Provider for SQL Server" Description: "'NineDragons.dbo.Tbl_NexonGameConnect' 테이블, 'cur_state' 열에 NULL 값을 삽입할 수 없습니다. 열에서 null을 사용할 수 없습니다. INSERT이(가) 실패했습니다." Help File: "(null)" Help Context:    0 GUID: {0C733A63-2A1C-11CE-ADE5-00AA0044773D}
+[27]-[2:57:6] OLE DB Error Record dump end
+[27]-[2:57:31] [ERROR] Send Request failed (0)
+[27]-[3:7:18] [ERROR] Send Request failed (0)

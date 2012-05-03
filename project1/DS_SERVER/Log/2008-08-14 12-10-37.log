@@ -1,0 +1,16 @@
+12-10-48, COdbc::Disconnect: Try Disconnect ODBC DSN=, ID= 
+12-10-48, COdbc::Connect: Free All ODBC Handle 
+12-10-48, COdbc::Connect: ODBC Backup connection information. 
+12-10-48, COdbc::Connect: DSN=ItemShop, ID=shop_gw_user_nine 
+12-10-48, COdbc::Connect: Success - Allocate DB Connection Handle 
+12-10-48, COdbc::_Recover(1): #ERR SQL Dbc:IM002, NativeError=0, [Microsoft][ODBC 드라이버 관리자] 데이터 원본 이름이 없고 기본 드라이버를 지정하지 않았습니다. 
+12-10-48, COdbc::Connect: #ERR Connect DB 
+12-10-48, COdbc::~COdbc: Disconnect DB Connection. 
+12-10-48, COdbc::Disconnect: Try Disconnect ODBC DSN=, ID= 
+12-10-48, COdbc::Connect: Free All ODBC Handle 
+12-10-48, COdbc::Connect: ODBC Backup connection information. 
+12-10-48, COdbc::Connect: DSN=ItemShop, ID=shop_gw_user_nine 
+12-10-48, COdbc::Connect: Success - Allocate DB Connection Handle 
+12-10-48, COdbc::_Recover(1): #ERR SQL Dbc:IM002, NativeError=0, [Microsoft][ODBC 드라이버 관리자] 데이터 원본 이름이 없고 기본 드라이버를 지정하지 않았습니다. 
+12-10-48, COdbc::Connect: #ERR Connect DB 
+12-10-48, COdbc::~COdbc: Disconnect DB Connection. 

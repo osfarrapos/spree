@@ -1,0 +1,3 @@
+LogFiles\system_error__2006-7-27__10h25m7s.TXT[27]-[10:32:1]  #### SOCKET :: SendError(10057) ####
+[27]-[10:34:5] Recv Trigger Error Code( err: 10057, sock:5224 )
+[27]-[10:34:5] [ERROR] false == pSocket->RecvRequest() code : 10057

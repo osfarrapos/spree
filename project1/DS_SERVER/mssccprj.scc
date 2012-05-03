@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[DS_SERVER.vcproj]
+SCC_Aux_Path = "\\Local-dev-svr\SourceSafe\SERVER"
+SCC_Project_Name = "$/DS_SERVER", QQAAAAAA

@@ -1,0 +1,3 @@
+LogFiles\system_error__2006-4-17__22h49m4s.TXT[17]-[22:49:25] [EXIT] th_UDPSendThread Return
+ [17]-[22:49:25] [EXIT] th_UDPRecvThread Return
+ End time : 2006-4-17_22:49:31  

@@ -1,0 +1,6 @@
+[ODBC]
+DRIVER=SQL Server
+UID=game_conn
+PWD=Qkdlfld!
+APP=Microsoft Data Access Components
+SERVER=221.147.34.28

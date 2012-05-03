@@ -1,0 +1,4 @@
+LogFiles\system_error__2006-7-27__2h41m51s.TXT[27]-[2:42:25] [ERROR] DB::NexonLogin(dump10005) 
+[27]-[2:42:28] OLE DB Error Record dump for hr = 0x80040e14
+[27]-[2:42:28] Row #:    0 Source: "Microsoft OLE DB Provider for SQL Server" Description: "공식 매개 변수 '@nexon_acc'은(는) OUTPUT으로 정의되었지만 실제 매개 변수는 OUTPUT으로 선언되지 않았습니다." Help File: "(null)" Help Context:    0 GUID: {0C733A63-2A1C-11CE-ADE5-00AA0044773D}
+[27]-[2:42:28] OLE DB Error Record dump end

@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[NDServer_UsingPacketQueue.dsp]
+SCC_Aux_Path = "\\Ray-server\d$\NDServer"
+SCC_Project_Name = "$/NDServer", GSCAAAAA
