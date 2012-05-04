@@ -5,7 +5,7 @@
 #include "..\MapManager\MAPManager.h"
 #include "..\CS\party_manager.h"
 #include "..\Global\tcp_packets_party.h"
-
+#pragma warning(disable:4509)
 extern _j_MemeberQueue *	g_pMemberQueue ;
 extern _j_PartyQueue *		g_pPartyQueue  ;
 extern _h_Party_Timer *		g_pPartyTimer ;

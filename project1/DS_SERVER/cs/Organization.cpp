@@ -5,7 +5,7 @@
 
 #include "..\Global\Global_ServerInfo.h"
 #include "..\Network\LogSvrLink.h"
-
+#pragma warning(disable:4509)
 extern _j_ServerInfo		g_ServerInfo;			// 서버정보
 extern _j_queue_UDP_Packet *	g_pUDPSendPacketQ ;
 extern CLogSvr_Com *		g_pLogSvrCom;

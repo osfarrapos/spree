@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}</ProjectGuid>
+    <RootNamespace>DS_SERVER</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50214.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>ExeFile\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <TargetName>DS_SERVER_D</TargetName>
+    <TargetExt>.exe</TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>ExeFile\</OutDir>
+    <IntDir>Release\</IntDir>
+    <TargetName>DS_SERVER</TargetName>
+    <TargetExt>.exe</TargetExt>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)Mylibrary;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_ATL_ATTRIBUTES;_WIN32_DCOM;_EXCEPTION_TEXT_PRINT_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>$(IntDir)debug/$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>$(IntDir)Debug/</ObjectFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 ws2_32.lib winmm.lib Iphlpapi.lib  ole32.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>msdasc.lib;ole32.lib;Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(ProjectDir)Mylibrary;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_ATL_ATTRIBUTES;_WIN32_DCOM;_EXCEPTION_TEXT_PRINT_;_RELEASE_;_PD_COMPANY_NEXON_;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 ws2_32.lib winmm.lib  ole32.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>msdasc.lib;ole32.lib;Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_func.cpp" />
+    <ClCompile Include="Network\message_queue_parsing.cpp" />
+    <ClCompile Include="Network\Network.cpp" />
+    <ClCompile Include="Packet_Queue\Packet_Func.cpp" />
+    <ClCompile Include="Packet_Queue\Packet_Process.cpp" />
+    <ClCompile Include="Packet_Queue\Packet_Queue.cpp" />
+    <ClCompile Include="Network\UDPProcess.cpp" />
+    <ClCompile Include="Packet_Queue\WebShopPktQueue.cpp" />
+    <ClCompile Include="global\FileInput.cpp" />
+    <ClCompile Include="Global\Global_Function.cpp" />
+    <ClCompile Include="Global\Global_Lock.cpp" />
+    <ClCompile Include="Global\Global_LogFile.cpp" />
+    <ClCompile Include="Global\Global_ServerInfo.cpp" />
+    <ClCompile Include="Global\Global_UniqueID.cpp" />
+    <ClCompile Include="MAPManager\MAPManager.cpp" />
+    <ClCompile Include="Ranking_Manager\Ranking_Manager.cpp" />
+    <ClCompile Include="Ranking_Manager\ranking_process.cpp" />
+    <ClCompile Include="Cs\Castle.cpp" />
+    <ClCompile Include="Cs\CombatRecord.cpp" />
+    <ClCompile Include="cs\MasterPupil.cpp" />
+    <ClCompile Include="Cs\Organization.cpp" />
+    <ClCompile Include="Cs\Organization_work_process.cpp" />
+    <ClCompile Include="Cs\party_manager.cpp" />
+    <ClCompile Include="Cs\party_work_process.cpp" />
+    <ClCompile Include="cs\RecallFriend.cpp" />
+    <ClCompile Include="Cs\TaxSystem.cpp" />
+    <ClCompile Include="NDExceptionReport\NDExceptionReport.cpp" />
+    <ClCompile Include="Billing\Billing_Process.cpp" />
+    <ClCompile Include="Billing\BillingSvrLink.cpp" />
+    <ClCompile Include="Billing\MetelBilling.cpp" />
+    <ClCompile Include="ole_db_module\CIS_db_command.cpp" />
+    <ClCompile Include="ole_db_module\event_db_command.cpp" />
+    <ClCompile Include="ole_db_module\game_db_command.cpp" />
+    <ClCompile Include="ole_db_module\user_db_command.cpp" />
+    <ClCompile Include="ole_db_module\WebItemShop_db_command.cpp" />
+    <ClCompile Include="Billing\BillingTimer.cpp" />
+    <ClCompile Include="Process\LogSave_Thread.cpp" />
+    <ClCompile Include="Network\LogSvrLink.cpp" />
+    <ClCompile Include="Mylibrary\ODBC.cpp" />
+    <ClCompile Include="Process\Backup_Process.cpp" />
+    <ClCompile Include="Process\loginTest.cpp" />
+    <ClCompile Include="Process\PING_Thread.cpp" />
+    <ClCompile Include="PktProc\PktProc_ItemShop.cpp" />
+    <ClCompile Include="ItemShop\CIS_Proc.cpp" />
+    <ClCompile Include="ItemShop\ItemShop_Process.cpp" />
+    <ClCompile Include="SmallNet\PktMgr.cpp" />
+    <ClCompile Include="SmallNet\PktQue.cpp" />
+    <ClCompile Include="SmallNet\SmallNet.cpp" />
+    <ClCompile Include="SmallNet\Sock.cpp" />
+    <ClCompile Include="SmallNet\PktProc\_PkHdr.cpp" />
+    <ClCompile Include="SmallNet\PktProc\Echo.cpp" />
+    <ClCompile Include="SmallNet\PktProc\NetEventProc.cpp" />
+    <ClCompile Include="SmallNet\PktProc\Nexon_PCBangAuth.cpp" />
+    <ClCompile Include="GEvent\CEventStructure.cpp" />
+    <ClCompile Include="GEvent\GameEvent.cpp" />
+    <ClCompile Include="GEvent\GameEventParser.cpp" />
+    <ClCompile Include="Japan RMS\RocAuthSession.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Network\Network.h" />
+    <ClInclude Include="Packet_Queue\Packet_Queue.h" />
+    <ClInclude Include="Packet_Queue\WebShopPktQueue.h" />
+    <ClInclude Include="global\FileInput.h" />
+    <ClInclude Include="Global\Global_Define.h" />
+    <ClInclude Include="Global\Global_Function.h" />
+    <ClInclude Include="Global\Global_Lock.h" />
+    <ClInclude Include="Global\Global_LogFile.h" />
+    <ClInclude Include="Global\Global_ServerInfo.h" />
+    <ClInclude Include="Global\Global_struct.h" />
+    <ClInclude Include="Global\Global_UniqueID.h" />
+    <ClInclude Include="Global\reset_level.h" />
+    <ClInclude Include="Global\tcp_packet.h" />
+    <ClInclude Include="Global\tcp_packets_party.h" />
+    <ClInclude Include="Global\Trace.h" />
+    <ClInclude Include="Global\udp_packet.h" />
+    <ClInclude Include="MAPManager\MAPManager.h" />
+    <ClInclude Include="Ranking_Manager\Ranking_Manager.h" />
+    <ClInclude Include="Cs\Castle.h" />
+    <ClInclude Include="Cs\CastleStructure.h" />
+    <ClInclude Include="Cs\CombatRecord.h" />
+    <ClInclude Include="cs\MasterPupil.h" />
+    <ClInclude Include="Cs\Organization.h" />
+    <ClInclude Include="Cs\party_manager.h" />
+    <ClInclude Include="cs\RecallFriend.h" />
+    <ClInclude Include="Cs\TaxSystem.h" />
+    <ClInclude Include="NDExceptionReport\NDExceptionReport.h" />
+    <ClInclude Include="Billing\Bill_Packet.h" />
+    <ClInclude Include="Billing\Billing_Define.h" />
+    <ClInclude Include="Billing\BillingSvrLink.h" />
+    <ClInclude Include="Billing\GameAPI.h" />
+    <ClInclude Include="ole_db_module\Accessors.h" />
+    <ClInclude Include="ole_db_module\db_command.h" />
+    <ClInclude Include="ole_db_module\ole_db_module.h" />
+    <ClInclude Include="ole_db_module\sql_convert.h" />
+    <ClInclude Include="Billing\BillingTimer.h" />
+    <ClInclude Include="Global\Global_Log_Define.h" />
+    <ClInclude Include="Global\Global_Log_Packet.h" />
+    <ClInclude Include="Network\LogSvrLink.h" />
+    <ClInclude Include="Mylibrary\CriticalSection.h" />
+    <ClInclude Include="Mylibrary\db_Con.h" />
+    <ClInclude Include="Mylibrary\FileLog.h" />
+    <ClInclude Include="Mylibrary\gDefine.h" />
+    <ClInclude Include="Mylibrary\gGlobal.h" />
+    <ClInclude Include="Mylibrary\My_crypto.h" />
+    <ClInclude Include="Mylibrary\My_file.h" />
+    <ClInclude Include="Mylibrary\My_ole_db.h" />
+    <ClInclude Include="Mylibrary\My_queue.h" />
+    <ClInclude Include="Mylibrary\My_socket.h" />
+    <ClInclude Include="Mylibrary\My_trace.h" />
+    <ClInclude Include="Mylibrary\MY_TRACEABLE_LOCK.h" />
+    <ClInclude Include="Mylibrary\My_util.h" />
+    <ClInclude Include="mylibrary\ND_MD5Dll.h" />
+    <ClInclude Include="Mylibrary\NDUtilClass.h" />
+    <ClInclude Include="mylibrary\ODBC.h" />
+    <ClInclude Include="PktProc\PktProc.h" />
+    <ClInclude Include="ItemShop\CIS.h" />
+    <ClInclude Include="ItemShop\ItemShop_Packet.h" />
+    <ClInclude Include="SmallNet\Packet.h" />
+    <ClInclude Include="SmallNet\PktMgr.h" />
+    <ClInclude Include="SmallNet\PktQue.h" />
+    <ClInclude Include="SmallNet\SmallNet.h" />
+    <ClInclude Include="SmallNet\Sock.h" />
+    <ClInclude Include="SmallNet\PktProc\_PktDef.h" />
+    <ClInclude Include="SmallNet\PktProc\Echo.h" />
+    <ClInclude Include="SmallNet\PktProc\Nexon_PCBangAuth.h" />
+    <ClInclude Include="GEvent\GameEvent.h" />
+    <ClInclude Include="GEvent\GameEventParser.h" />
+    <ClInclude Include="GEvent\GEventStructure.h" />
+    <ClInclude Include="Japan RMS\RocAuthSession.h" />
+    <ClInclude Include="hdr_xsk_test.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Env\CashItemShop.dsn" />
+    <None Include="Env\ItemShop.cfg" />
+    <None Include="mFileLog.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GameAPI.lib" />
+    <Library Include="mFileLog.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Env\help.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

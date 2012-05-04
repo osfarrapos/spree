@@ -100,7 +100,7 @@ struct __inven_uselimit_info_v1	// 사용제한 등의 기타 정보.
 
 struct _sServer_InvenItem_v1
 {
-	u_int64					ui64UniqueId;	// 8 
+	unsigned __int64		ui64UniqueId;	// 8 
 	char					cType ;			// 아이템 대분류 9
 	char					cSecond ;		// Second는 초기화 될 때마다, 새로이 설정한다.
 	short					sID ;			// 아이템 소분류. (아이템 아이디) 12

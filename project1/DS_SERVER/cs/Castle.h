@@ -391,7 +391,8 @@ class CDSCastleManager : public ckSingleton<CDSCastleManager>
 public:
 	CDSCastleInfo * get_castle_info( short index )
 	{
-		for( size_t i = 0 ; i < m_Castles.size() ; ++i )
+		size_t i;
+		for( i = 0 ; i < m_Castles.size() ; ++i )
 		{
 			if( index == m_Castles[i]->get_map_index() )
 				break;
@@ -404,7 +405,8 @@ public:
 	}
 	CDSCastleInfo * get_castle_info_by_db_seq( int seq )
 	{
-		for( size_t i = 0 ; i < m_Castles.size() ; ++i )
+		size_t i;
+		for( i = 0 ; i < m_Castles.size() ; ++i )
 		{
 			if( seq == m_Castles[i]->get_db_seq_index() )
 				break;
@@ -418,7 +420,8 @@ public:
 
 	CDSCastleInfo * get_castle_by_owner( u_char type, int index )
 	{
-		for( size_t i = 0 ; i < m_Castles.size() ; ++i )
+		size_t i;
+		for( i = 0 ; i < m_Castles.size() ; ++i )
 		{
 			if( type == m_Castles[i]->get_owner_type() && index == m_Castles[i]->get_owner_index() )
 				break;

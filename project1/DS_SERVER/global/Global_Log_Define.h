@@ -68,7 +68,7 @@ struct  _ServerState
 
 struct _ItemLog
 {
-	u_int64          item_uid ;
+	unsigned __int64          item_uid ;
 	SHORT			 code ;		//EVENT CODE
 	SHORT			 zone ;
 	int				 from_uid ;

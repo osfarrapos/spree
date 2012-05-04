@@ -590,7 +590,7 @@ DWORD WINAPI th_PacketProcess( LPVOID lp )
 
 								// 신서버군에서만 있을 것이다. 따라거, 12 -1 => 1 로.
 								g_pLogSvrCom->LogWrite_ChangeName( pUser->stCharac[pReq->ucIndex].CHARAC_BASIC.cChrName, (char*)pReq->ucNewName, g_ForestNum-11 ) ;
-								g_pSystemLog->LogFileWrite( "[UG] Change Name A<%s> : C<%s> => C<%s>\n", pUser->characFind, 
+								g_pSystemLog->LogFileWrite( "[UG] Change Name A<%s> : C<%s> => C<%s>\n", pUser->characFind(pUser->stCharac[pReq->ucIndex].CHARAC_BASIC.cChrName), 
 									pUser->stCharac[pReq->ucIndex].CHARAC_BASIC.cChrName, (char*)pReq->ucNewName ) ;
 								
 								CopyMemory( pUser->stCharac[pReq->ucIndex].CHARAC_BASIC.cChrName, pReq->ucNewName, en_charac_name_length+1 ) ;

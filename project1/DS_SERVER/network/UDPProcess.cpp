@@ -14,7 +14,7 @@
 #include "..\Global\Global_Function.h"
 #include "..\Billing\BillingSvrLink.h"
 
-#include "../Cs/Castle.h"
+#include "..\Cs\Castle.h"
 
 
 #include <MY_CRYPTO.H>
@@ -2812,7 +2812,7 @@ DWORD WINAPI th_UDPGMSPacketWorkThread( LPVOID lp )
 
 						pCharac = g_pAccMapManager->Find_Charac( pMsgGmAddInvitem->cCharacName ) ;
 
-						u_int64	 i64ItemUID = SM_Item_Make_UniqueID() ;
+						unsigned __int64	 i64ItemUID = SM_Item_Make_UniqueID() ;
 
 						if( pCharac )
 						{	
@@ -2994,7 +2994,7 @@ DWORD WINAPI th_UDPGMSPacketWorkThread( LPVOID lp )
 						if( pUser )
 						{	
 
-							const u_int64	ui64ItemUID  = SM_Item_Make_UniqueID() ;
+							const unsigned __int64	ui64ItemUID  = SM_Item_Make_UniqueID() ;
 
 							CMSG_GM_ADD_DEPITEM msgGmAddDepot = {0} ;
 							msgGmAddDepot.usLength = sizeof(CMSG_GM_ADD_DEPITEM) ;
@@ -4743,7 +4743,7 @@ DWORD WINAPI th_UDPGMSPacketWorkThread( LPVOID lp )
 
 						if( pCharac )
 						{
-							u_int64	 i64ItemUID = SM_Item_Make_UniqueID() ;
+							unsigned __int64	 i64ItemUID = SM_Item_Make_UniqueID() ;
 
 							bool bAddSuccess = false ;
 							int nCount = 50;

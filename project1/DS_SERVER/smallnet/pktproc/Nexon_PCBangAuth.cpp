@@ -37,7 +37,8 @@ extern WORD		NEXONPCB_AUTH_SERVER_PORT;
 {\
 	int iPktSize = (int)ConvertByteOrder2((WORD)_packet->GetHeader()->GetPktSize()) + 3/*packet header*/;\
 	char pLog[1024] = {0};\
-	for(int i = 0; i < iPktSize; ++i) {\
+	int i =0;\
+	for(i = 0; i < iPktSize; ++i) {\
 		sprintf(pLog+(i*3), "%02X ", (BYTE)*(_packet->GetBuf() + i));\
 	}\
 	pLog[i*3-1] = NULL;\

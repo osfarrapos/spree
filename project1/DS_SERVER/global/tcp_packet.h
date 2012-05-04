@@ -2035,7 +2035,7 @@ struct CMSG_GM_ADD_INVITEM	{
 	u_char				cMessage;
 	char				cCharacName[13];			//UniqueUserID
 
-	u_int64             ui64UniqueId; // 
+	unsigned __int64             ui64UniqueId; // 
 
 	char				cFirstType;
 	char				cSecondType;
@@ -2064,7 +2064,7 @@ struct CMSG_GM_ADD_DEPITEM	{
 	u_char				cMessage;
 	char				cAccount[en_max_lil+1];			//UniqueUserID
 
-	u_int64             ui64UniqueId; // 
+	unsigned __int64             ui64UniqueId; // 
 
 	char				cFirstType;
 	char				cSecondType;

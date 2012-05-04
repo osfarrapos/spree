@@ -27,7 +27,7 @@
 #include "../CS/MasterPupil.h"
 #endif
 
-extern CharacFileBackup();
+extern int CharacFileBackup( void );
 //extern _j_DB_Con * g_pDBCon ;
 
 

@@ -1027,7 +1027,9 @@ bool _MPBoardList::GetPageInfo( int page, CMSG_MP_BOARD_PAGE_INFO * pInfo )
 		__master_board_page * pPage = &m_pages[page];
 		int count = static_cast<int>(pPage->GetCount());
 		_node<__master_board_unit> * pUnit = pPage->m_pFirst;
-		for( int i = 0 ; i < count ; ++i )
+
+		int i;
+		for( i = 0 ; i < count ; ++i )
 		{
 			// 
 			if( pUnit )

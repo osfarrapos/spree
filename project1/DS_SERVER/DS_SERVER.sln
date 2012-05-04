@@ -1,58 +1,47 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DS_SERVER", "DS_SERVER.vcproj", "{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DS_SERVER", "DS_SERVER.vcxproj", "{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}"
 EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 2
-		SccProjectName0 = \u0022$/DS_SERVER\u0022,\u0020QQAAAAAA
-		SccLocalPath0 = .
-		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
-		CanCheckoutShared = false
-		SolutionUniqueID = {289BB116-9780-4627-B6FF-5FC01E99060B}
-		SccProjectUniqueName1 = DS_SERVER.vcproj
-		SccLocalPath1 = .
-		CanCheckoutShared = false
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		R_ACCLAIM|Win32 = R_ACCLAIM|Win32
+		R_METEL|Win32 = R_METEL|Win32
+		R_NEXON|Win32 = R_NEXON|Win32
+		R_NX_IN_TS|Win32 = R_NX_IN_TS|Win32
+		R_OPEN_TEST|Win32 = R_OPEN_TEST|Win32
+		R_OT_INTS|Win32 = R_OT_INTS|Win32
+		R_ROC|Win32 = R_ROC|Win32
+		R_RUSSIA|Win32 = R_RUSSIA|Win32
+		R_Vina|Win32 = R_Vina|Win32
+		Release|Win32 = Release|Win32
 	EndGlobalSection
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		R_ACCLAIM = R_ACCLAIM
-		R_METEL = R_METEL
-		R_NEXON = R_NEXON
-		R_NX_IN_TS = R_NX_IN_TS
-		R_OPEN_TEST = R_OPEN_TEST
-		R_OT_INTS = R_OT_INTS
-		R_ROC = R_ROC
-		R_RUSSIA = R_RUSSIA
-		R_Vina = R_Vina
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.Debug|Win32.Build.0 = Debug|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_ACCLAIM|Win32.ActiveCfg = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_ACCLAIM|Win32.Build.0 = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_METEL|Win32.ActiveCfg = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_METEL|Win32.Build.0 = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_NEXON|Win32.ActiveCfg = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_NEXON|Win32.Build.0 = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_NX_IN_TS|Win32.ActiveCfg = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_NX_IN_TS|Win32.Build.0 = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_NX_IN_TS|Win32.Deploy.0 = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_OPEN_TEST|Win32.ActiveCfg = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_OPEN_TEST|Win32.Build.0 = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_OT_INTS|Win32.ActiveCfg = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_OT_INTS|Win32.Build.0 = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_ROC|Win32.ActiveCfg = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_ROC|Win32.Build.0 = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_RUSSIA|Win32.ActiveCfg = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_RUSSIA|Win32.Build.0 = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_Vina|Win32.ActiveCfg = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_Vina|Win32.Build.0 = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.Release|Win32.ActiveCfg = Release|Win32
+		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
-	GlobalSection(ProjectDependencies) = postSolution
-	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.Debug.ActiveCfg = Debug|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.Debug.Build.0 = Debug|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_ACCLAIM.ActiveCfg = R_ACCLAIM|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_ACCLAIM.Build.0 = R_ACCLAIM|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_METEL.ActiveCfg = R_METEL|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_METEL.Build.0 = R_METEL|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_NEXON.ActiveCfg = Release|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_NEXON.Build.0 = Release|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_NX_IN_TS.ActiveCfg = R_NX_IN_TS|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_NX_IN_TS.Build.0 = R_NX_IN_TS|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_OPEN_TEST.ActiveCfg = R_OPEN_TEST|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_OPEN_TEST.Build.0 = R_OPEN_TEST|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_OT_INTS.ActiveCfg = R_OT_INTS|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_OT_INTS.Build.0 = R_OT_INTS|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_ROC.ActiveCfg = R_ROC|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_ROC.Build.0 = R_ROC|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_RUSSIA.ActiveCfg = R_RUSSIA|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_RUSSIA.Build.0 = R_RUSSIA|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_Vina.ActiveCfg = R_Vina|Win32
-		{DBD6A712-8274-4719-8CE6-1D92C2CF4F2C}.R_Vina.Build.0 = R_Vina|Win32
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

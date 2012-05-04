@@ -87,7 +87,7 @@ public :
 	}
 
 
-	virtual int Run() = 0 ;
+	virtual int Run( void ) = 0 ;
 	//{
 	//	Worker() ;
 	//}

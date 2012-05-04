@@ -540,7 +540,8 @@ unsigned __int64 SM_Item_Make_UniqueID()
 
 void SetRealTime( long cur, _sND_AIUS_Grade& time )
 {
-	tm * pt = localtime( &cur ) ;
+	//tm * pt = reinterpret_cast<tm*>( localtime( &cur ) ) ;
+	tm * pt = localtime( (time_t *)&cur ) ;
 	time.uiYear = pt->tm_year - 100 ;
 	time.uiMonth = pt->tm_mon + 1 ;
 	time.uiDay = pt->tm_mday ;

@@ -7,7 +7,7 @@
 #pragma once
 #include <dbghelp.h>
 #include <tchar.h>
-
+#pragma warning (disable : 4996 )
 enum BasicType  
 {
     btNoType = 0,  btVoid    = 1, btChar      = 2,

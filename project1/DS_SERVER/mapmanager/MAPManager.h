@@ -293,7 +293,7 @@ public:
 	{
 	}
 
-	virtual Run() ;
+	virtual int Run( void ) ;
 
 	static DWORD get_time_by_sec() { return GetTime_ByIntSec() ; } ;
 

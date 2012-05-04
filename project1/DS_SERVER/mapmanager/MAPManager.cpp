@@ -507,7 +507,7 @@ bool _j_AccMAPManager::IfEndCharac( PCHARAC pCharac)
 
 
 // class CUserMemSaveTimer 
-CUserMemSaveTimer::Run()
+int CUserMemSaveTimer::Run()
 {
 	HANDLE hTimer = CreateWaitableTimer( NULL, FALSE, NULL ) ;
 	

@@ -36,7 +36,7 @@ unsigned long __stdcall	th_CSWorkThread( LPVOID lp)
 	_h_DS_Com * pDSComm = NULL ;	
 	_Party *	pParty ;
 	list<_Member*> * pMemberList = NULL ;	
-	list<_Member*>::iterator tempListItr = NULL ;
+	list<_Member*>::iterator tempListItr;/* = NULL ;*/
 	//list<_Server> * pServerList = NULL ;
 	char		g_cServerNumList[MAX_SERVER_COUNT] ;
 

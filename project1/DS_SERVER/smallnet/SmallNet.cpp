@@ -335,7 +335,8 @@ labelRecvProcStart:
 			//////////////////////////////////////////////////////////////////////////
 			// log send data
 			char pLog[1024] = {0};
-			for(int i = 0; i < iRecvedBytes; ++i) {
+			int i =0;
+			for( i = 0; i < iRecvedBytes; ++i) {
 				sprintf(pLog+(i*3), "%02X ", (BYTE)*(pRecvPkt->GetBuf() + i));
 			}
 			pLog[i*3-1] = NULL;
@@ -479,7 +480,8 @@ labelSendProcStart:
 				// log send data
 				int iPktSize = (int)(ConvertByteOrder2(pSendPkt->GetHeader()->GetPktSize()) + 3);
 				char pLog[1024] = {0};
-				for(int i = 0; i < iPktSize; ++i) {
+				int i;
+				for( i = 0; i < iPktSize; ++i) {
 					sprintf(pLog+(i*3), "%02X ", (BYTE)*(pSendPkt->GetBuf() + i));
 				}
 				pLog[i*3-1] = NULL;

@@ -233,12 +233,7 @@ unsigned long __stdcall	WebShopPktProc(LPVOID lp);
 
 #define NEXON_ITEM_SHOP_IP_CNT	2
 char* pszNexonItemShopIP[] = {
-	"211.218.232.32",	// ³Ø½¼ Å×½ºÆ® ¼­¹ö
-	"210.101.85.170",	// ³Ø½¼ Á¤½Ä ¼­¹ö
-	"210.101.85.171",	// ³Ø½¼ Á¤½Ä ¼­¹ö
-	"210.101.85.172",	// ³Ø½¼ Á¤½Ä ¼­¹ö
-	"210.101.85.173",	// ³Ø½¼ Á¤½Ä ¼­¹ö
-	"221.147.34.150"	// À±±º °³¹ß ÇÇ¾¾(Å×½ºÆ® ¿ë)
+	"127.0.0.1"	// À±±º °³¹ß ÇÇ¾¾(Å×½ºÆ® ¿ë)
 };
 u_long ulIP_NexonItemShop[NEXON_ITEM_SHOP_IP_CNT] = {0};
 #endif
